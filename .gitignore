@@ -1,3 +1,13 @@
+# User specific files / folders
+
+# Github Settings
+.github/
+.vscode/
+cspell.json
+data/raw
+
+#  Auto generated below
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -150,6 +160,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+mypy.ini
 
 # Pyre type checker
 .pyre/
@@ -172,3 +183,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+

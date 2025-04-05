@@ -3,7 +3,7 @@ from logging import Logger
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from datetime import datetime
-from typing import List, Any
+from typing import List
 from dotenv import load_dotenv
 import os
 import re
@@ -32,7 +32,11 @@ class RelativePathFormatter(logging.Formatter):
                     try:
                         new_args.append(arg.relative_to(ROOT_DIR))
                     except ValueError:
-                        new_args.append(arg)
+                        try:
+                            from config import KCD2_DIR
+                            new_args.append(f"KCD2:{arg.relative_to(KCD2_DIR)}")
+                        except (ValueError, ImportError):
+                            new_args.append(arg)
                 else:
                     new_args.append(arg)
             record.args = tuple(new_args)
@@ -43,6 +47,15 @@ class RelativePathFormatter(logging.Formatter):
             root_str = str(ROOT_DIR).replace('\\', '\\\\')  # Escape backslashes for regex
             pattern = f"{root_str}\\\\([^'\"]*)"
             record.msg = re.sub(pattern, r'\1', record.msg)
+            
+            # Also handle KCD2_DIR paths
+            try:
+                from config import KCD2_DIR
+                kcd2_str = str(KCD2_DIR).replace('\\', '\\\\')
+                kcd2_pattern = f"{kcd2_str}\\\\([^'\"]*)"
+                record.msg = re.sub(kcd2_pattern, r'KCD2:\1', record.msg)
+            except ImportError:
+                pass
         
         return super().format(record)
 
@@ -89,11 +102,27 @@ for old_log in log_files[MAX_LOGS:]:  # Delete logs beyond limit
 
 # Create a wrapper function for easier path handling in f-strings
 def rel_path(path):
-    """Return path relative to ROOT_DIR for logging purposes."""
+    """
+    Return path relative to ROOT_DIR or KCD2_DIR for logging purposes.
+    Paths relative to KCD2_DIR will be prefixed with 'KCD2:'.
+    
+    Args:
+        path: Path to convert to relative form
+        
+    Returns:
+        Path or str: Relative path with appropriate prefix
+    """
     try:
+        # First try to make it relative to ROOT_DIR
         return path.relative_to(ROOT_DIR)
     except (ValueError, AttributeError):
-        return path
+        try:
+            # If that fails, try to make it relative to KCD2_DIR
+            from config import KCD2_DIR
+            return f"KCD2:{path.relative_to(KCD2_DIR)}"
+        except (ValueError, AttributeError, ImportError):
+            # If both fail, return the original path
+            return path
 
 # Example log entry to demonstrate relative paths
 logger.info(f"Logger initialized. Logs directory: {LOG_DIR}")

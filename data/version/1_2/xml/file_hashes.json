@@ -1,0 +1,24 @@
+{
+    "data\\version\\1_2\\xml\\raw\\item.xml": {
+        "xml_hash": "e7f4a28fc614cfa3cbb438f695d957ef71c0e542e65ad3a19f1f65d6504acf9c",
+        "extracted": "2025-04-03T20:34:00.833759"
+    },
+    "data\\version\\1_2\\xml\\raw\\item__dlc.xml": {
+        "xml_hash": "a5c9cefab5dd0f64895ae0c8cad8d8da5e496f1214fe0d1f214c3db83ee9a6a9",
+        "pak_hash": "7eaf19aeea7ef1c36bf84111e3da45f16ed1cb27e62ce82f5e9f32ceeb5337b7",
+        "extracted": "2025-04-03T18:14:10.825181"
+    },
+    "data\\version\\1_2\\xml\\raw\\item__rewards.xml": {
+        "xml_hash": "be6782319954cdefabd0fd61124694576f2612e7cf509e1ae86cf79b78467f9d",
+        "extracted": "2025-04-03T20:34:20.131293"
+    },
+    "data\\version\\1_2\\xml\\raw\\item__horse.xml": {
+        "xml_hash": "6ff8a302b8d1a9527432a9433909c39e28cb31e174ff944ab6181b93475c3374",
+        "extracted": "2025-04-03T20:34:20.160271"
+    },
+    "data\\version\\1_2\\xml\\raw\\text_ui_items.xml": {
+        "xml_hash": "cda9a61609af7996dcd04390285066c4e4bb6ef9972ce5e8957f387fe0d6e33f",
+        "pak_hash": "002806f7481a862f468a33c9f0b6c87a0d9a889edd2c2d807c5844a6cfa0fb06",
+        "extracted": "2025-04-03T18:14:10.899137"
+    }
+}

@@ -1,37 +1,23 @@
 {
-    "items": {
-      "source": "items.xml",
-      "description": "Contains all item definitions",
-      "pak_file": "Data/Tables.pak",
-      "in_pak_dir": "Libs/Tables/item/",
-      "output": "data/version/{version}/raw/items.xml"
+    "Tables.pak": {
+        "description": "All the working data in the game",
+        "kcd2_pak_file": "Data/Tables.pak",
+        "in_pak_dir1": "Libs/Tables/item/",
+        "output_dir": "/data/version/{version}/xml/raw/",
+        "xmls_to_extract": [
+            "item",
+            "item__dlc",
+            "item__rewards",
+            "item__horse"
+        ]
     },
-    "item_dlc": {
-      "source": "item_dlc.xml",
-      "description": "Contains armor type definitions",
-      "pak_file": "Data/Tables.pak",
-      "in_pak_dir": "Libs/Tables/item/",
-      "output": "data/version/{version}/raw/armor.xml"
-    },
-    "item_rewards": {
-      "source": "item_rewards.xml",
-      "description": "Contains weapon stats and properties",
-      "pak_file": "Data/Tables.pak",
-      "in_pak_dir": "Libs/Tables/item/",
-      "output": "data/version/{version}/raw/weapons.xml"
-    },
-    "item_horse": {
-      "source": "item_horse.xml",
-      "description": "Contains dice definitions",
-      "pak_file": "Data/Tables.pak",
-      "in_pak_dir": "Libs/Tables/item/",
-      "output": "data/version/{version}/raw/dice.xml"
-    },
-    "item_armor": {
-      "source": "item_armor.xml",
-      "description": "Contains all item definitions",
-      "pak_file": "Localization/English_xml.pak",
-      "in_pak_dir": "./",
-      "output": "data/version/{version}/raw/armor.xml"
+    "English_xml.pak": {
+        "description": "All the transalted text in the game",
+        "kcd2_pak_file": "Localization/English_xml.pak",
+        "in_pak_dir1": "",
+        "output_dir": "/data/version/{version}/xml/raw/",
+        "xmls_to_extract": [
+            "text_ui_items"
+        ]
     }
-  }
+}

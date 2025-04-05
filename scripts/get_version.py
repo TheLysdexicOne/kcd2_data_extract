@@ -6,7 +6,7 @@ from pathlib import Path
 # Add the project root to Python path when needed
 sys.path.insert(0, str(Path(__file__).parent.parent.absolute()))
 from utils.logger import logger
-from utils.helpers import read_json_file
+from utils.helpers import read_json_file, ensure_directory
 
 def get_version(kcd2_dir, root_dir):
     """
@@ -19,14 +19,14 @@ def get_version(kcd2_dir, root_dir):
     Returns:
         dict: Dictionary containing:
             - game_version: The game version string
-            - version_clean: The cleaned version string (without "release_")
+            - version_id: The cleaned version string (without "release_")
             - version_dir: Path to the version directory
             - is_new_version: True if game version differs from stored version
             - branch_id: The numeric ID of the branch
     """
     result = {
         "game_version": None,
-        "version_clean": None,
+        "version_id": None,
         "version_dir": None,
         "is_new_version": False,
         "branch_id": None  # Added branch_id to result
@@ -39,8 +39,10 @@ def get_version(kcd2_dir, root_dir):
         return result
     
     try:
-        with open(whdl_path, 'r') as f:
-            version_data = json.load(f)
+        version_data = read_json_file(whdl_path)
+        if not version_data:
+            logger.error("Failed to read version data from whdlversions.json")
+            return result
         
         # Extract the version from Preset.Branch.Name
         game_version = version_data.get("Preset", {}).get("Branch", {}).get("Name")
@@ -56,20 +58,16 @@ def get_version(kcd2_dir, root_dir):
         result["branch_id"] = branch_id  # Store the branch ID
         
         # Clean the version string (remove "release_")
-        version_clean = game_version.replace("release_", "") if game_version.startswith("release_") else game_version
-        result["version_clean"] = version_clean
+        version_id = game_version.replace("release_", "") if game_version.startswith("release_") else game_version
+        result["version_id"] = version_id
         
         # Check against stored version
         stored_version = None
         version_json_path = root_dir / "data" / "version.json"
         
-        stored_version = None
-        version_json_path = root_dir / "data" / "version.json"
-        
         if version_json_path.exists():
             try:
-                with open(version_json_path, 'r') as f:
-                    stored_data = json.load(f)
+                stored_data = read_json_file(version_json_path)
                 # Use the "name" field instead of "version" for comparison
                 stored_version = stored_data.get("name")
             except Exception as e:
@@ -78,9 +76,8 @@ def get_version(kcd2_dir, root_dir):
         result["is_new_version"] = stored_version != game_version
         
         # Create version directory
-        version_dir = root_dir / "data" / "version" / version_clean
-        if not version_dir.exists():
-            os.makedirs(version_dir, exist_ok=True)
+        version_dir = root_dir / "data" / "version" / version_id
+        ensure_directory(version_dir)
         
         result["version_dir"] = version_dir
         

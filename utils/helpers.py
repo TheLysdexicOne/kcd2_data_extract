@@ -1,32 +1,10 @@
 import json
 from pathlib import Path
 from utils.logger import logger
-
-def parse_version_string(version_string):
-    """
-    Parse a version string like "release_1_2" into a cleaner format "1_2".
-    Also works with formats like "release_1_2_3".
-    
-    Args:
-        version_string (str): Version string (e.g., "release_1_2")
-        
-    Returns:
-        str: Cleaned version string (e.g., "1_2")
-    """
-    if version_string.startswith("release_"):
-        return version_string.replace("release_", "")
-    return version_string
+from xml.etree import ElementTree as ET
 
 def read_json_file(file_path):
-    """
-    Read and parse a JSON file.
-    
-    Args:
-        file_path (Path): Path to the JSON file
-        
-    Returns:
-        dict: Parsed JSON data or None if an error occurred
-    """
+    """Read and parse a JSON file."""
     try:
         if not file_path.exists():
             logger.warning(f"File not found: {file_path}")
@@ -40,17 +18,7 @@ def read_json_file(file_path):
         return None
 
 def write_json_file(file_path, data, indent=4):
-    """
-    Write data to a JSON file.
-    
-    Args:
-        file_path (Path): Path to the JSON file
-        data: Data to write
-        indent (int): Indentation level
-        
-    Returns:
-        bool: True if successful, False otherwise
-    """
+    """Write data to a JSON file."""
     try:
         # Ensure directory exists
         file_path.parent.mkdir(parents=True, exist_ok=True)
@@ -64,15 +32,7 @@ def write_json_file(file_path, data, indent=4):
         return False
 
 def ensure_directory(directory_path):
-    """
-    Ensure a directory exists, creating it if necessary.
-    
-    Args:
-        directory_path (Path): Path to the directory
-        
-    Returns:
-        Path: Path to the directory
-    """
+    """Ensure a directory exists, creating it if necessary."""
     try:
         if not directory_path.exists():
             logger.info(f"Creating directory: {directory_path}")
@@ -93,3 +53,100 @@ def rel_path(path, base=None):
     except ValueError:
         # If path can't be made relative to base, return as is
         return path
+
+def format_xml(xml_element):
+    """
+    Format XML with proper indentation and without excessive blank lines.
+    
+    Args:
+        xml_element: ElementTree element or XML string
+        
+    Returns:
+        bytes or str: Formatted XML content
+    """
+    import xml.etree.ElementTree as ET
+    
+    try:
+        # If lxml is available, use it for better formatting
+        from lxml import etree as lxml_etree
+        
+        # Convert to string if it's an ElementTree element
+        if isinstance(xml_element, ET.Element):
+            xml_str = ET.tostring(xml_element, encoding='utf-8')
+        else:
+            xml_str = xml_element
+            
+        # Parse with lxml
+        parser = lxml_etree.XMLParser(remove_blank_text=True)
+        elem = lxml_etree.XML(xml_str, parser)
+        
+        # Format with proper indentation
+        return lxml_etree.tostring(elem, encoding='utf-8', pretty_print=True)
+    except ImportError:
+        # Fallback to minidom with regex cleanup for excessive blank lines
+        import xml.dom.minidom
+        import re
+        
+        # Convert to string if it's an ElementTree element
+        if isinstance(xml_element, ET.Element):
+            xml_str = ET.tostring(xml_element, encoding='utf-8')
+        else:
+            xml_str = xml_element
+            
+        # Use minidom for basic formatting
+        pretty_xml = xml.dom.minidom.parseString(xml_str).toprettyxml(indent="  ")
+        
+        # Remove excessive blank lines
+        return re.sub(r'>\s*\n\s*\n+', '>\n', pretty_xml.encode('utf-8'))
+
+def find_element_by_id(root, element_id):
+    """
+    Find an element with the specified ID using multiple search strategies.
+    
+    Args:
+        root: XML root element
+        element_id: ID to search for
+    
+    Returns:
+        Element if found, None otherwise
+    """
+    # Try direct XPath first
+    element = root.find(f".//*[@Id='{element_id}']")
+    if element is not None:
+        return element
+    
+    # Try case-insensitive search as a fallback
+    for elem in root.findall(".//*[@Id]"):
+        if elem.get("Id", "").lower() == element_id.lower():
+            return elem
+    
+    return None
+
+def copy_xml_element(elem):
+    """
+    Deep copy an XML element and all its children safely.
+    
+    Args:
+        elem: Element to copy
+    
+    Returns:
+        New Element that's a deep copy of the original
+    """
+    new_elem = ET.Element(elem.tag)
+    
+    # Copy attributes
+    for key, value in elem.attrib.items():
+        new_elem.set(key, value)
+    
+    # Copy children (recursively)
+    for child in elem:
+        new_child = copy_xml_element(child)
+        new_elem.append(new_child)
+    
+    # Copy text content
+    if elem.text:
+        new_elem.text = elem.text
+    if elem.tail:
+        new_elem.tail = elem.tail
+    
+    return new_elem

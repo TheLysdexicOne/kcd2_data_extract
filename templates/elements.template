@@ -1,0 +1,98 @@
+"items = "{
+    "Armor": {
+        "id": "Id", # String
+        "name": "Name", # String
+        "uiName": "UIName", # String
+        "iconID": "IconID", # String
+        "uiInfo": "UIInfo", # String
+        "clothing": "Clothing", # String
+        "type": Use ARMOR_TYPES["filters"], # Integer
+        "stats": {
+            "weight": "Weight", # Float - 1 decimal
+            "price": "Price * 0.1", # Integer - round if needed
+            "maxQuality": "MaxQuality", # Integer
+            "durability": "MaxStatus", # Integer
+            "strReq": "StrReq", # Integer
+            "charisma": "Charisma", # Integer
+            "conspicuousness": "50 + (Conspicuousness * 50)", # Float during calculation, rounded Integer after caluclations
+            "noise": "Noise * 100", # Float during calculation, rounded Integer after caluclations
+            "visibility": "50 + (Visibility * 50)", # Float during calculation, rounded Integer after caluclations
+            "defenseSlash": "DefenseSlash", 
+            "defenseSmash": "DefenseSmash",
+            "defenseStab": "DefenseStab",
+        }
+    },
+    "Weapon": {
+        "id": "Id", # String
+        "name": "Name", # String
+        "uiName": "UIName", # String
+        "iconID": "IconID", # String
+        "uiInfo": "UIInfo", # String
+        "type": "Class", # Integer
+        "stats": {
+            "weight": "Weight", # Float - 1 decimal
+            "price": "Price * 0.1", # Integer - round if needed
+            "maxQuality": "MaxQuality", # Integer
+            "durability": "MaxStatus", # Integer
+            "strReq": "StrReq", # Integer
+            "agiReq": "AgiReq", # Integer
+            "charisma": "Charisma", # Integer
+            "conspicuousness": "50 + (Conspicuousness * 50)", # Float during calculation, rounded Integer after caluclations
+            "visibility": "50 + (Visibility * 50)", # Float during calculation, rounded Integer after caluclations
+            "attackSlash": "AttackSlash", # Integer
+            "attackSmash": "AttackSmash",
+            "attackStab": "AttackStab",
+        }
+    },
+    "Horse": {
+        "id": "Id", # String
+        "name": "Name", # String
+        "uiName": "UIName", # String
+        "iconID": "IconID", # String
+        "uiInfo": "UIInfo", # String
+        "clothing": "Clothing", # String
+        "type": Use ARMOR_TYPES["filters"], # Integer
+        "slots": "NumberOfQuickSlots", # only present on QuickSlotContainers
+        "stats": {
+            "weight": "Weight", # Float - 1 decimal
+            "price": "Price * 0.1", # Integer - round if needed
+            "maxQuality": "MaxQuality", # Integer
+            "durability": "MaxStatus", # Integer
+            "strReq": "StrReq", # Integer
+            "charisma": "Charisma", # Integer
+            "conspicuousness": "50 + (Conspicuousness * 50)", # Float during calculation, rounded Integer after caluclations
+            "noise": "Noise * 100", # Float during calculation, rounded Integer after caluclations
+            "visibility": "50 + (Visibility * 50)", # Float during calculation, rounded Integer after caluclations
+            "defenseSlash": "DefenseSlash", # Integer
+            "defenseSmash": "DefenseSmash", # Integer
+            "defenseStab": "DefenseStab", # Integer
+            "slots": "NumberOfQuickSlots", # only present on QuickSlotContainers
+        }
+    }
+    "Die": {
+        "id": "Id", # String
+        "name": "Name", # String
+        "uiName": "UIName", # String
+        "iconID": "IconID", # String
+        "uiInfo": "UIInfo", # String
+        "sideWeights": "SideWeights", # Read as string, but store as List
+        "sideValues": "SideValues", # read as string, but store as List
+        "stats": {
+            "weight": "Weight", # Float - 1 decimal
+            "price": "Price * 0.1", # Integer - round if needed
+        }
+    }
+    "DiceBadge": {
+        "id": "Id", # String
+        "name": "Name", # String
+        "uiName": "UIName", # String
+        "iconID": "IconID", # String
+        "uiInfo": "UIInfo", # String
+        "type": "Type", # Integer
+        "subType": "SubType", # Integer
+        "stats": {
+            "weight": "Weight", # Float - 1 decimal
+            "price": "Price * 0.1", # Integer - round if needed
+        }
+    },
+}

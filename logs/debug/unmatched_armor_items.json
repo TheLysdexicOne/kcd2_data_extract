@@ -1,0 +1,2554 @@
+[
+  {
+    "name": "Waffenrock08_mPisek_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "012dee46-cfc3-4632-81ef-075c0bdaf0d4",
+    "clothing": "Waffenrock08_mPisek"
+  },
+  {
+    "name": "Waffenrock01_mMagyar_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "014e4e12-5574-4756-8460-2c5078a3285c",
+    "clothing": "Waffenrock01_mMagyar"
+  },
+  {
+    "name": "F_Wreath01_m05",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_wreath01_m01",
+    "id": "018c7670-6fe6-4728-8c3d-d1b1becade1a",
+    "clothing": "F_Wreath_m05"
+  },
+  {
+    "name": "F_Cotehardie04_m10_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "02339c2a-75cb-490e-80de-7cbb8f4f3038",
+    "clothing": "F_Cotehardie04_m10"
+  },
+  {
+    "name": "F_Shoes02_m04_B",
+    "display_name": "Common Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes02_m01",
+    "id": "03a8173e-fd4c-4913-a181-a3fe1b432200",
+    "clothing": "F_Shoes02_m04"
+  },
+  {
+    "name": "F_HairDecor04_m02_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "04ca0525-2e33-42d1-bf62-1cb14dcc306a",
+    "clothing": "F_HairDecor04_m02"
+  },
+  {
+    "name": "F_Surcote01_m13_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "070730ed-b35b-4bb1-82e9-0e75c1727ac6",
+    "clothing": "F_Surcote01_m13"
+  },
+  {
+    "name": "Waffenrock09_mNebak_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "07bb9f44-91f8-46fb-bed2-33bc8cd6a605",
+    "clothing": "Waffenrock09_mNebak"
+  },
+  {
+    "name": "F_Cotehardie04_m11_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "0904d567-9fb2-4833-acf4-80f38f5d49b1",
+    "clothing": "F_Cotehardie04_m11"
+  },
+  {
+    "name": "Gauntlets05_m01_A5",
+    "display_name": "Nuremberg Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets05_m01",
+    "id": "09ae6cbc-77d1-4686-801e-871b49440d7d",
+    "clothing": "Gauntlets05_m01"
+  },
+  {
+    "name": "Waffenrock09_mKuttenberg_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "09c8c27c-db50-4bdf-80a5-f107402bbba0",
+    "clothing": "Waffenrock09_mKuttenberg"
+  },
+  {
+    "name": "HandWrap01_m04_E",
+    "display_name": "Hand Wrap",
+    "class": "Not specified",
+    "ui_name": "ui_nm_handwrap",
+    "id": "0a218fa9-58c7-4696-b5a3-7954e639dd9e",
+    "clothing": "HandWrap01_m04"
+  },
+  {
+    "name": "F_HairDecor02_m03_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "0a747df3-03d0-43b4-93ef-f819ca46062d",
+    "clothing": "F_HairDecor02_m03"
+  },
+  {
+    "name": "F_Cotehardie03_m10_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "0bd28c1a-f069-4de7-81c9-ba9300807dff",
+    "clothing": "F_Cotehardie03_m10"
+  },
+  {
+    "name": "F_Cotehardie01_m06_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "0cec5237-aaca-4151-8630-51221c08dbb3",
+    "clothing": "F_Cotehardie01_m06"
+  },
+  {
+    "name": "Gauntlets08_m02_B4",
+    "display_name": "Brigandine Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets08_m01",
+    "id": "0e62824f-8ef8-488b-a2b1-32a42133fa6d",
+    "clothing": "Gauntlets08_m02"
+  },
+  {
+    "name": "Waffenrock02_mSemin_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "0ee3986e-258d-4283-8e60-c17cafe97827",
+    "clothing": "Waffenrock02_mSemin"
+  },
+  {
+    "name": "Shoes03_m06_C",
+    "display_name": "Soft Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes03_m01",
+    "id": "0f49fa33-1985-4da3-8aae-f497df6f95ec",
+    "clothing": "Shoes03_m06"
+  },
+  {
+    "name": "Shoes05_m01_B",
+    "display_name": "Pointed Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes05_m01",
+    "id": "0fda3070-6b14-4fa9-bfd1-26da6924d32e",
+    "clothing": "Shoes05_m01"
+  },
+  {
+    "name": "Waffenrock02_m01_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "101b033e-ce62-48ea-846a-8c38b3ef5f6c",
+    "clothing": "Waffenrock02_m01"
+  },
+  {
+    "name": "Waffenrock03_m03_A",
+    "display_name": "Fastened Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01",
+    "id": "10d15447-8f9b-462f-9cb5-8ffad0d9cadd",
+    "clothing": "Waffenrock03_m03"
+  },
+  {
+    "name": "Shoes01_m01_D",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes01_m01",
+    "id": "1149024d-72f5-405d-8edb-041d58b59f74",
+    "clothing": "Shoes01_m01"
+  },
+  {
+    "name": "F_Cotehardie04_m05_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "11669f9a-1f44-46ea-b342-e8443ac87fe7",
+    "clothing": "F_Cotehardie04_m05"
+  },
+  {
+    "name": "HandWrap01_m01_E",
+    "display_name": "Hand Wrap",
+    "class": "Not specified",
+    "ui_name": "ui_nm_handwrap",
+    "id": "13eccab3-ee46-40e4-b0d1-73f3acde338c",
+    "clothing": "HandWrap01_m01"
+  },
+  {
+    "name": "Waffenrock08_mkhTournament_07_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "13f1ca12-2e81-48ad-9122-cc090e9028fe",
+    "clothing": "Waffenrock08_mkhTournament_07"
+  },
+  {
+    "name": "F_Cotehardie03_m09_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "15cefa3b-76ca-44b2-ac8a-3ec615916dfc",
+    "clothing": "F_Cotehardie03_m09"
+  },
+  {
+    "name": "Shoes01_m05_D",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes01_m01",
+    "id": "15f5c276-12c5-4a84-9708-bc78102da03f",
+    "clothing": "Shoes01_m05"
+  },
+  {
+    "name": "F_Cotehardie01_m14_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "16cd3a83-a291-4c80-98c8-c3152c42ad6f",
+    "clothing": "F_Cotehardie01_m14"
+  },
+  {
+    "name": "Waffenrock08_m08_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "173db335-8991-46fc-b7a1-7eeaaaf34c96",
+    "clothing": "Waffenrock08_m08"
+  },
+  {
+    "name": "F_Cotehardie01_m05_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "17bb0339-31eb-4967-8a09-e3389d31958b",
+    "clothing": "F_Cotehardie01_m05"
+  },
+  {
+    "name": "Gauntlets05_m02_A5",
+    "display_name": "Nuremberg Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets05_m01",
+    "id": "17f0d18c-c55c-4570-8710-410fe0238792",
+    "clothing": "Gauntlets05_m02"
+  },
+  {
+    "name": "F_HairDecor01_m03_D",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m01",
+    "id": "1820d8e5-f3a7-44e0-883f-541f1df673c9",
+    "clothing": "F_HairDecor01_m03"
+  },
+  {
+    "name": "Waffenrock09_mLeipa_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "184a4f59-cb07-41c8-8423-68014a0411b3",
+    "clothing": "Waffenrock09_mLeipa"
+  },
+  {
+    "name": "F_Surcote01_m05_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "1a7b20dd-7e52-4030-97e0-f9615f88afbd",
+    "clothing": "F_Surcote01_m05"
+  },
+  {
+    "name": "F_Cotehardie03_m05_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "1b829756-e8a1-44bc-8d7d-5d33152bc16c",
+    "clothing": "F_Cotehardie03_m05"
+  },
+  {
+    "name": "Shoes05_m08_B",
+    "display_name": "Pointed Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes05_m01",
+    "id": "1bbaa5e7-4ac0-49e8-ae26-b8f2b524ce75",
+    "clothing": "Shoes05_m08"
+  },
+  {
+    "name": "Shoes01_m08_D",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes01_m01",
+    "id": "1c945f16-049b-4b36-a925-d32ab7939861",
+    "clothing": "Shoes01_m08"
+  },
+  {
+    "name": "Shoes02_m05_B",
+    "display_name": "Burgher's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes02_m01",
+    "id": "1d308af8-c7d5-4738-8a08-972e4c36c067",
+    "clothing": "Shoes02_m05"
+  },
+  {
+    "name": "Gauntlets08_m05_B4",
+    "display_name": "Brigandine Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets08_m01",
+    "id": "1e1d5953-986f-4fd1-8d3b-db2690dddd64",
+    "clothing": "Gauntlets08_m05"
+  },
+  {
+    "name": "Waffenrock03_m01_A",
+    "display_name": "Fastened Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01",
+    "id": "1ed07dd2-9bb4-4754-85af-db7a1b93ebce",
+    "clothing": "Waffenrock03_m01"
+  },
+  {
+    "name": "F_Wreath01_m04",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_wreath01_m01",
+    "id": "22288162-b9d0-4641-8505-d96f9408a555",
+    "clothing": "F_Wreath_m04"
+  },
+  {
+    "name": "F_HairDecor03_m01_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "2242070d-6870-4de2-8e86-0a50cad82369",
+    "clothing": "F_HairDecor03_m01"
+  },
+  {
+    "name": "Waffenrock08_mKrizovnik02_B",
+    "display_name": "Crusaders Of The Red Star Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock_redStar",
+    "id": "226c2c4d-84b0-4288-84ba-36ef360febfc",
+    "clothing": "Waffenrock08_mKrizovnik02"
+  },
+  {
+    "name": "HandWrap01_m03_E",
+    "display_name": "Hand Wrap",
+    "class": "Not specified",
+    "ui_name": "ui_nm_handwrap",
+    "id": "243c6ad9-e995-4e40-84cb-07a1a1c6ad6d",
+    "clothing": "HandWrap01_m03"
+  },
+  {
+    "name": "Waffenrock01_mPisek_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "25759613-1d4b-4d67-a051-6330e75b4a65",
+    "clothing": "Waffenrock01_mPisek"
+  },
+  {
+    "name": "F_Surcote01_m03_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "259f998d-7f72-4e83-96c9-1dbbd7717086",
+    "clothing": "F_Surcote01_m03"
+  },
+  {
+    "name": "Habit03_m02_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "25f0754b-c6a8-4f9c-9126-d926909002f7",
+    "clothing": "Habit03_m02"
+  },
+  {
+    "name": "Waffenrock08_mBergov_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "26a248aa-1b24-429a-a368-032f8ac0d73c",
+    "clothing": "Waffenrock08_mBergov"
+  },
+  {
+    "name": "Waffenrock02_mBergov_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "26d4b32b-0a62-478a-918d-981505497e7c",
+    "clothing": "Waffenrock02_mBergov"
+  },
+  {
+    "name": "Waffenrock02_m03_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "277954c4-8019-418e-b1c2-4557fe12f98b",
+    "clothing": "Waffenrock02_m03"
+  },
+  {
+    "name": "F_Shoes01_m10_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "29941c70-6337-4cad-9eca-50695b26817e",
+    "clothing": "F_Shoes01_m10"
+  },
+  {
+    "name": "F_Cotehardie01_m11_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "2b785b0f-8e17-4296-b3af-1a2f77eaada9",
+    "clothing": "F_Cotehardie01_m11"
+  },
+  {
+    "name": "Waffenrock02_mKuttenberg02_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "2bac4905-4946-4a17-b728-8f059b588eb6",
+    "clothing": "Waffenrock02_mKuttenberg02"
+  },
+  {
+    "name": "F_Cotehardie04_mGretaF",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "2bc64ff6-88e5-4b0d-8f94-9c7810d29275",
+    "clothing": "F_Cotehardie04_mGretaF"
+  },
+  {
+    "name": "Waffenrock01_mPrague02_C",
+    "display_name": "Praguers' Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01_prague",
+    "id": "2c375955-b00d-434b-8e0e-03e3d8c180e1",
+    "clothing": "Waffenrock01_mPrague02"
+  },
+  {
+    "name": "Gauntlets08_m01_B4",
+    "display_name": "Brigandine Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets08_m01",
+    "id": "2dd6ea92-4024-4113-97ed-6a23f19b39d9",
+    "clothing": "Gauntlets08_m01"
+  },
+  {
+    "name": "F_Cotehardie03_m13_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "2e79bbdc-51db-4c1d-88a7-83b8d8c59112",
+    "clothing": "F_Cotehardie03_m13"
+  },
+  {
+    "name": "F_Cotehardie03_m11_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "2f5a44d1-bbb5-4389-8cf6-a5ae3c97e42a",
+    "clothing": "F_Cotehardie03_m11"
+  },
+  {
+    "name": "Shoes03_m05_C",
+    "display_name": "Soft Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes03_m01",
+    "id": "2f5d0549-b885-44c9-a82b-2b2b3a2c5837",
+    "clothing": "Shoes03_m05"
+  },
+  {
+    "name": "Gauntlets02_m03_B4",
+    "display_name": "Milanese Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets02_m01",
+    "id": "2f88924c-f968-4d0c-80d2-ed8e63787783",
+    "clothing": "Gauntlets02_m03"
+  },
+  {
+    "name": "F_Surcote01_m09_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "30f8b9d6-1cd3-40c0-9b1d-e1f90c10abcf",
+    "clothing": "F_Surcote01_m09"
+  },
+  {
+    "name": "Shoes01_m07_D",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes01_m01",
+    "id": "317fe073-1c63-454c-99b1-ef3615fa49de",
+    "clothing": "Shoes01_m07"
+  },
+  {
+    "name": "Waffenrock03_mKuttenberg03_A",
+    "display_name": "Fastened Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01",
+    "id": "3387f048-d68f-4d03-a97b-29c1c6f6f35f",
+    "clothing": "Waffenrock03_mKuttenberg03"
+  },
+  {
+    "name": "Waffenrock02_mKuttenberg01_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "343b563d-95f0-4ec2-9247-ebbde648d7ec",
+    "clothing": "Waffenrock02_mKuttenberg01"
+  },
+  {
+    "name": "Waffenrock08_mPrague_B",
+    "display_name": "Praguers' Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01_prague",
+    "id": "346e30e4-12c5-4321-8791-b007bd6b66bc",
+    "clothing": "Waffenrock08_mPrague"
+  },
+  {
+    "name": "Waffenrock09_mSemin_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "34f8334d-d438-4d50-807e-659ab42901a8",
+    "clothing": "Waffenrock09_mSemin"
+  },
+  {
+    "name": "F_Surcote01_m06_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "35663a5e-7d0d-4392-85c0-c4498416b245",
+    "clothing": "F_Surcote01_m06"
+  },
+  {
+    "name": "Waffenrock09_mKuttenberg02_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "359700c7-14ec-413d-924d-b0a682ecb22b",
+    "clothing": "Waffenrock09_mKuttenberg02"
+  },
+  {
+    "name": "Waffenrock08_m02_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "368cd5b0-fa57-444f-9e3d-6675ce6787e7",
+    "clothing": "Waffenrock08_m02"
+  },
+  {
+    "name": "Waffenrock01_mMagyar01_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "36d5a502-c280-40a7-bfbe-cf5dbdb69404",
+    "clothing": "Waffenrock01_mMagyar01"
+  },
+  {
+    "name": "Shoes03_m07_C",
+    "display_name": "Soft Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes03_m01",
+    "id": "378b1660-f30b-4bf7-b240-4393636272be",
+    "clothing": "Shoes03_m07"
+  },
+  {
+    "name": "F_Cotehardie03_m07_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "37f96d3e-f73d-4d3c-8e06-996b1d9a0401",
+    "clothing": "F_Cotehardie03_m07"
+  },
+  {
+    "name": "Gauntlets04_m02_C2",
+    "display_name": "Noble's Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets04_m01",
+    "id": "38c34f78-cfa0-40c9-a94e-5e04dcf35608",
+    "clothing": "Gauntlets04_m02"
+  },
+  {
+    "name": "F_Shoes02_m03_B",
+    "display_name": "Common Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes02_m01",
+    "id": "3af0df65-919e-4d53-b068-c113be16c5da",
+    "clothing": "F_Shoes02_m03"
+  },
+  {
+    "name": "Waffenrock08_m06_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "3b87b900-7849-4230-8312-9342cf9815a1",
+    "clothing": "Waffenrock08_m06"
+  },
+  {
+    "name": "F_HairDecor04_m03_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "3c3a5de0-1739-4450-8dee-8432ab87a71b",
+    "clothing": "F_HairDecor04_m03"
+  },
+  {
+    "name": "Gauntlets04_m01_C2",
+    "display_name": "Noble's Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets04_m01",
+    "id": "3d03fd46-32cb-4a9c-a7a1-f159a5f926d0",
+    "clothing": "Gauntlets04_m01"
+  },
+  {
+    "name": "Waffenrock09_mNebak01_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "3d0589c0-7949-468d-a781-4b373a9c0d74",
+    "clothing": "Waffenrock09_mNebak01"
+  },
+  {
+    "name": "F_Shoes01_m01_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "3db1577f-aae2-4fcb-85bc-5fcc20a0cd15",
+    "clothing": "F_Shoes01_m01"
+  },
+  {
+    "name": "F_Surcote01_m12_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "3dd43c63-5ce0-49b4-9efd-db94895aaf50",
+    "clothing": "F_Surcote01_m12"
+  },
+  {
+    "name": "F_Shoes02_m07_B",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "3e09f4df-d90c-4a67-8741-b17d99232e49",
+    "clothing": "F_Shoes02_m07"
+  },
+  {
+    "name": "F_Surcote01_m08_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "3e4e1ae1-ceab-47b5-b398-e9e49446f10c",
+    "clothing": "F_Surcote01_m08"
+  },
+  {
+    "name": "Habit03_m01_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "4032f9a9-a779-4575-bfcb-bfeb80601f35",
+    "clothing": "Habit03_m01"
+  },
+  {
+    "name": "Gauntlets08_m06_B4",
+    "display_name": "Brigandine Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets08_m01",
+    "id": "40abb1e6-7131-4eee-88a6-c7901ea0aa74",
+    "clothing": "Gauntlets08_m06"
+  },
+  {
+    "name": "Waffenrock08_m04_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "412c3109-9030-4d83-ba93-22292e296162",
+    "clothing": "Waffenrock08_m04"
+  },
+  {
+    "name": "F_Cotehardie01_m12_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "421599c3-d048-456a-9e32-ea801d97f7e2",
+    "clothing": "F_Cotehardie01_m12"
+  },
+  {
+    "name": "Waffenrock03_m02_A",
+    "display_name": "Fastened Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01",
+    "id": "4223fd8e-e88e-47c9-a9f8-886e1086e281",
+    "clothing": "Waffenrock03_m02"
+  },
+  {
+    "name": "Waffenrock01_mBergov_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "43eab5d6-dc99-494e-90fe-48f8c91b01d3",
+    "clothing": "Waffenrock01_mBergov"
+  },
+  {
+    "name": "F_Shoes02_m02_B",
+    "display_name": "Common Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes02_m01",
+    "id": "444a846d-c5ab-4a57-b763-f1e625a5b4dd",
+    "clothing": "F_Shoes02_m02"
+  },
+  {
+    "name": "F_HairDecor07_m03_C",
+    "display_name": "Simple Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m04",
+    "id": "445446b3-ebe4-4040-a3db-050b9500245c",
+    "clothing": "F_HairDecor07_m03"
+  },
+  {
+    "name": "Shoes05_m05_B",
+    "display_name": "Pointed Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes05_m01",
+    "id": "47177c29-7a96-46ec-bbc9-41ebba18b5d0",
+    "clothing": "Shoes05_m05"
+  },
+  {
+    "name": "Gauntlets04_m06_C2",
+    "display_name": "Noble's Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets04_m01",
+    "id": "4835b390-05a4-42d8-a77d-d4fb30ea03d9",
+    "clothing": "Gauntlets04_m06"
+  },
+  {
+    "name": "Waffenrock08_mKuttenberg03_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "48484637-1a8e-487d-afed-8eb7e1573190",
+    "clothing": "Waffenrock08_mKuttenberg03"
+  },
+  {
+    "name": "F_HairDecor03_m03_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "49421dbb-22ab-46e5-b146-2903bb139708",
+    "clothing": "F_HairDecor03_m03"
+  },
+  {
+    "name": "Waffenrock04_mPapal_A",
+    "display_name": "Ornate Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock04_m01",
+    "id": "4ab7a21b-087d-4af2-8fc3-383df9a61eb5",
+    "clothing": "Waffenrock04_mPapal"
+  },
+  {
+    "name": "Waffenrock02_mKuttenberg03_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "4cbd42bc-9953-4c98-a778-f310ad909d72",
+    "clothing": "Waffenrock02_mKuttenberg03"
+  },
+  {
+    "name": "Shoes02_m02_B",
+    "display_name": "Burgher's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes02_m01",
+    "id": "4d9e267d-72db-43b0-97a5-7d48b5eb2fde",
+    "clothing": "Shoes02_m02"
+  },
+  {
+    "name": "F_Cotehardie04_m14_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "4f37a3ee-a982-4fe1-a573-b3da90a0e57d",
+    "clothing": "F_Cotehardie04_m14"
+  },
+  {
+    "name": "Waffenrock01_mKrizovnik03_C",
+    "display_name": "Crusaders Of The Red Star Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock_redStar",
+    "id": "4f383f63-1eeb-40ec-a6d3-b0323a1f6e41",
+    "clothing": "Waffenrock01_mKrizovnik03"
+  },
+  {
+    "name": "F_Surcote01_m07_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "4fd067ad-df3f-47ff-84c2-f33bc6a0610b",
+    "clothing": "F_Surcote01_m07"
+  },
+  {
+    "name": "F_HairDecor05_m02_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "5007c141-b935-4110-8a18-6e7077a51b21",
+    "clothing": "F_HairDecor05_m02"
+  },
+  {
+    "name": "Waffenrock08_m03_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "504c76da-d9e4-4a75-b333-dfd9b358923d",
+    "clothing": "Waffenrock08_m03"
+  },
+  {
+    "name": "Waffenrock01_mSemin_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "51cbaef8-c34f-4879-a382-97d64829ac1f",
+    "clothing": "Waffenrock01_mSemin"
+  },
+  {
+    "name": "Shoes05_mPainter",
+    "display_name": "Pointed Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes05_m01",
+    "id": "52f6b0a3-0ec7-4b6e-a820-a06022f916c1",
+    "clothing": "Shoes05_mPainter"
+  },
+  {
+    "name": "Habit03_m06_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "531bff09-3e7a-4678-8c96-be573164591a",
+    "clothing": "Habit03_m06"
+  },
+  {
+    "name": "Gauntlets03_m03_D1",
+    "display_name": "Chainmail Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets03_m01",
+    "id": "54933fe9-c9e1-43af-b0bf-8595fc3bad76",
+    "clothing": "Gauntlets03_m03"
+  },
+  {
+    "name": "Waffenrock08_mKuttenberg_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "557160b7-8b24-448b-85b4-c7f296cedbae",
+    "clothing": "Waffenrock08_mKuttenberg"
+  },
+  {
+    "name": "F_Surcote01_m02_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "5774e410-d41f-4432-9bca-4fdd636f0b8d",
+    "clothing": "F_Surcote01_m02"
+  },
+  {
+    "name": "Wreath01_m01",
+    "display_name": "Round Cap",
+    "class": "Not specified",
+    "ui_name": "ui_nm_cap01_m01",
+    "id": "58d205c0-3efd-421d-8f97-e377045ef34e",
+    "clothing": "Wreath_m01"
+  },
+  {
+    "name": "Waffenrock09_m05_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "59179a10-d699-4bf7-87f3-924aabf31063",
+    "clothing": "Waffenrock09_m05"
+  },
+  {
+    "name": "F_Cotehardie01_m02_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "598ffca3-a36e-49b3-8982-e79864410620",
+    "clothing": "F_Cotehardie01_m02"
+  },
+  {
+    "name": "F_Shoes02_m06_B",
+    "display_name": "Common Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes02_m01",
+    "id": "5a0f4eb7-b011-43ea-8a68-8dac557ca5e0",
+    "clothing": "F_Shoes02_m06"
+  },
+  {
+    "name": "Shoes01_m04_D",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes01_m01",
+    "id": "5a0fb76a-1999-450d-ab39-48cf75d9952e",
+    "clothing": "Shoes01_m04"
+  },
+  {
+    "name": "Waffenrock08_mSemin_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "5afaf2f0-983a-42dd-9071-8e53e4af174c",
+    "clothing": "Waffenrock08_mSemin"
+  },
+  {
+    "name": "F_HairDecor04_m04_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "5b2194a2-cf0f-417e-8d38-5f9a9ca1d17c",
+    "clothing": "F_HairDecor04_m04"
+  },
+  {
+    "name": "Waffenrock02_m04_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "5c0210fe-af18-49cd-b7b7-cfff7e1472f4",
+    "clothing": "Waffenrock02_m04"
+  },
+  {
+    "name": "F_Wreath01_m01",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_wreath01_m01",
+    "id": "5ee43a42-3ce8-490f-83d4-cb8294cbc51f",
+    "clothing": "F_Wreath_m01"
+  },
+  {
+    "name": "Shoes01_m03_D",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes01_m01",
+    "id": "5fa40d05-bd02-480d-81ec-9b34263a88d1",
+    "clothing": "Shoes01_m03"
+  },
+  {
+    "name": "Waffenrock09_m04_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "607e172c-6af5-49bd-8adc-4d4297d0b371",
+    "clothing": "Waffenrock09_m04"
+  },
+  {
+    "name": "Shoes03_m04_C",
+    "display_name": "Soft Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes03_m01",
+    "id": "627e8530-e405-487b-9bef-7f85d2459360",
+    "clothing": "Shoes03_m04"
+  },
+  {
+    "name": "Shoes05_m04_B",
+    "display_name": "Pointed Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes05_m01",
+    "id": "62c7912d-ae32-4217-83ba-440e01061aa0",
+    "clothing": "Shoes05_m04"
+  },
+  {
+    "name": "Shoes05_m02_B",
+    "display_name": "Pointed Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes05_m01",
+    "id": "62d366b2-9a4d-40ad-a8c8-f7e0bf663dd9",
+    "clothing": "Shoes05_m02"
+  },
+  {
+    "name": "Gauntlets01_m01_C3",
+    "display_name": "Hourglass Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets01_m01",
+    "id": "63eff267-424a-43fd-a5ec-132c89c286f0",
+    "clothing": "Gauntlets01_m01"
+  },
+  {
+    "name": "Waffenrock08_mkhTournament_01_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "646a7c60-e4eb-4fd7-bba9-fde9d682b2cd",
+    "clothing": "Waffenrock08_mkhTournament_01"
+  },
+  {
+    "name": "Waffenrock03_m04_A",
+    "display_name": "Fastened Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01",
+    "id": "65361263-0cfa-4bb2-a793-2a0f5294bbf8",
+    "clothing": "Waffenrock03_m04"
+  },
+  {
+    "name": "F_Cotehardie04_m02_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "66f817cb-14f7-4495-b56e-32d5551ec5af",
+    "clothing": "F_Cotehardie04_m02"
+  },
+  {
+    "name": "F_Cotehardie01_m04_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "67174626-172d-4071-8e51-a6ee557a0ffb",
+    "clothing": "F_Cotehardie01_m04"
+  },
+  {
+    "name": "Waffenrock08_mKrizovnik01_B",
+    "display_name": "Crusaders Of The Red Star Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock_redStar",
+    "id": "675ce22d-2906-4d60-ab0d-e4e5a0b4be53",
+    "clothing": "Waffenrock08_mKrizovnik01"
+  },
+  {
+    "name": "HandWrap01_m02_E",
+    "display_name": "Hand Wrap",
+    "class": "Not specified",
+    "ui_name": "ui_nm_handwrap",
+    "id": "677f4c8d-8ec3-444e-b650-6ab58804fb13",
+    "clothing": "HandWrap01_m02"
+  },
+  {
+    "name": "Waffenrock02_mRuthart01_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "68dda40c-cd13-4f23-bd55-02b4ec98d241",
+    "clothing": "Waffenrock02_mRuthard01"
+  },
+  {
+    "name": "F_Shoes02_m10_B",
+    "display_name": "Common Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes02_m01",
+    "id": "6b04b8a5-24ea-491f-928b-669d84277dd0",
+    "clothing": "F_Shoes02_m10"
+  },
+  {
+    "name": "Gauntlets03_m01_D1",
+    "display_name": "Chainmail Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets03_m01",
+    "id": "6c7ea4d3-011f-4052-a23e-3349cc54d56c",
+    "clothing": "Gauntlets03_m01"
+  },
+  {
+    "name": "Waffenrock08_mPapal_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "6c990432-ff7a-407e-b782-a671b8ab9db8",
+    "clothing": "Waffenrock08_mPapal"
+  },
+  {
+    "name": "Habit03_m05_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "6de6b589-32f1-4626-a69b-293a4a35ff7d",
+    "clothing": "Habit03_m05"
+  },
+  {
+    "name": "F_HairDecor02_m02_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "6e4534a5-9768-45b7-95ac-7f7052d6ca35",
+    "clothing": "F_HairDecor02_m02"
+  },
+  {
+    "name": "F_Shoes01_m07_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "6e94d811-77f4-414f-ad82-24d44e53269f",
+    "clothing": "F_Shoes01_m07"
+  },
+  {
+    "name": "Shoes03_m08_C",
+    "display_name": "Soft Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes03_m01",
+    "id": "6e9b44a4-3e7d-4c26-881f-325b3214972b",
+    "clothing": "Shoes03_m08"
+  },
+  {
+    "name": "Shoes05_m06_B",
+    "display_name": "Pointed Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes05_m01",
+    "id": "6ec70dbb-bba6-4d9a-88ec-d0b82d794ad9",
+    "clothing": "Shoes05_m06"
+  },
+  {
+    "name": "Gauntlets08_m03_B4",
+    "display_name": "Brigandine Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets08_m01",
+    "id": "6f31e9ab-7eb3-4fe0-9785-653568eec882",
+    "clothing": "Gauntlets08_m03"
+  },
+  {
+    "name": "Waffenrock08_m09_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "6fe85d68-4169-4b37-9b1c-6b5ce2f759a8",
+    "clothing": "Waffenrock08_m09"
+  },
+  {
+    "name": "F_HairDecor07_m01_C",
+    "display_name": "Simple Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m04",
+    "id": "722c1f3a-2ae7-45be-8d15-8f0e683b14e6",
+    "clothing": "F_HairDecor07_m01"
+  },
+  {
+    "name": "Waffenrock03_mPrague_A",
+    "display_name": "Praguers' Waffenrock With Buttons",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01_prague",
+    "id": "738ca996-5bb8-4719-ad97-c941c3759ccc",
+    "clothing": "Waffenrock03_mPrague"
+  },
+  {
+    "name": "F_Shoes02_m09_B",
+    "display_name": "Common Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes02_m01",
+    "id": "73a1c315-e542-4629-a64d-867af9d32098",
+    "clothing": "F_Shoes02_m09"
+  },
+  {
+    "name": "Gauntlets04_m05_C2",
+    "display_name": "Noble's Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets04_m01",
+    "id": "74047697-1962-4284-8b5f-c9f93c2716b7",
+    "clothing": "Gauntlets04_m05"
+  },
+  {
+    "name": "F_Shoes01_m03_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "741f2a1b-abbb-423b-9808-a2515e2ae7fd",
+    "clothing": "F_Shoes01_m03"
+  },
+  {
+    "name": "Shoes04_m01_E",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes04_m01",
+    "id": "765d83b6-e6c8-4caf-8fb4-cdae43c41985",
+    "clothing": "Shoes04_m01"
+  },
+  {
+    "name": "Waffenrock09_mBergov_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "780cca43-280a-4b59-ba08-03b636931b98",
+    "clothing": "Waffenrock09_mBergov"
+  },
+  {
+    "name": "Shoes02_m06_B",
+    "display_name": "Burgher's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes02_m01",
+    "id": "793ae9c7-739f-4754-a6c8-530d29c50b0a",
+    "clothing": "Shoes02_m06"
+  },
+  {
+    "name": "F_HairDecor02_m05_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "7a4b6b2f-b66e-45e9-8267-40c0a1a8acea",
+    "clothing": "F_HairDecor02_m05"
+  },
+  {
+    "name": "poi_luffy_strawhat",
+    "display_name": "Strange Strawhat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_poi_luffy_strawhat",
+    "id": "7b672958-3452-4d3e-afd0-07baccde7f57",
+    "clothing": "poi_luffy_strawhat"
+  },
+  {
+    "name": "Shoes04_m04_E",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes04_m01",
+    "id": "7b6aad88-4205-48fa-b4cf-353e4b744985",
+    "clothing": "Shoes04_m04"
+  },
+  {
+    "name": "F_Shoes01_m05_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "7e2a262b-6a46-48e5-ab87-a2ececdfa89f",
+    "clothing": "F_Shoes01_m05"
+  },
+  {
+    "name": "F_Shoes01_m09_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "82567c71-c11f-49e1-a527-c5187301a3b6",
+    "clothing": "F_Shoes01_m09"
+  },
+  {
+    "name": "Habit01_m05_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "8490f7fb-7301-4769-801d-6cdd3b1e761f",
+    "clothing": "Habit01_m05"
+  },
+  {
+    "name": "F_HairDecor01_m02_D",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m01",
+    "id": "84d9ed44-7ee9-4dd0-a7de-51305fe85e80",
+    "clothing": "F_HairDecor01_m02"
+  },
+  {
+    "name": "Habit02_m04_C",
+    "display_name": "Lord's Overcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m02",
+    "id": "85aa1df6-7bec-4795-af54-b8126d8b55bf",
+    "clothing": "Habit02_m04"
+  },
+  {
+    "name": "Waffenrock01_mZavis",
+    "display_name": "Waffenrock Of The Lords Of Garbow",
+    "class": "Not specified",
+    "ui_name": "ui_nm_ztracenaCest_jezeksWaffenrock",
+    "id": "863f6da3-f947-4079-98b3-8a3eb584e4f2",
+    "clothing": "Waffenrock01_mZavis"
+  },
+  {
+    "name": "Waffenrock08_m12_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "8831967e-dfc6-4442-b01b-b45222fbf830",
+    "clothing": "Waffenrock08_m12"
+  },
+  {
+    "name": "Waffenrock09_mKuttenberg04_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "88c42663-ca9b-4fea-8f62-84488ba8cb1d",
+    "clothing": "Waffenrock09_mKuttenberg04"
+  },
+  {
+    "name": "Shoes04_m03_E",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes04_m01",
+    "id": "899ea0bb-89ea-495c-ad69-29e76fb7bb9e",
+    "clothing": "Shoes04_m03"
+  },
+  {
+    "name": "Gauntlets05_m03_A5",
+    "display_name": "Nuremberg Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets05_m01",
+    "id": "89a60e7b-f80e-4999-8560-fa018737deae",
+    "clothing": "Gauntlets05_m03"
+  },
+  {
+    "name": "F_Shoes02_m01_B",
+    "display_name": "Common Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes02_m01",
+    "id": "8a007e87-9d44-4fcc-8ce3-6dc5171a0eb4",
+    "clothing": "F_Shoes02_m01"
+  },
+  {
+    "name": "Habit03_m03_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "8c541449-a00e-447c-b817-f11abd075f15",
+    "clothing": "Habit03_m03"
+  },
+  {
+    "name": "F_Shoes02_m08_B",
+    "display_name": "Common Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes02_m01",
+    "id": "8c84de46-0026-4a6f-bc3a-804fc6284968",
+    "clothing": "F_Shoes02_m08"
+  },
+  {
+    "name": "Waffenrock08_mkhTournament_02_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "8c9b425c-c8a9-49b1-b828-220b2cb47518",
+    "clothing": "Waffenrock08_mkhTournament_02"
+  },
+  {
+    "name": "Waffenrock04_m03_A",
+    "display_name": "Ornate Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock04_m01",
+    "id": "8f1ba3e0-aece-4a2b-be7e-bbc80374f9c7",
+    "clothing": "Waffenrock04_m03"
+  },
+  {
+    "name": "F_Cotehardie01_m08_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "8fd5ee32-1d34-420e-a485-36bdaf57d0c4",
+    "clothing": "F_Cotehardie01_m08"
+  },
+  {
+    "name": "F_Shoes01_m04_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "90018ae3-4fe3-4121-bc63-9cb8e1883ebc",
+    "clothing": "F_Shoes01_m04"
+  },
+  {
+    "name": "F_HairDecor06_m01_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "900f0f15-39e0-4df7-a7f5-05d1b7ea27f2",
+    "clothing": "F_HairDecor06_m01"
+  },
+  {
+    "name": "Waffenrock03_mLeipa_A",
+    "display_name": "Fastened Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01",
+    "id": "9040190f-884b-4a42-bc34-cd68564a0af9",
+    "clothing": "Waffenrock03_mLeipa"
+  },
+  {
+    "name": "Waffenrock01_m01_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "904cb53e-3a8d-42fc-9624-a4084399d586",
+    "clothing": "Waffenrock01_m01"
+  },
+  {
+    "name": "Shoes02_m08_B",
+    "display_name": "Burgher's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes02_m01",
+    "id": "910d7740-736b-414a-9876-c066bfff35c5",
+    "clothing": "Shoes02_m08"
+  },
+  {
+    "name": "Waffenrock02_mNebak_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "915216ab-26d1-44c2-9d97-a06db6c20b5a",
+    "clothing": "Waffenrock02_mNebak"
+  },
+  {
+    "name": "Gauntlets01_m02_C3",
+    "display_name": "Hourglass Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets01_m01",
+    "id": "916a6a5e-a1c1-4db7-b573-909c139a1b52",
+    "clothing": "Gauntlets01_m02"
+  },
+  {
+    "name": "Shoes02_m07_B",
+    "display_name": "Burgher's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes02_m01",
+    "id": "93ff6de8-435d-495a-bc43-91a783669cc7",
+    "clothing": "Shoes02_m07"
+  },
+  {
+    "name": "F_HairDecor01_m04_D",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m01",
+    "id": "958487ca-d5ef-42f9-ae8b-3b2c76941757",
+    "clothing": "F_HairDecor01_m04"
+  },
+  {
+    "name": "F_HairDecor05_m01_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "97502171-d138-403b-8745-75776a9809fc",
+    "clothing": "F_HairDecor05_m01"
+  },
+  {
+    "name": "F_HairDecor07_m04_C",
+    "display_name": "Simple Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m04",
+    "id": "9843792a-1792-4e9e-80c4-2dcbb5f62863",
+    "clothing": "F_HairDecor07_m04"
+  },
+  {
+    "name": "Waffenrock09_m01_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "986c4a80-eff0-4198-9958-aff51b2303f3",
+    "clothing": "Waffenrock09_m01"
+  },
+  {
+    "name": "Habit03_m07_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "990115a0-70c4-4665-a86d-bd3bc6cc6a88",
+    "clothing": "Habit03_m07"
+  },
+  {
+    "name": "Waffenrock04_m04_A",
+    "display_name": "Ornate Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock04_m01",
+    "id": "9932076d-2a57-4da6-933b-2cd01a886418",
+    "clothing": "Waffenrock04_m04"
+  },
+  {
+    "name": "Waffenrock02_m02_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "99c4dd5a-8bea-4b7f-82d4-81d236ccd3b4",
+    "clothing": "Waffenrock02_m02"
+  },
+  {
+    "name": "Waffenrock09_mVavak_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "9a1bb464-4ec1-4c34-a071-ffcd9000404c",
+    "clothing": "Waffenrock09_mVavak"
+  },
+  {
+    "name": "Waffenrock08_m07_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "9aeacf98-e160-4270-b1c8-09e60eb6e611",
+    "clothing": "Waffenrock08_m07"
+  },
+  {
+    "name": "F_HairDecor01_m01_D",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m01",
+    "id": "9f0de888-bcab-482e-bef2-0967e4567ac8",
+    "clothing": "F_HairDecor01_m01"
+  },
+  {
+    "name": "F_HairDecor03_m02_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "9f23695c-47f4-4652-b738-02014e18a16c",
+    "clothing": "F_HairDecor03_m02"
+  },
+  {
+    "name": "Waffenrock03_mKuttenberg01_A",
+    "display_name": "Fastened Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01",
+    "id": "a0c2cd23-a88f-40c0-86bc-47dbab2d45c2",
+    "clothing": "Waffenrock03_mKuttenberg01"
+  },
+  {
+    "name": "Gauntlets04_m04_C2",
+    "display_name": "Noble's Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets04_m01",
+    "id": "a31f66aa-6726-449c-83d0-0bc34a0a108e",
+    "clothing": "Gauntlets04_m04"
+  },
+  {
+    "name": "F_HairDecor07_m05_C",
+    "display_name": "Simple Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m04",
+    "id": "a35846f0-9929-4767-9da8-f884c34d4d75",
+    "clothing": "F_HairDecor07_m05"
+  },
+  {
+    "name": "F_HairDecor05_m05_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "a4de31f5-9af6-4a85-86ec-451d56817272",
+    "clothing": "F_HairDecor05_m05"
+  },
+  {
+    "name": "Gauntlets08_m04_B4",
+    "display_name": "Brigandine Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets08_m01",
+    "id": "a52152b9-16a9-437c-a057-fb719ae424b0",
+    "clothing": "Gauntlets08_m04"
+  },
+  {
+    "name": "F_HairDecor04_m05_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "a7482fe4-9db0-4fdc-9903-4f80655860e0",
+    "clothing": "F_HairDecor04_m05"
+  },
+  {
+    "name": "F_Cotehardie04_m04_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "a84d558b-9542-4223-90d3-22c096c3bda6",
+    "clothing": "F_Cotehardie04_m04"
+  },
+  {
+    "name": "Shoes03_m02_C",
+    "display_name": "Soft Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes03_m01",
+    "id": "a8a8db9c-955c-410f-9d47-1af70d917900",
+    "clothing": "Shoes03_m02"
+  },
+  {
+    "name": "F_Cotehardie03_m01_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "a8e9ede6-4da0-4259-9a08-be749fdeed98",
+    "clothing": "F_Cotehardie03_m01"
+  },
+  {
+    "name": "Shoes02_m04_B",
+    "display_name": "Burgher's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes02_m01",
+    "id": "a94f1ef3-5328-462b-b18a-18375c515795",
+    "clothing": "Shoes02_m04"
+  },
+  {
+    "name": "Habit03_m04_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "a9ef7321-dc22-47f6-a32d-9ac7baf7dd01",
+    "clothing": "Habit03_m04"
+  },
+  {
+    "name": "Waffenrock02_m05_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "aa042467-0d9a-4764-adf6-250c64566654",
+    "clothing": "Waffenrock02_m05"
+  },
+  {
+    "name": "F_Cotehardie01_m03_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "aac53a0e-4926-4852-8441-a84c170fecdc",
+    "clothing": "F_Cotehardie01_m03"
+  },
+  {
+    "name": "F_HairDecor06_m05_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "ab7be326-54c2-4a09-beec-4eec44e57cc6",
+    "clothing": "F_HairDecor06_m05"
+  },
+  {
+    "name": "F_Surcote01_m04_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "ac713c38-958e-4233-a928-653400b3f1a3",
+    "clothing": "F_Surcote01_m04"
+  },
+  {
+    "name": "Waffenrock09_m03_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "acd2c546-8ae3-4497-b4de-4ada14eaf452",
+    "clothing": "Waffenrock09_m03"
+  },
+  {
+    "name": "Waffenrock03_mKuttenberg_A",
+    "display_name": "Fastened Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01",
+    "id": "ad0604da-da64-4d19-8364-e4cf1d297797",
+    "clothing": "Waffenrock03_mKuttenberg"
+  },
+  {
+    "name": "F_Cotehardie01_m13_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "ad246ca4-aad6-40c0-9b5e-1458e843dee1",
+    "clothing": "F_Cotehardie01_m13"
+  },
+  {
+    "name": "Waffenrock08_m11_D",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "b02480ea-8bd5-479c-a7ec-5363857bf849",
+    "clothing": "Waffenrock08_m11"
+  },
+  {
+    "name": "Waffenrock08_m13_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "b052625a-7525-4295-9ba6-bbe82233c82f",
+    "clothing": "Waffenrock08_m13"
+  },
+  {
+    "name": "Shoes02_m03_B",
+    "display_name": "Burgher's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes02_m01",
+    "id": "b1ccc94a-9584-4bca-80df-8e93e1cbd36c",
+    "clothing": "Shoes02_m03"
+  },
+  {
+    "name": "F_Surcote01_m11_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "b22dd85e-0e65-40ba-a89a-301f6bf540bb",
+    "clothing": "F_Surcote01_m11"
+  },
+  {
+    "name": "Gauntlets04_m03_C2",
+    "display_name": "Noble's Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets04_m01",
+    "id": "b3a22213-cc7a-4d5f-afe3-728fa0f12231",
+    "clothing": "Gauntlets04_m03"
+  },
+  {
+    "name": "F_Cotehardie04_m03_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "b3ca8b90-f337-4be8-b41c-15ee6f25cad2",
+    "clothing": "F_Cotehardie04_m03"
+  },
+  {
+    "name": "Waffenrock01_mNebak_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "b4026f8d-b440-4bb9-9149-0226220ee684",
+    "clothing": "Waffenrock01_mNebak"
+  },
+  {
+    "name": "F_Cotehardie04_m06_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "b59569d1-102b-414a-91ea-3dfa34d0c922",
+    "clothing": "F_Cotehardie04_m06"
+  },
+  {
+    "name": "Habit02_m02_C",
+    "display_name": "Lord's Overcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m02",
+    "id": "b6704b45-e58d-49e5-a045-b5dbfacd40fb",
+    "clothing": "Habit02_m02"
+  },
+  {
+    "name": "Waffenrock04_m02_A",
+    "display_name": "Ornate Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock04_m01",
+    "id": "b7a53d8a-8c77-4db0-b6af-62a98542c914",
+    "clothing": "Waffenrock04_m02"
+  },
+  {
+    "name": "Habit02_m03_C",
+    "display_name": "Lord's Overcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m02",
+    "id": "b7e9b9f3-a128-45f9-885a-076b63df158a",
+    "clothing": "Habit02_m03"
+  },
+  {
+    "name": "Gauntlets02_m01_B4_khTournament_Henry",
+    "display_name": "Tournament Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_Gauntlets02_m01_B3_khTournament_Henry",
+    "id": "b9fa2db6-ee6e-4976-9449-24ae92916789",
+    "clothing": "Gauntlets02_m01"
+  },
+  {
+    "name": "Habit01_m04_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "bc55caf7-f5f5-4f51-8478-3fe00f2366cc",
+    "clothing": "Habit01_m04"
+  },
+  {
+    "name": "F_Shoes02_m05_B",
+    "display_name": "Common Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes02_m01",
+    "id": "bc670e45-b092-40d5-b13f-38e40085dc92",
+    "clothing": "F_Shoes02_m05"
+  },
+  {
+    "name": "Waffenrock01_mPrague01_C",
+    "display_name": "Praguers' Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01_prague",
+    "id": "be3eeab6-af41-4a17-8b9a-576325cde54f",
+    "clothing": "Waffenrock01_mPrague01"
+  },
+  {
+    "name": "F_HairDecor07_m02_C",
+    "display_name": "Simple Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m04",
+    "id": "be925b8a-c481-490b-a22e-f9abf91e457c",
+    "clothing": "F_HairDecor07_m02"
+  },
+  {
+    "name": "F_Cotehardie01_m10_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "bed90d8b-11a1-49e4-9069-662c4c1764e3",
+    "clothing": "F_Cotehardie01_m10"
+  },
+  {
+    "name": "Waffenrock08_mKuttenberg01_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "bf1579cc-d92e-4cf8-8f66-b62c61df01c7",
+    "clothing": "Waffenrock08_mKuttenberg01"
+  },
+  {
+    "name": "Spectacles01_m01_parler",
+    "display_name": "Parler's Spectacles",
+    "class": "Not specified",
+    "ui_name": "ui_nm_spectacles01_m01_parler",
+    "id": "c10bd371-4627-4d79-a388-d6123a94e20c",
+    "clothing": "Spectacles01_m01"
+  },
+  {
+    "name": "F_HairDecor06_m04_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "c1fcfeea-e215-4a20-bcf0-ffa14b167769",
+    "clothing": "F_HairDecor06_m04"
+  },
+  {
+    "name": "F_Shoes01_m08_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "c34e440c-7dac-43c0-a7d0-d1364ac6d27b",
+    "clothing": "F_Shoes01_m08"
+  },
+  {
+    "name": "Shoes05_m07_B",
+    "display_name": "Pointed Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes05_m01",
+    "id": "c3dbbdd5-f7cb-402f-91c8-de7fa0c7f2f5",
+    "clothing": "Shoes05_m07"
+  },
+  {
+    "name": "Shoes04_m02_E",
+    "display_name": "Vagrant's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes04_vagrant",
+    "id": "c3e9985d-2af6-4281-96d6-60ffee58a0b5",
+    "clothing": "Shoes04_m02"
+  },
+  {
+    "name": "F_Surcote01_m15_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "c3eed13a-743e-46fd-8c2e-87d9467ba375",
+    "clothing": "F_Surcote01_m15"
+  },
+  {
+    "name": "F_Cotehardie01_m07_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "c608987b-7403-4f80-bea9-6d764c865b0d",
+    "clothing": "F_Cotehardie01_m07"
+  },
+  {
+    "name": "F_Cotehardie01_m09_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "c632b4ad-7737-4e35-9444-8ca46f9a6dc1",
+    "clothing": "F_Cotehardie01_m09"
+  },
+  {
+    "name": "F_Cotehardie03_m14_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "c731bade-8acf-4b85-9085-e188b33f3870",
+    "clothing": "F_Cotehardie03_m14"
+  },
+  {
+    "name": "Waffenrock02_mKuttenberg_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "c8a799c5-3fda-45d0-9bde-2cbf92d83914",
+    "clothing": "Waffenrock02_mKuttenberg"
+  },
+  {
+    "name": "F_HairDecor01_m05_D",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m01",
+    "id": "c8dcb769-53a2-445b-bc8b-352e7c7c2236",
+    "clothing": "F_HairDecor01_m05"
+  },
+  {
+    "name": "F_HairDecor05_m04_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "c958f207-5346-4a29-9f81-bb996ae80461",
+    "clothing": "F_HairDecor05_m04"
+  },
+  {
+    "name": "Waffenrock09_mKuttenberg03_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "cb3e9e80-7a1e-4021-8dc9-46defbdcd069",
+    "clothing": "Waffenrock09_mKuttenberg03"
+  },
+  {
+    "name": "Waffenrock09_mKuttenberg01_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "cbf60764-576b-4102-b0d1-d196e1b87fd6",
+    "clothing": "Waffenrock09_mKuttenberg01"
+  },
+  {
+    "name": "Waffenrock08_m05_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "cc0c46b1-830f-46cb-aeb9-38d18ff06ab4",
+    "clothing": "Waffenrock08_m10"
+  },
+  {
+    "name": "Shoes02_mOderin_B",
+    "display_name": "Burgher's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes02_m01",
+    "id": "ce7ca2e0-efcf-41d9-bfb0-b76673067c05",
+    "clothing": "Shoes02_mOderin"
+  },
+  {
+    "name": "Waffenrock08_m10_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "cfdd03e9-0929-40f7-8753-704002eb567e",
+    "clothing": "Waffenrock08_m10"
+  },
+  {
+    "name": "Habit01_m03_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "cfe63209-0745-485d-ad9b-d78d97682a30",
+    "clothing": "Habit01_m03"
+  },
+  {
+    "name": "F_HairDecor02_m04_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "d035cf21-9704-4ace-b277-b64d7d1e4fc3",
+    "clothing": "F_HairDecor02_m04"
+  },
+  {
+    "name": "Gauntlets01_m03_C3",
+    "display_name": "Hourglass Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets01_m01",
+    "id": "d1926fdf-d10e-4ab5-9531-2deeff6f8d07",
+    "clothing": "Gauntlets01_m03"
+  },
+  {
+    "name": "Waffenrock08_m14_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "d3fe00d4-ebd2-4ad8-ba5d-f6f34adebc12",
+    "clothing": "Waffenrock08_m14"
+  },
+  {
+    "name": "Gauntlets02_m02_B4",
+    "display_name": "Milanese Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets02_m01",
+    "id": "d47478d2-ab3d-4224-812f-696e71765206",
+    "clothing": "Gauntlets02_m02"
+  },
+  {
+    "name": "Gauntlets04_m07_C2",
+    "display_name": "Noble's Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets04_m01",
+    "id": "d49ae7bb-c6d5-4f7c-8513-3eb18176c97a",
+    "clothing": "Gauntlets04_m07"
+  },
+  {
+    "name": "F_HairDecor03_m04_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "d4eab06e-a67e-435d-bf39-825268594030",
+    "clothing": "F_HairDecor03_m01"
+  },
+  {
+    "name": "F_Cotehardie03_m03_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "d63dd5a8-dcbf-43de-a5dd-aceb4fa9eee8",
+    "clothing": "F_Cotehardie03_m03"
+  },
+  {
+    "name": "F_Cotehardie04_m12_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "d7571357-f01b-4735-869d-220466bcde2c",
+    "clothing": "F_Cotehardie04_m12"
+  },
+  {
+    "name": "Spectacles01_m01",
+    "display_name": "Spectacles",
+    "class": "Not specified",
+    "ui_name": "ui_nm_spectacles01_m01",
+    "id": "d7b58b33-f452-4408-ba18-e8618eb3f1dd",
+    "clothing": "Spectacles01_m01"
+  },
+  {
+    "name": "Waffenrock02_mRuthart_D",
+    "display_name": "Simple Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock02_m01",
+    "id": "d8013078-fe3c-4ffa-acab-93249eaced7f",
+    "clothing": "Waffenrock02_mRuthard"
+  },
+  {
+    "name": "F_Surcote01_m01_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "d8d53fe2-06f9-49a7-b108-3c56cde90dbd",
+    "clothing": "F_Surcote01_m01"
+  },
+  {
+    "name": "Waffenrock04_m01_A",
+    "display_name": "Ornate Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock04_m01",
+    "id": "d913a614-fa08-452e-85f8-b6bcfd510529",
+    "clothing": "Waffenrock04_m01"
+  },
+  {
+    "name": "F_HairDecor06_m02_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "d92464bb-6d39-4b7c-aa0a-48cd95a354ec",
+    "clothing": "F_HairDecor06_m02"
+  },
+  {
+    "name": "Waffenrock08_mkhTournament_05_B_Henry",
+    "display_name": "Tournament Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_Waffenrock08_mkhTournament_05_B_Henry",
+    "id": "dc69cb5f-1900-46db-a287-8012e6750fff",
+    "clothing": "Waffenrock08_mkhTournament_05"
+  },
+  {
+    "name": "F_Cotehardie01_m01_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "dca0b90b-0850-4ae7-bba4-f05660abbc8e",
+    "clothing": "F_Cotehardie01_m01"
+  },
+  {
+    "name": "Waffenrock01_m03_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "dcccaff3-d2f3-48f3-a9bd-1889477e36dd",
+    "clothing": "Waffenrock01_m03"
+  },
+  {
+    "name": "Waffenrock09_mKuttenberg05_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "dd0d1adc-8bb0-4352-b9c9-6b46eac72533",
+    "clothing": "Waffenrock09_mKuttenberg05"
+  },
+  {
+    "name": "F_HairDecor03_m05_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "de366309-05e3-4606-876e-4cc6eeedd5d9",
+    "clothing": "F_HairDecor03_m05"
+  },
+  {
+    "name": "Waffenrock08_mKuttenberg02_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "dfe3552d-2d83-40c3-b5fe-66ff1b3f5ebd",
+    "clothing": "Waffenrock08_mKuttenberg02"
+  },
+  {
+    "name": "F_HairDecor05_m03_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "e00e0db5-457f-453b-8bf9-65ea6e9a387e",
+    "clothing": "F_HairDecor05_m03"
+  },
+  {
+    "name": "F_Cotehardie03_m06_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "e06ba2d9-9ce7-49e2-9e3a-36280994cf5c",
+    "clothing": "F_Cotehardie03_m06"
+  },
+  {
+    "name": "Waffenrock01_mCimburk_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "e08aa4b5-8375-447b-8558-a8b93f816b5d",
+    "clothing": "Waffenrock01_mCimburk"
+  },
+  {
+    "name": "F_Cotehardie04_m01_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "e0962166-8b41-4966-a580-ab9b1cd1b779",
+    "clothing": "F_Cotehardie04_m01"
+  },
+  {
+    "name": "F_Cotehardie03_m08_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "e16995a3-c26c-44a8-baa4-710488ba241d",
+    "clothing": "F_Cotehardie03_m08"
+  },
+  {
+    "name": "F_Cotehardie04_m15_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "e23e0d4a-0a80-46b2-a2e6-1dd0a98c6357",
+    "clothing": "F_Cotehardie04_m15"
+  },
+  {
+    "name": "Shoes02_m01_B",
+    "display_name": "Burgher's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes02_m01",
+    "id": "e2fc390a-b158-4796-839d-f200e65305c3",
+    "clothing": "Shoes02_m01"
+  },
+  {
+    "name": "Waffenrock08_m01_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "e354d9b0-1532-427e-bfbb-806e8b0e8260",
+    "clothing": "Waffenrock08_m01"
+  },
+  {
+    "name": "Waffenrock01_mRuthart_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "e3726279-f4f5-41ae-9208-0aa869f7f03b",
+    "clothing": "Waffenrock01_mRuthard"
+  },
+  {
+    "name": "F_Cotehardie03_m12_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "e3d9eec8-3f33-4862-a89d-130418add11e",
+    "clothing": "F_Cotehardie03_m12"
+  },
+  {
+    "name": "F_Wreath01_m03",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_wreath01_m01",
+    "id": "e6ffbe4f-a30b-48fe-a1a8-db04cf8f9cde",
+    "clothing": "F_Wreath_m03"
+  },
+  {
+    "name": "Waffenrock03_mKuttenberg02_A",
+    "display_name": "Fastened Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock03_m01",
+    "id": "e775725e-9293-43f2-8369-35ce0244534f",
+    "clothing": "Waffenrock03_mKuttenberg02"
+  },
+  {
+    "name": "Waffenrock01_mKrizovnik02_C",
+    "display_name": "Crusaders Of The Red Star Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock_redStar",
+    "id": "e78cd3a9-327f-4cd1-a051-1c9a6bf975f6",
+    "clothing": "Waffenrock01_mKrizovnik02"
+  },
+  {
+    "name": "Waffenrock08_mkhTournament_06_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "e7a0bb76-58a4-4508-94d4-fc34f0bd4232",
+    "clothing": "Waffenrock08_mkhTournament_06"
+  },
+  {
+    "name": "Waffenrock01_m02_C",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "e7b044a7-858c-4fa1-b617-d61306e116f1",
+    "clothing": "Waffenrock01_m02"
+  },
+  {
+    "name": "Shoes03_mLegate",
+    "display_name": "Legate's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes03_mlegate",
+    "id": "e7d484b2-9b50-46bf-ad2a-60e627e7dc92",
+    "clothing": "Shoes03_mLegate"
+  },
+  {
+    "name": "F_Shoes01_m06_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "e7de25fb-5db0-4d67-a7bc-763075868cbc",
+    "clothing": "F_Shoes01_m06"
+  },
+  {
+    "name": "Waffenrock01_mPolner",
+    "display_name": "House Of Polner Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock_polner",
+    "id": "e83016ef-4633-412d-a7c5-b109f4ad19dc",
+    "clothing": "Waffenrock01_mPolner"
+  },
+  {
+    "name": "Habit01_m02_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "e9415ffd-f446-4b16-af3b-8e679784f6e3",
+    "clothing": "Habit01_m02"
+  },
+  {
+    "name": "F_Surcote01_m14_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "e9ca7f34-a10d-4d55-8ba2-49185cc2496a",
+    "clothing": "F_Surcote01_m14"
+  },
+  {
+    "name": "Gauntlets03_m02_D1",
+    "display_name": "Chainmail Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets03_m01",
+    "id": "e9f59d27-ee5f-4a7e-8341-643854166285",
+    "clothing": "Gauntlets03_m02"
+  },
+  {
+    "name": "Waffenrock04_mBergov_A",
+    "display_name": "Ornate Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock04_m01",
+    "id": "ea748545-72c5-4b3d-99f7-8a4431e2f3ae",
+    "clothing": "Waffenrock04_mBergov"
+  },
+  {
+    "name": "Habit01_m01_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "ea8f18d9-83ed-4599-ac49-06ee98dbefc6",
+    "clothing": "Habit01_m01"
+  },
+  {
+    "name": "Shoes03_m03_C",
+    "display_name": "Thief's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes03_thief",
+    "id": "ebe75b4a-eb09-406a-b6c4-4f608288f312",
+    "clothing": "Shoes03_m03"
+  },
+  {
+    "name": "Habit01_m06_C",
+    "display_name": "Cleric Habit",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m01",
+    "id": "ebfc4660-4947-4de2-91cf-9a1dfa128f11",
+    "clothing": "Habit01_m06"
+  },
+  {
+    "name": "F_Surcote01_m10_C",
+    "display_name": "Surcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_simpledress05_m04",
+    "id": "ec7ea2cb-0552-41a7-88db-95b9b72eeabd",
+    "clothing": "F_Surcote01_m10"
+  },
+  {
+    "name": "F_Cotehardie04_m07_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "ed420472-7e45-445e-9f89-80587d1b6b67",
+    "clothing": "F_Cotehardie04_m07"
+  },
+  {
+    "name": "Waffenrock09_m06_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "edc46dd2-383a-4c94-b1d9-b3d450e73e51",
+    "clothing": "Waffenrock09_m06"
+  },
+  {
+    "name": "Habit02_m05_C",
+    "display_name": "Lord's Overcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m02",
+    "id": "ee6c5367-5eb7-4031-9d67-fa03a836fc95",
+    "clothing": "Habit02_m05"
+  },
+  {
+    "name": "Shoes05_m03_B",
+    "display_name": "Pointed Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes05_m01",
+    "id": "ee8a0292-d4be-4066-a4b1-edb18f1e7b44",
+    "clothing": "Shoes05_m03"
+  },
+  {
+    "name": "Waffenrock04_m05_A",
+    "display_name": "Ornate Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock04_m01",
+    "id": "efd50449-d7ba-4e99-a9a2-8b8b2e55a136",
+    "clothing": "Waffenrock04_m05"
+  },
+  {
+    "name": "F_Shoes01_m02_A",
+    "display_name": "Ladies Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_shoes01_m01",
+    "id": "f0b28694-d7c7-433b-8013-53d888dc48de",
+    "clothing": "F_Shoes01_m02"
+  },
+  {
+    "name": "Waffenrock09_m02_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "f24c1f54-6dad-49b2-957f-532b918dba33",
+    "clothing": "Waffenrock09_m02"
+  },
+  {
+    "name": "F_Cotehardie03_m02_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "f2aca8ba-852f-4ab6-a525-db15bf36f720",
+    "clothing": "F_Cotehardie03_m02"
+  },
+  {
+    "name": "F_Cotehardie03_m04_A",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "f3434a58-f46c-4680-916f-626b9870029e",
+    "clothing": "F_Cotehardie03_m04"
+  },
+  {
+    "name": "Waffenrock01_mKrizovnik01_C",
+    "display_name": "Crusaders Of The Red Star Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock_redStar",
+    "id": "f42e9dab-1c40-4578-9701-2e2aa3c72904",
+    "clothing": "Waffenrock01_mKrizovnik01"
+  },
+  {
+    "name": "Waffenrock08_mkhTournament_04_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "f51b2f0e-0e1c-4390-a303-759104d2da08",
+    "clothing": "Waffenrock08_mkhTournament_04"
+  },
+  {
+    "name": "Gauntlets02_m01_B4",
+    "display_name": "Milanese Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets02_m01",
+    "id": "f5c11ece-238d-4463-88ec-1f51c80c1bcf",
+    "clothing": "Gauntlets02_m01"
+  },
+  {
+    "name": "F_HairDecor04_m01_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "f64a7afd-f800-40a5-ab38-c2a39ac37072",
+    "clothing": "F_HairDecor04_m01"
+  },
+  {
+    "name": "Waffenrock09_mPisek_B",
+    "display_name": "Knight's Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock09_m01",
+    "id": "f6cc59be-d9af-419f-b9f0-66440c1d79ae",
+    "clothing": "Waffenrock09_mPisek"
+  },
+  {
+    "name": "F_Wreath01_m02",
+    "display_name": "Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_wreath01_m01",
+    "id": "f6e6b06e-487f-4bf2-bbd6-0b6eb2a49688",
+    "clothing": "F_Wreath_m02"
+  },
+  {
+    "name": "pracharna_concubineDress",
+    "display_name": "Tyrol Brocade Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_pracharna_concubineDress",
+    "id": "f75371a0-6d02-4d18-8a78-a5c63882968a",
+    "clothing": "F_Cotehardie01_m05"
+  },
+  {
+    "name": "Habit02_m01_C",
+    "display_name": "Lord's Overcoat",
+    "class": "Not specified",
+    "ui_name": "ui_nm_habit01_m02",
+    "id": "f9439148-1e80-4d72-99d2-a314f05a2c50",
+    "clothing": "Habit02_m01"
+  },
+  {
+    "name": "F_Cotehardie04_m13_B",
+    "display_name": "Noblewoman's Cotehardie",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_cotehardie01_m01",
+    "id": "f9500c7c-bd97-472a-b5b0-d3d41c47a8d6",
+    "clothing": "F_Cotehardie04_m13"
+  },
+  {
+    "name": "Shoes01_m02_D",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes01_m01",
+    "id": "faed9509-92fe-42f2-be78-3c07d2c494b5",
+    "clothing": "Shoes01_m02"
+  },
+  {
+    "name": "WaffenrockScaring_m01",
+    "display_name": "Hemmed Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock01_m01",
+    "id": "fc092685-1787-44bc-a83a-64099095443d",
+    "clothing": "WaffenrockScaring_m01"
+  },
+  {
+    "name": "Waffenrock08_m15_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "fc1184c5-751f-40b1-973c-f8094e2353a9",
+    "clothing": "Waffenrock08_m15"
+  },
+  {
+    "name": "F_HairDecor06_m03_B",
+    "display_name": "Decorated Headpiece",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m03",
+    "id": "fc31699c-1c3a-404f-9a99-535e9ee7e927",
+    "clothing": "F_HairDecor06_m03"
+  },
+  {
+    "name": "Shoes01_m06_D",
+    "display_name": "Simple Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes01_m01",
+    "id": "fe43bcae-b562-4c02-a484-390a784a1b90",
+    "clothing": "Shoes01_m06"
+  },
+  {
+    "name": "F_HairDecor02_m01_A",
+    "display_name": "Narrow Headband",
+    "class": "Not specified",
+    "ui_name": "ui_nm_f_hairdecor_m02",
+    "id": "fe64808e-a09a-49ea-a00c-14f8704f8027",
+    "clothing": "F_HairDecor02_m01"
+  },
+  {
+    "name": "Waffenrock08_mkhTournament_03_B",
+    "display_name": "Riding Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock08_m01",
+    "id": "fefb708a-289c-4153-a989-6559478f4350",
+    "clothing": "Waffenrock08_mkhTournament_03"
+  },
+  {
+    "name": "Shoes03_m01_C",
+    "display_name": "Soft Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes03_m01",
+    "id": "ffd9af7c-d24d-4e70-8c25-ad22a37a64e7",
+    "clothing": "Shoes03_m01"
+  },
+  {
+    "name": "kovaniZavodniPodkovy_caulkinHorseshoe",
+    "display_name": "Spiked Horseshoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_kovaniZavodniPodkovy_caulkinHorseshoe",
+    "id": "22799e4c-1489-44b1-807f-6bfa3df47425",
+    "clothing": "kovaniZavodniPodkovy_caulkinHorseshoe"
+  },
+  {
+    "name": "Waffenrock01_mTwitch",
+    "display_name": "Warhorse Waffenrock",
+    "class": "Not specified",
+    "ui_name": "ui_nm_waffenrock_twitch",
+    "id": "660a39ee-f440-4dd4-a412-4b89d1bad7f5",
+    "clothing": "Waffenrock01_mTwitch"
+  },
+  {
+    "name": "Shoes01_mTwitch_D",
+    "display_name": "Cutpurse's Shoes",
+    "class": "Not specified",
+    "ui_name": "ui_nm_shoes_twitch",
+    "id": "86eb09e2-7dcb-4c46-a357-a70c3749ba33",
+    "clothing": "Shoes01_mTwitch"
+  },
+  {
+    "name": "Gauntlets08_mTwitch",
+    "display_name": "Warhorse Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets_twitch",
+    "id": "9403ad41-7eea-451b-836f-32ba034ef3bb",
+    "clothing": "Gauntlets08_m06"
+  },
+  {
+    "name": "GauntletsBrunswig_m01",
+    "display_name": "Brunswick's Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets08_m01_Brunswig",
+    "id": "c052fb20-9f20-4ebd-8b7f-8ff937ee11b0",
+    "clothing": "GauntletsBrunswig_m01"
+  },
+  {
+    "name": "WreathTwitch_m01",
+    "display_name": "Alluring Wreath",
+    "class": "Not specified",
+    "ui_name": "ui_nm_wreath_twitch",
+    "id": "fc60850a-a266-421c-be69-6839787f56cd",
+    "clothing": "WreathTwitch_m01"
+  },
+  {
+    "name": "alias_prepadeni_gauntlets",
+    "display_name": "Noble's Gauntlets",
+    "class": "Not specified",
+    "ui_name": "ui_nm_gauntlets04_m01",
+    "id": "cb8ab8cb-949a-4e9f-910a-0a7dfd5b9cac",
+    "clothing": "Gauntlets04_m06"
+  },
+  {
+    "name": "alias_loot_lemingerSpectacles",
+    "display_name": "Leminger's Spectacles",
+    "class": "Not specified",
+    "ui_name": "ui_nm_alias_loot_lemingerSpectacles",
+    "id": "e485dff2-7673-4b2b-9f5e-770b5bbcd800",
+    "clothing": "Spectacles01_m01"
+  }
+]

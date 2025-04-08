@@ -4,7 +4,7 @@ from typing import Dict, Any, Optional
 from xml.etree.ElementTree import ElementTree
 from utils import logger, ensure_dir, init_data_json, write_json, unwrap_key, xform_ui_dict, convert_xml
 from config import ROOT_DIR, KCD2_DIR
-from scripts import get_version, get_xml, parse_items
+from scripts import get_version, get_xml, parse_items, process_items
 
 def main(debug: bool = False) -> int:
     """Main function for KCD2 data extraction."""
@@ -62,8 +62,19 @@ def main(debug: bool = False) -> int:
         write_json(log_dir / "debug" / "combined_dict.json", combined_dict, indent=4)
     
     # Parse the combined_items dictionary
-    parsed_dict = parse_items(root_dir, version_id, combined_dict, text_ui_dict)
-
+    parsed_items = parse_items(root_dir, version_id, combined_dict, text_ui_dict, data)
+    if not parsed_items:
+        logger.error("Failed to parse items")
+        return 1
+    
+    # Prep parsed items for writing to data.json
+    logger.info("Preparing parsed items for writing to data.json...")
+    items_dict = Optional[Dict[str, Any]]
+    items_dict = process_items(parsed_items)
+    if not items_dict:
+        logger.error("Failed to process items")
+        return 1
+    write_json(debug_dir / "items_dict.json", items_dict, indent=4)
 
     # Return 0 for success
     return 0

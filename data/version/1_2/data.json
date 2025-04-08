@@ -82,7 +82,7 @@
             "iconCategory": -1
         }
     ],
-    "ui_slots": [
+    "uiSlots": [
         {
             "id": -1,
             "name": "undefined",
@@ -246,7 +246,7 @@
             "tooltip": "Weapon \u2014 Shield"
         }
     ],
-    "weapon_types": [
+    "weaponTypes": [
         {
             "id": -1,
             "name": "undefined",
@@ -389,7 +389,7 @@
             "uiSlot": -1
         }
     ],
-    "armor_types": [
+    "armorTypes": [
         {
             "id": -1,
             "name": "undefined",
@@ -634,7 +634,7 @@
             ]
         }
     ],
-    "dice_badges": {
+    "diceBadges": {
         "types": {
             "0": "plumb",
             "1": "silver",

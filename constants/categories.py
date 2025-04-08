@@ -28,7 +28,7 @@ ITEM_CATEGORIES = [
     {"id":  9, "name": "melee",     "iconCategory": -1},
     {"id": 10, "name": "ranged",    "iconCategory": -1},
     {"id": 11, "name": "shield",    "iconCategory": -1},
-    {"id": 12, "name": "die",       "iconCategory": -1},
+    {"id": 12, "name": "dice",       "iconCategory": -1},
     {"id": 13, "name": "diceBadge", "iconCategory": -1},    
 ]
 
@@ -49,7 +49,7 @@ ITEM_CATEGORIES = [
     {"id":  9, "name": "melee",     "iconCategory":  5},
     {"id": 10, "name": "ranged",    "iconCategory":  5},
     {"id": 11, "name": "shield",    "iconCategory":  5},
-    {"id": 12, "name": "die",       "iconCategory":  6},
+    {"id": 12, "name": "dice",       "iconCategory":  6},
     {"id": 13, "name": "diceBadge", "iconCategory":  6},
 ]
 '''

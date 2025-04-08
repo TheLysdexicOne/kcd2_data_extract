@@ -1,11 +1,10 @@
 import copy
-import constants as const
 from pathlib import Path
 from typing import Dict, List, Any, Optional, Tuple, Union
 from utils import logger, write_json
 
 
-def parse_items(root_dir: Path, version_id: str, combined_items: Dict[str, Any], text_ui_items: Dict[str, Any]) -> Dict[str, Any]:
+def parse_items(root_dir: Path, version_id: str, combined_items: Dict[str, Any], text_ui_items: Dict[str, Any], data: Dict[str, Any]) -> Dict[str, Any]:
     """
     Process and transform items data from XML-derived dictionaries.
     
@@ -20,42 +19,89 @@ def parse_items(root_dir: Path, version_id: str, combined_items: Dict[str, Any],
     """
     logger.info("Parsing items...")
     debug_dir = root_dir / "logs" / "debug"
+    version_dir = root_dir / "data" / "version" / version_id
 
-    # Create copies of the dictionaries to avoid modifying the originals
-    parsed_items = copy.deepcopy(combined_items)
-    ui_text = copy.deepcopy(text_ui_items)  # Not used yet, but kept for future expansion
-
-    # Remove unwanted item categories
-    item_classes_to_remove = [
-        "AlchemyBase", "Ammo", "CraftingMaterial", "Document", "Food", 
-        "Herb", "MiscItem", "NPCTool", "Ointment", "PickableItem", "Poison"
-    ]
-    for item_class in item_classes_to_remove:
-        if item_class in parsed_items:
-            del parsed_items[item_class]
-
-    # Process items data in steps
-    logger.info("Removing @ symbol from keys...")
-    parsed_items = remove_at_signs(parsed_items)
+    # Input validation
+    if not combined_items:
+        logger.error("No combined items data provided")
+        return {}
+        
+    if not text_ui_items:
+        logger.warning("No text UI items data provided, display names will be missing")
     
-    logger.info("Transforming named lists...")
-    parsed_items = transform_named_lists(parsed_items)
+    try:
+        # Create copies of the dictionaries to avoid modifying the originals
+        parsed_items = copy.deepcopy(combined_items)
+        ui_text = copy.deepcopy(text_ui_items)
+        
+        # Execute processing steps with error handling
+        try:
+            # Remove unwanted item categories
+            item_classes_to_remove = [
+                "AlchemyBase", "Ammo", "CraftingMaterial", "Document", "Food", 
+                "Herb", "MiscItem", "NPCTool", "Ointment", "PickableItem", "Poison"
+            ]
+            for item_class in item_classes_to_remove:
+                if item_class in parsed_items:
+                    del parsed_items[item_class]
 
-    logger.info("Fixing aliases...")
-    parsed_items = fix_alias(parsed_items)
+            # Process items data in steps
+            logger.info("Removing @ symbol from keys...")
+            parsed_items = remove_at_signs(parsed_items)
+            
+            # REMOVING THIS STEP - keeping array structure
+            # logger.info("Transforming named lists...")
+            # parsed_items = transform_named_lists(parsed_items)
 
-    # Remove Item Alias category if it still exists
-    if "ItemAlias" in parsed_items:
-        logger.info("Removing ItemAlias category with unresolved aliases...")
-        del parsed_items["ItemAlias"]
-    
-    logger.info("Condensing categories...")
-    parsed_items = condense_categories(parsed_items)
-    
-    # Save processed data for debugging
-    write_json(debug_dir / "parsed_items.json", parsed_items, indent=4)
+            logger.info("Fixing aliases...")
+            parsed_items = fix_alias(parsed_items)
 
-    return parsed_items
+            # Remove Item Alias category if it still exists
+            if "ItemAlias" in parsed_items:
+                logger.info("Removing ItemAlias category with unresolved aliases...")
+                del parsed_items["ItemAlias"]
+            
+            logger.info("Condensing categories...")
+            parsed_items = condense_categories(parsed_items)
+            
+            logger.info("Removing unnecessary items...")
+            parsed_items = remove_items(parsed_items)
+
+            logger.info("Adding display names to items...")
+            parsed_items = add_display_names(parsed_items, ui_text)
+
+            logger.info("Adding Armor Types...")
+            parsed_items = add_armor_types(parsed_items, data)
+            
+            # Validate final data structure
+            category_counts = {category: len(items) for category, items in parsed_items.items()}
+            logger.info(f"Final category counts: {category_counts}")
+            total_items = sum(category_counts.values())
+            logger.info(f"Total items after processing: {total_items}")
+            
+            if total_items == 0:
+                logger.warning("No items remain after processing! Check for errors.")
+
+        except Exception as e:
+            logger.error(f"Error during item processing: {str(e)}")
+            import traceback
+            logger.debug(traceback.format_exc())
+            # Continue with what we have so far
+        
+        # Save processed data for debugging and versioning
+        try:
+            write_json(debug_dir / "parsed_items.json", parsed_items, indent=4)
+            write_json(version_dir / "parsed_items.json", parsed_items, indent=4)
+        except Exception as e:
+            logger.error(f"Error writing debug JSON: {str(e)}")
+
+        return parsed_items
+        
+    except Exception as e:
+        logger.error(f"Critical error in parse_items: {str(e)}")
+        import traceback
+        logger.debug(traceback.format_exc())
+        return {}
 
 
 def remove_at_signs(obj: Any) -> Any:
@@ -143,16 +189,29 @@ def fix_alias(parsed_items: Dict[str, Any]) -> Dict[str, Any]:
         if category == "ItemAlias":
             continue
             
-        for item_name, item_data in items.items():
-            if isinstance(item_data, dict) and "Id" in item_data:
+        if not isinstance(items, list):
+            logger.warning(f"Category {category} is not a list - skipping")
+            continue
+            
+        for item_data in items:
+            if isinstance(item_data, dict) and "Id" in item_data and "Name" in item_data:
                 source_id_map[item_data["Id"]] = (category, item_data)
     
     # Process each alias item
-    for alias_name, alias_data in list(parsed_items["ItemAlias"].items()):
-        if "SourceItemId" not in alias_data:
-            logger.warning(f"Alias '{alias_name}' has no SourceItemId")
+    if not isinstance(parsed_items["ItemAlias"], list):
+        logger.warning("ItemAlias is not a list - skipping alias processing")
+        return parsed_items
+        
+    # Keep track of aliases to remove
+    aliases_to_keep = []
+    
+    # Process each alias item
+    for alias_data in parsed_items["ItemAlias"]:
+        if not isinstance(alias_data, dict) or "SourceItemId" not in alias_data or "Name" not in alias_data:
+            aliases_to_keep.append(alias_data)  # Keep invalid aliases for now
             continue
             
+        alias_name = alias_data["Name"]
         source_id = alias_data["SourceItemId"]
         
         # Look up source item in our map
@@ -161,6 +220,7 @@ def fix_alias(parsed_items: Dict[str, Any]) -> Dict[str, Any]:
         if source_info is None:
             logger.debug(f"Source item with ID '{source_id}' not found for alias '{alias_name}'")
             missing_count += 1
+            aliases_to_keep.append(alias_data)  # Keep aliases with missing sources
             continue
             
         source_category, source_item = source_info
@@ -173,15 +233,15 @@ def fix_alias(parsed_items: Dict[str, Any]) -> Dict[str, Any]:
             if key != "SourceItemId":
                 merged_item[key] = value
         
-        # Move the alias to the same category
-        parsed_items[source_category][alias_name] = merged_item
-        
-        # Remove from ItemAlias category
-        del parsed_items["ItemAlias"][alias_name]
+        # Move the alias to the same category as its source
+        parsed_items[source_category].append(merged_item)
         
         moved_count += 1
         alias_count += 1
-        
+    
+    # Replace ItemAlias with only the aliases we want to keep
+    parsed_items["ItemAlias"] = aliases_to_keep
+    
     logger.info(f"Processed {alias_count} aliases: {moved_count} moved to source categories, {missing_count} with missing sources")
         
     return parsed_items
@@ -212,21 +272,26 @@ def condense_categories(parsed_items: Dict[str, Any]) -> Dict[str, Any]:
         if target_category not in condensed_item_counts:
             condensed_item_counts[target_category] = 0
 
+        # Ensure target category exists and is a list
+        if target_category not in parsed_items:
+            parsed_items[target_category] = []
+            
         for category in source_categories:
             if category == target_category:
                 continue  # Don't merge a category into itself
                 
             if category in parsed_items:
+                # Skip if not a list
+                if not isinstance(parsed_items[category], list):
+                    logger.warning(f"Category {category} is not a list - skipping")
+                    continue
+                    
                 # Count items being merged
                 category_item_count = len(parsed_items[category])
-                condensed_item_counts[target_category] += category_item_count
+                condensed_item_counts[target_category] = condensed_item_counts.get(target_category, 0) + category_item_count
                 
-                # Ensure target category exists
-                if target_category not in parsed_items:
-                    parsed_items[target_category] = {}
-                    
-                # Merge the items
-                parsed_items[target_category].update(parsed_items[category])
+                # Merge the items - extend the target list with source list
+                parsed_items[target_category].extend(parsed_items[category])
                 
                 # Remove the source category
                 del parsed_items[category]
@@ -237,5 +302,312 @@ def condense_categories(parsed_items: Dict[str, Any]) -> Dict[str, Any]:
     for category, count in condensed_item_counts.items():
         if count > 0:
             logger.info(f"Condensed {count} items into {category} category")
+    
+    # Move "Weapons" category to the first key in the dictionary
+    if "Weapons" in parsed_items:
+        weapons_data = parsed_items.pop("Weapons")
+        parsed_items = {"Weapons": weapons_data, **parsed_items}
 
+    return parsed_items
+
+def remove_items(parsed_items: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Remove items that are not needed or are duplicates.
+    
+    Args:
+        parsed_items: Dictionary of items organized by category
+
+    Returns:
+        Dictionary with unnecessary items removed
+    """
+    # Define word filters for item names
+    key_filters = [
+        "_empty", "duel", "_broken", "torch"
+    ]
+
+    icon_filters = [ #IconId
+        "trafficCone"
+    ]
+
+    ui_name_filters = [ #UIName
+        "_warning"
+    ]
+    
+    # Define key-value pairs to filter out
+    kv_filters = [
+        {"key": "SubClass", "value": "5"},
+        # Add more key-value filters as needed
+    ]
+    
+    # Counters for logging
+    removed_counts = {
+        "key_filter": 0,
+        "icon_filter": 0,
+        "ui_name_filter": 0,
+        "kv_filter": 0
+    }
+
+    for category, items in list(parsed_items.items()):
+        # Skip if not a list
+        if not isinstance(items, list):
+            logger.warning(f"Category {category} is not a list - skipping")
+            continue
+            
+        # Create a new list to keep only the items we want
+        filtered_items = []
+        
+        for item in items:
+            # Skip non-dictionary items
+            if not isinstance(item, dict) or "Name" not in item:
+                filtered_items.append(item)  # Keep items without Name
+                continue
+                
+            item_name = item["Name"]
+            should_keep = True
+            
+            # Check key-value filters
+            for kv_filter in kv_filters:
+                filter_key = kv_filter["key"]
+                filter_value = kv_filter["value"]
+                
+                if filter_key in item and str(item[filter_key]) == filter_value:
+                    should_keep = False
+                    removed_counts["kv_filter"] += 1
+                    break
+            
+            # Check other filters if the item wasn't already flagged for removal
+            if should_keep:
+                if any(filter_word.lower() in item_name.lower() for filter_word in key_filters):
+                    should_keep = False
+                    removed_counts["key_filter"] += 1
+                elif any(filter_word.lower() in item.get("IconId", "").lower() for filter_word in icon_filters):
+                    should_keep = False
+                    removed_counts["icon_filter"] += 1
+                elif any(filter_word.lower() in item.get("UIName", "").lower() for filter_word in ui_name_filters):
+                    should_keep = False
+                    removed_counts["ui_name_filter"] += 1
+            
+            # Keep the item if it passed all filters
+            if should_keep:
+                filtered_items.append(item)
+        
+        # Replace the original list with the filtered list
+        parsed_items[category] = filtered_items
+
+    # Log results
+    total_removed = sum(removed_counts.values())
+    if total_removed > 0:
+        logger.info(f"Removed {total_removed} items total:")
+        for filter_type, count in removed_counts.items():
+            if count > 0:
+                if filter_type == "kv_filter":
+                    kv_details = ", ".join([f"{kv['key']}={kv['value']}" for kv in kv_filters])
+                    logger.info(f"  - {count} items with {kv_details}")
+                else:
+                    logger.info(f"  - {count} items by {filter_type.replace('_', ' ')}")
+
+    return parsed_items
+
+def add_display_names(parsed_items: Dict[str, Any], ui_text: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Add display names to items based on their UIName or other properties.
+    Properly capitalizes display names including handling apostrophes.
+    
+    Args:
+        parsed_items: Dictionary of items organized by category
+        ui_text: Dictionary containing text UI items
+    
+    Returns:
+        Dictionary with display names added to items
+    """
+    items_processed = 0
+    display_names_found = 0
+    display_names_missing = 0
+    
+    def proper_title_case(text: str) -> str:
+        """
+        Properly capitalize text while respecting apostrophes and other punctuation.
+        Ensures "servant's hood" becomes "Servant's Hood" not "Servant'S Hood".
+        """
+        # Handle empty strings
+        if not text:
+            return text
+            
+        # Split the text into words
+        words = text.split()
+        # Process each word to properly capitalize it
+        capitalized_words = []
+        
+        for word in words:
+            if not word:
+                capitalized_words.append(word)
+                continue
+                
+            # If word contains apostrophe, handle specially
+            apostrophe_pos = word.find("'")
+            if apostrophe_pos > 0 and apostrophe_pos < len(word) - 1:
+                # Capitalize only the first part before the apostrophe
+                word = word[0].upper() + word[1:apostrophe_pos+1] + word[apostrophe_pos+1].lower() + word[apostrophe_pos+2:]
+            else:
+                # Normal case: capitalize first letter, lowercase the rest
+                word = word[0].upper() + word[1:].lower()
+                
+            capitalized_words.append(word)
+            
+        return " ".join(capitalized_words)
+    
+    # Iterate through all categories
+    for category, items in parsed_items.items():
+        # Skip if not a list
+        if not isinstance(items, list):
+            logger.warning(f"Category {category} is not a list - skipping")
+            continue
+        
+        # Iterate through all items in the category
+        for item in items:
+            items_processed += 1
+            
+            # Skip if not a dictionary or doesn't have UIName
+            if not isinstance(item, dict) or "UIName" not in item:
+                # Set DisplayName to null for items without UIName
+                if isinstance(item, dict):
+                    item["DisplayName"] = "Null"
+                    display_names_missing += 1
+                continue
+            
+            ui_name = item["UIName"]
+            
+            # Try to find the UI name in the text dictionary
+            if ui_name in ui_text:
+                # Get the text array
+                text_array = ui_text[ui_name]
+                
+                # Use the second element if available, otherwise use the first
+                if len(text_array) > 1:
+                    display_name = text_array[1]
+                elif len(text_array) == 1:
+                    display_name = text_array[0]
+                else:
+                    display_name = "Null"
+                
+                # Apply our improved title case function
+                display_name = proper_title_case(display_name)
+                
+                # Set the display name in the item data
+                item["DisplayName"] = display_name
+                display_names_found += 1
+            else:
+                # Set DisplayName to null if no match found
+                item["DisplayName"] = "Null"
+                display_names_missing += 1
+    
+    # Log the results
+    logger.info(f"Processed {items_processed} items")
+    logger.info(f"Found display names for {display_names_found} items")
+    logger.info(f"Missing display names for {display_names_missing} items")
+    
+    return parsed_items
+
+def add_armor_types(parsed_items: Dict[str, Any], data: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Add armor types to items in the parsed items dictionary.
+    
+    Args:
+        parsed_items: Dictionary of items organized by category
+        data: Data dictionary containing armor types information
+    
+    Returns:
+        Dictionary with armor types added to items
+    """
+    armor_type_counts = {
+        "by_clothing": 0,
+        "by_filter": 0,
+        "unmatched": 0
+    }
+    
+    # Keep track of unmatched items for debugging
+    unmatched_items = []
+    
+    # Get armor types from data
+    armor_types = data.get("armorTypes", [])
+    if not armor_types:
+        logger.warning("No armor types found in data")
+        return parsed_items
+    
+    # Create filter to armor type id mapping for quick lookups
+    filter_to_armor_type = {}
+    for armor_type in armor_types:
+        for filter_text in armor_type.get("filters", []):
+            filter_to_armor_type[filter_text] = armor_type["id"]
+    
+    # Process armor items
+    if "Armor" in parsed_items:
+        # Skip if not a list
+        if not isinstance(parsed_items["Armor"], list):
+            logger.warning("Armor category is not a list - skipping")
+            return parsed_items
+            
+        for item in parsed_items["Armor"]:
+            if not isinstance(item, dict) or "Name" not in item:
+                continue
+                
+            item_name = item["Name"]
+            armor_type_id = -1  # Default to undefined
+            
+            # Check if the item has a Clothing property and try to match it to filters
+            if "Clothing" in item and item["Clothing"]:
+                clothing_value = item["Clothing"]
+                
+                # Try to match the Clothing value against filters
+                for filter_text, type_id in filter_to_armor_type.items():
+                    # Check if the filter appears at the start of the Clothing string
+                    if clothing_value.startswith(filter_text) or filter_text in clothing_value:
+                        armor_type_id = type_id
+                        armor_type_counts["by_clothing"] += 1
+                        break
+            
+            # If still no match, try to match by filter patterns in the item name
+            if armor_type_id == -1:
+                for filter_text, type_id in filter_to_armor_type.items():
+                    if filter_text in item_name:
+                        armor_type_id = type_id
+                        armor_type_counts["by_filter"] += 1
+                        break
+            
+            # If still no match, log it and add to unmatched list
+            if armor_type_id == -1:
+                armor_type_counts["unmatched"] += 1
+                logger.debug(f"Could not determine armor type for item: {item_name}")
+                
+                # Collect relevant info about unmatched item
+                unmatched_info = {
+                    "name": item_name,
+                    "display_name": item.get("DisplayName", "Unknown"),
+                    "ui_name": item.get("UIName", "Not specified"),
+                    "id": item.get("Id", "Unknown"),
+                    "clothing": item.get("Clothing", "Not specified")
+                }
+                unmatched_items.append(unmatched_info)
+            
+            # Add the armor type ID to the item
+            item["ArmorType"] = armor_type_id
+    
+    # Log results
+    total_processed = sum(armor_type_counts.values())
+    logger.info(f"Processed {total_processed} armor items:")
+    logger.info(f"  - {armor_type_counts['by_clothing']} matched by clothing property")
+    logger.info(f"  - {armor_type_counts['by_filter']} matched by filter in name")
+    logger.info(f"  - {armor_type_counts['unmatched']} unmatched (assigned to undefined)")
+    
+    # Write detailed unmatched items to debug file
+    if unmatched_items:
+        try:
+            debug_file_path = Path("logs/debug/unmatched_armor_items.json")
+            # Ensure parent directory exists
+            debug_file_path.parent.mkdir(parents=True, exist_ok=True)
+            write_json(debug_file_path, unmatched_items, indent=2)
+            logger.info(f"Wrote {len(unmatched_items)} unmatched armor items to {debug_file_path}")
+        except Exception as e:
+            logger.error(f"Error writing unmatched armor items to debug file: {str(e)}")
+    
     return parsed_items

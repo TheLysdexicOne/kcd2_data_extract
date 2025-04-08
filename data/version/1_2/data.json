@@ -1,8 +1,9 @@
 {
     "version": {
-        "id": 5,
-        "name": "release_1_2",
-        "version": "1.2"
+        "id": 104,
+        "name": "release_1_2_game_pc",
+        "branch": "release_1_2",
+        "platform": "PC"
     },
     "categories": [
         {

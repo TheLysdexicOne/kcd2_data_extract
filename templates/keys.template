@@ -1,0 +1,37 @@
+"items" = {
+    {item_category} : {
+        "id": "Id", # String
+        "name": "Name", # String
+        "displayName": "" #String - placeholder for when we pull names from text_ui_items
+        "uiName": "UIName", # String
+        "iconID": "IconID", # String
+        "uiInfo": "UIInfo", # String
+        "clothing": "Clothing", # String
+        "type": "Class" OR "Type" OR Use ARMOR_TYPES["filters"], # Integer (Weapon OR DiceBadge OR Armor)
+        "subType": "SubType", # Integer (only DiceBadge)
+        "slots": "NumberOfQuickSlots", # Integer (only QuickSlotContainers)
+        "sideWeights": "SideWeights", # Read as string, but store as List (only Die)
+        "sideValues": "SideValues", # read as string, but store as List (only Die)
+        "ammo": # String (only ranged weapons)
+        "stats": {
+            "weight": "Weight", # Float - 1 decimal
+            "price": "Price * 0.1", # Integer - round if needed
+            "maxQuality": "MaxQuality", # Integer
+            "durability": "MaxStatus", # Integer
+            "strReq": "StrReq", # Integer
+            "agiReq": "AgiReq", # Integer
+            "charisma": "Charisma", # Integer
+            "conspicuousness": "50 + (Conspicuousness * 50)", # Float during calculation, rounded Integer after caluclations
+            "noise": "Noise * 100", # Float during calculation, rounded Integer after caluclations
+            "visibility": "50 + (Visibility * 50)", # Float during calculation, rounded Integer after caluclations
+            "defense": "Defense" # Integer (only Shield)
+            "defenseSlash": "DefenseSlash", # Integer (only Armor)
+            "defenseSmash": "DefenseSmash",# Integer (only Armor)
+            "defenseStab": "DefenseStab", # Integer (only Armor)
+            "attack": "Attack" # Integer (only Weapon)
+            "attackSlash": "Attack * AttackModSlash", # Integer (only Weapon)
+            "attackSmash": "Attack * AttackModSmash", # Integer (only Weapon)
+            "attackStab": "Attack * AttackModStab", # Integer (only Weapon)
+        }
+    }
+}

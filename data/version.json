@@ -1,6 +1,13 @@
 {
-    "game": "Kingdom Come Deliverance 2",
-    "id": 5,
-    "name": "release_1_2",
-    "version": "1.2"
+    "latest": {
+        "Id": 104,
+        "Name": "release_1_2_game_pc",
+        "Platform": {
+            "Name": "PC"
+        },
+        "Branch": {
+            "Id": 5,
+            "Name": "release_1_2"
+        }
+    }
 }

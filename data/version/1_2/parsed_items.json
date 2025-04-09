@@ -10198,7 +10198,7 @@
             "Id": "012dee46-cfc3-4632-81ef-075c0bdaf0d4",
             "Name": "Waffenrock08_mPisek_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -10225,7 +10225,7 @@
             "Id": "014e4e12-5574-4756-8460-2c5078a3285c",
             "Name": "Waffenrock01_mMagyar_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -10387,7 +10387,7 @@
             "Id": "018c7670-6fe6-4728-8c3d-d1b1becade1a",
             "Name": "F_Wreath01_m05",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -10468,7 +10468,7 @@
             "Id": "02339c2a-75cb-490e-80de-7cbb8f4f3038",
             "Name": "F_Cotehardie04_m10_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -10765,7 +10765,7 @@
             "Id": "03a8173e-fd4c-4913-a181-a3fe1b432200",
             "Name": "F_Shoes02_m04_B",
             "DisplayName": "Common Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -10955,7 +10955,7 @@
             "Id": "04ca0525-2e33-42d1-bf62-1cb14dcc306a",
             "Name": "F_HairDecor04_m02_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "9",
@@ -11091,7 +11091,7 @@
             "Id": "070730ed-b35b-4bb1-82e9-0e75c1727ac6",
             "Name": "F_Surcote01_m13_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -11255,7 +11255,7 @@
             "Id": "07bb9f44-91f8-46fb-bed2-33bc8cd6a605",
             "Name": "Waffenrock09_mNebak_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -11553,7 +11553,7 @@
             "Id": "0904d567-9fb2-4833-acf4-80f38f5d49b1",
             "Name": "F_Cotehardie04_m11_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "13",
@@ -11634,7 +11634,7 @@
             "Id": "09ae6cbc-77d1-4686-801e-871b49440d7d",
             "Name": "Gauntlets05_m01_A5",
             "DisplayName": "Nuremberg Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -11688,7 +11688,7 @@
             "Id": "09c8c27c-db50-4bdf-80a5-f107402bbba0",
             "Name": "Waffenrock09_mKuttenberg_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -11769,7 +11769,7 @@
             "Id": "0a218fa9-58c7-4696-b5a3-7954e639dd9e",
             "Name": "HandWrap01_m04_E",
             "DisplayName": "Hand Wrap",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "144",
@@ -11823,7 +11823,7 @@
             "Id": "0a747df3-03d0-43b4-93ef-f819ca46062d",
             "Name": "F_HairDecor02_m03_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "13",
@@ -12120,7 +12120,7 @@
             "Id": "0bd28c1a-f069-4de7-81c9-ba9300807dff",
             "Name": "F_Cotehardie03_m10_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "153",
@@ -12282,7 +12282,7 @@
             "Id": "0cec5237-aaca-4151-8630-51221c08dbb3",
             "Name": "F_Cotehardie01_m06_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -12554,7 +12554,7 @@
             "Id": "0e62824f-8ef8-488b-a2b1-32a42133fa6d",
             "Name": "Gauntlets08_m02_B4",
             "DisplayName": "Brigandine Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "1",
@@ -12635,7 +12635,7 @@
             "Id": "0ee3986e-258d-4283-8e60-c17cafe97827",
             "Name": "Waffenrock02_mSemin_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -12689,7 +12689,7 @@
             "Id": "0f49fa33-1985-4da3-8aae-f497df6f95ec",
             "Name": "Shoes03_m06_C",
             "DisplayName": "Soft Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -12878,7 +12878,7 @@
             "Id": "0fda3070-6b14-4fa9-bfd1-26da6924d32e",
             "Name": "Shoes05_m01_B",
             "DisplayName": "Pointed Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "13",
@@ -12959,7 +12959,7 @@
             "Id": "101b033e-ce62-48ea-846a-8c38b3ef5f6c",
             "Name": "Waffenrock02_m01_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -13013,7 +13013,7 @@
             "Id": "10d15447-8f9b-462f-9cb5-8ffad0d9cadd",
             "Name": "Waffenrock03_m03_A",
             "DisplayName": "Fastened Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -13178,7 +13178,7 @@
             "Id": "1149024d-72f5-405d-8edb-041d58b59f74",
             "Name": "Shoes01_m01_D",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -13259,7 +13259,7 @@
             "Id": "11669f9a-1f44-46ea-b342-e8443ac87fe7",
             "Name": "F_Cotehardie04_m05_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -13964,7 +13964,7 @@
             "Id": "13eccab3-ee46-40e4-b0d1-73f3acde338c",
             "Name": "HandWrap01_m01_E",
             "DisplayName": "Hand Wrap",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -13991,7 +13991,7 @@
             "Id": "13f1ca12-2e81-48ad-9122-cc090e9028fe",
             "Name": "Waffenrock08_mkhTournament_07_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "151",
@@ -14209,7 +14209,7 @@
             "Id": "15cefa3b-76ca-44b2-ac8a-3ec615916dfc",
             "Name": "F_Cotehardie03_m09_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -14236,7 +14236,7 @@
             "Id": "15f5c276-12c5-4a84-9708-bc78102da03f",
             "Name": "Shoes01_m05_D",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -14371,7 +14371,7 @@
             "Id": "16cd3a83-a291-4c80-98c8-c3152c42ad6f",
             "Name": "F_Cotehardie01_m14_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -14425,7 +14425,7 @@
             "Id": "173db335-8991-46fc-b7a1-7eeaaaf34c96",
             "Name": "Waffenrock08_m08_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -14615,7 +14615,7 @@
             "Id": "17bb0339-31eb-4967-8a09-e3389d31958b",
             "Name": "F_Cotehardie01_m05_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "147",
@@ -14669,7 +14669,7 @@
             "Id": "17f0d18c-c55c-4570-8710-410fe0238792",
             "Name": "Gauntlets05_m02_A5",
             "DisplayName": "Nuremberg Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "0",
@@ -14696,7 +14696,7 @@
             "Id": "1820d8e5-f3a7-44e0-883f-541f1df673c9",
             "Name": "F_HairDecor01_m03_D",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "1",
@@ -14750,7 +14750,7 @@
             "Id": "184a4f59-cb07-41c8-8423-68014a0411b3",
             "Name": "Waffenrock09_mLeipa_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -15157,7 +15157,7 @@
             "Id": "1a7b20dd-7e52-4030-97e0-f9615f88afbd",
             "Name": "F_Surcote01_m05_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "153",
@@ -15373,7 +15373,7 @@
             "Id": "1b829756-e8a1-44bc-8d7d-5d33152bc16c",
             "Name": "F_Cotehardie03_m05_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "147",
@@ -15454,7 +15454,7 @@
             "Id": "1bbaa5e7-4ac0-49e8-ae26-b8f2b524ce75",
             "Name": "Shoes05_m08_B",
             "DisplayName": "Pointed Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -15670,7 +15670,7 @@
             "Id": "1c945f16-049b-4b36-a925-d32ab7939861",
             "Name": "Shoes01_m08_D",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -15915,7 +15915,7 @@
             "Id": "1d308af8-c7d5-4738-8a08-972e4c36c067",
             "Name": "Shoes02_m05_B",
             "DisplayName": "Burgher's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -16024,7 +16024,7 @@
             "Id": "1e1d5953-986f-4fd1-8d3b-db2690dddd64",
             "Name": "Gauntlets08_m05_B4",
             "DisplayName": "Brigandine Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -16132,7 +16132,7 @@
             "Id": "1ed07dd2-9bb4-4754-85af-db7a1b93ebce",
             "Name": "Waffenrock03_m01_A",
             "DisplayName": "Fastened Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -16591,7 +16591,7 @@
             "Id": "22288162-b9d0-4641-8505-d96f9408a555",
             "Name": "F_Wreath01_m04",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -16645,7 +16645,7 @@
             "Id": "2242070d-6870-4de2-8e86-0a50cad82369",
             "Name": "F_HairDecor03_m01_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -16699,7 +16699,7 @@
             "Id": "226c2c4d-84b0-4288-84ba-36ef360febfc",
             "Name": "Waffenrock08_mKrizovnik02_B",
             "DisplayName": "Crusaders Of The Red Star Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -16916,7 +16916,7 @@
             "Id": "243c6ad9-e995-4e40-84cb-07a1a1c6ad6d",
             "Name": "HandWrap01_m03_E",
             "DisplayName": "Hand Wrap",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -17132,7 +17132,7 @@
             "Id": "25759613-1d4b-4d67-a051-6330e75b4a65",
             "Name": "Waffenrock01_mPisek_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -17186,7 +17186,7 @@
             "Id": "259f998d-7f72-4e83-96c9-1dbbd7717086",
             "Name": "F_Surcote01_m03_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "9",
@@ -17268,7 +17268,7 @@
             "Id": "25f0754b-c6a8-4f9c-9126-d926909002f7",
             "Name": "Habit03_m02_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "25",
@@ -17484,7 +17484,7 @@
             "Id": "26a248aa-1b24-429a-a368-032f8ac0d73c",
             "Name": "Waffenrock08_mBergov_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "16",
@@ -17565,7 +17565,7 @@
             "Id": "26d4b32b-0a62-478a-918d-981505497e7c",
             "Name": "Waffenrock02_mBergov_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -17727,7 +17727,7 @@
             "Id": "277954c4-8019-418e-b1c2-4557fe12f98b",
             "Name": "Waffenrock02_m03_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -17970,7 +17970,7 @@
             "Id": "29941c70-6337-4cad-9eca-50695b26817e",
             "Name": "F_Shoes01_m10_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "1",
@@ -18321,7 +18321,7 @@
             "Id": "2b785b0f-8e17-4296-b3af-1a2f77eaada9",
             "Name": "F_Cotehardie01_m11_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -18348,7 +18348,7 @@
             "Id": "2bac4905-4946-4a17-b728-8f059b588eb6",
             "Name": "Waffenrock02_mKuttenberg02_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -18375,7 +18375,7 @@
             "Id": "2bc64ff6-88e5-4b0d-8f94-9c7810d29275",
             "Name": "F_Cotehardie04_mGretaF",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -18402,7 +18402,7 @@
             "Id": "2c375955-b00d-434b-8e0e-03e3d8c180e1",
             "Name": "Waffenrock01_mPrague02_C",
             "DisplayName": "Praguers' Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "151",
@@ -18836,7 +18836,7 @@
             "Id": "2dd6ea92-4024-4113-97ed-6a23f19b39d9",
             "Name": "Gauntlets08_m01_B4",
             "DisplayName": "Brigandine Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -18944,7 +18944,7 @@
             "Id": "2e79bbdc-51db-4c1d-88a7-83b8d8c59112",
             "Name": "F_Cotehardie03_m13_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -19135,7 +19135,7 @@
             "Id": "2f5a44d1-bbb5-4389-8cf6-a5ae3c97e42a",
             "Name": "F_Cotehardie03_m11_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -19162,7 +19162,7 @@
             "Id": "2f5d0549-b885-44c9-a82b-2b2b3a2c5837",
             "Name": "Shoes03_m05_C",
             "DisplayName": "Soft Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "144",
@@ -19189,7 +19189,7 @@
             "Id": "2f88924c-f968-4d0c-80d2-ed8e63787783",
             "Name": "Gauntlets02_m03_B4",
             "DisplayName": "Milanese Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "1",
@@ -19540,7 +19540,7 @@
             "Id": "30f8b9d6-1cd3-40c0-9b1d-e1f90c10abcf",
             "Name": "F_Surcote01_m09_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -19702,7 +19702,7 @@
             "Id": "317fe073-1c63-454c-99b1-ef3615fa49de",
             "Name": "Shoes01_m07_D",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -19999,7 +19999,7 @@
             "Id": "3387f048-d68f-4d03-a97b-29c1c6f6f35f",
             "Name": "Waffenrock03_mKuttenberg03_A",
             "DisplayName": "Fastened Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "24",
@@ -20245,7 +20245,7 @@
             "Id": "343b563d-95f0-4ec2-9247-ebbde648d7ec",
             "Name": "Waffenrock02_mKuttenberg01_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "138",
@@ -20434,7 +20434,7 @@
             "Id": "346e30e4-12c5-4321-8791-b007bd6b66bc",
             "Name": "Waffenrock08_mPrague_B",
             "DisplayName": "Praguers' Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -20542,7 +20542,7 @@
             "Id": "34f8334d-d438-4d50-807e-659ab42901a8",
             "Name": "Waffenrock09_mSemin_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -20650,7 +20650,7 @@
             "Id": "35663a5e-7d0d-4392-85c0-c4498416b245",
             "Name": "F_Surcote01_m06_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -20704,7 +20704,7 @@
             "Id": "359700c7-14ec-413d-924d-b0a682ecb22b",
             "Name": "Waffenrock09_mKuttenberg02_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -20920,7 +20920,7 @@
             "Id": "368cd5b0-fa57-444f-9e3d-6675ce6787e7",
             "Name": "Waffenrock08_m02_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "3",
@@ -21028,7 +21028,7 @@
             "Id": "36d5a502-c280-40a7-bfbe-cf5dbdb69404",
             "Name": "Waffenrock01_mMagyar01_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -21082,7 +21082,7 @@
             "Id": "378b1660-f30b-4bf7-b240-4393636272be",
             "Name": "Shoes03_m07_C",
             "DisplayName": "Soft Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "14",
@@ -21136,7 +21136,7 @@
             "Id": "37f96d3e-f73d-4d3c-8e06-996b1d9a0401",
             "Name": "F_Cotehardie03_m07_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "20",
@@ -21298,7 +21298,7 @@
             "Id": "38c34f78-cfa0-40c9-a94e-5e04dcf35608",
             "Name": "Gauntlets04_m02_C2",
             "DisplayName": "Noble's Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "156",
@@ -21731,7 +21731,7 @@
             "Id": "3af0df65-919e-4d53-b068-c113be16c5da",
             "Name": "F_Shoes02_m03_B",
             "DisplayName": "Common Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -21839,7 +21839,7 @@
             "Id": "3b87b900-7849-4230-8312-9342cf9815a1",
             "Name": "Waffenrock08_m06_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "130",
@@ -22028,7 +22028,7 @@
             "Id": "3c3a5de0-1739-4450-8dee-8432ab87a71b",
             "Name": "F_HairDecor04_m03_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -22190,7 +22190,7 @@
             "Id": "3d03fd46-32cb-4a9c-a7a1-f159a5f926d0",
             "Name": "Gauntlets04_m01_C2",
             "DisplayName": "Noble's Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -22217,7 +22217,7 @@
             "Id": "3d0589c0-7949-468d-a781-4b373a9c0d74",
             "Name": "Waffenrock09_mNebak01_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "121",
@@ -22298,7 +22298,7 @@
             "Id": "3db1577f-aae2-4fcb-85bc-5fcc20a0cd15",
             "Name": "F_Shoes01_m01_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "1",
@@ -22325,7 +22325,7 @@
             "Id": "3dd43c63-5ce0-49b4-9efd-db94895aaf50",
             "Name": "F_Surcote01_m12_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -22379,7 +22379,7 @@
             "Id": "3e09f4df-d90c-4a67-8741-b17d99232e49",
             "Name": "F_Shoes02_m07_B",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "1",
@@ -22433,7 +22433,7 @@
             "Id": "3e4e1ae1-ceab-47b5-b398-e9e49446f10c",
             "Name": "F_Surcote01_m08_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -22842,7 +22842,7 @@
             "Id": "4032f9a9-a779-4575-bfcb-bfeb80601f35",
             "Name": "Habit03_m01_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "134",
@@ -23058,7 +23058,7 @@
             "Id": "40abb1e6-7131-4eee-88a6-c7901ea0aa74",
             "Name": "Gauntlets08_m06_B4",
             "DisplayName": "Brigandine Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "16",
@@ -23193,7 +23193,7 @@
             "Id": "412c3109-9030-4d83-ba93-22292e296162",
             "Name": "Waffenrock08_m04_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -23274,7 +23274,7 @@
             "Id": "421599c3-d048-456a-9e32-ea801d97f7e2",
             "Name": "F_Cotehardie01_m12_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "38",
@@ -23328,7 +23328,7 @@
             "Id": "4223fd8e-e88e-47c9-a9f8-886e1086e281",
             "Name": "Waffenrock03_m02_A",
             "DisplayName": "Fastened Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -23706,7 +23706,7 @@
             "Id": "43eab5d6-dc99-494e-90fe-48f8c91b01d3",
             "Name": "Waffenrock01_mBergov_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -23841,7 +23841,7 @@
             "Id": "444a846d-c5ab-4a57-b763-f1e625a5b4dd",
             "Name": "F_Shoes02_m02_B",
             "DisplayName": "Common Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "0",
@@ -23868,7 +23868,7 @@
             "Id": "445446b3-ebe4-4040-a3db-050b9500245c",
             "Name": "F_HairDecor07_m03_C",
             "DisplayName": "Simple Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "127",
@@ -24381,7 +24381,7 @@
             "Id": "47177c29-7a96-46ec-bbc9-41ebba18b5d0",
             "Name": "Shoes05_m05_B",
             "DisplayName": "Pointed Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -24597,7 +24597,7 @@
             "Id": "4835b390-05a4-42d8-a77d-d4fb30ea03d9",
             "Name": "Gauntlets04_m06_C2",
             "DisplayName": "Noble's Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "156",
@@ -24651,7 +24651,7 @@
             "Id": "48484637-1a8e-487d-afed-8eb7e1573190",
             "Name": "Waffenrock08_mKuttenberg03_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -24922,7 +24922,7 @@
             "Id": "49421dbb-22ab-46e5-b146-2903bb139708",
             "Name": "F_HairDecor03_m03_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "1",
@@ -25084,7 +25084,7 @@
             "Id": "4ab7a21b-087d-4af2-8fc3-383df9a61eb5",
             "Name": "Waffenrock04_mPapal_A",
             "DisplayName": "Ornate Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -25463,7 +25463,7 @@
             "Id": "4cbd42bc-9953-4c98-a778-f310ad909d72",
             "Name": "Waffenrock02_mKuttenberg03_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -25626,7 +25626,7 @@
             "Id": "4d9e267d-72db-43b0-97a5-7d48b5eb2fde",
             "Name": "Shoes02_m02_B",
             "DisplayName": "Burgher's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -25844,7 +25844,7 @@
             "Id": "4f37a3ee-a982-4fe1-a573-b3da90a0e57d",
             "Name": "F_Cotehardie04_m14_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -25871,7 +25871,7 @@
             "Id": "4f383f63-1eeb-40ec-a6d3-b0323a1f6e41",
             "Name": "Waffenrock01_mKrizovnik03_C",
             "DisplayName": "Crusaders Of The Red Star Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -26006,7 +26006,7 @@
             "Id": "4fd067ad-df3f-47ff-84c2-f33bc6a0610b",
             "Name": "F_Surcote01_m07_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "12",
@@ -26087,7 +26087,7 @@
             "Id": "5007c141-b935-4110-8a18-6e7077a51b21",
             "Name": "F_HairDecor05_m02_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -26168,7 +26168,7 @@
             "Id": "504c76da-d9e4-4a75-b333-dfd9b358923d",
             "Name": "Waffenrock08_m03_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "0",
@@ -26384,7 +26384,7 @@
             "Id": "51cbaef8-c34f-4879-a382-97d64829ac1f",
             "Name": "Waffenrock01_mSemin_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -26628,7 +26628,7 @@
             "Id": "52f6b0a3-0ec7-4b6e-a820-a06022f916c1",
             "Name": "Shoes05_mPainter",
             "DisplayName": "Pointed Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "9",
@@ -26655,7 +26655,7 @@
             "Id": "531bff09-3e7a-4678-8c96-be573164591a",
             "Name": "Habit03_m06_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "14",
@@ -26953,7 +26953,7 @@
             "Id": "54933fe9-c9e1-43af-b0bf-8595fc3bad76",
             "Name": "Gauntlets03_m03_D1",
             "DisplayName": "Chainmail Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "156",
@@ -27196,7 +27196,7 @@
             "Id": "557160b7-8b24-448b-85b4-c7f296cedbae",
             "Name": "Waffenrock08_mKuttenberg_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -27358,7 +27358,7 @@
             "Id": "5774e410-d41f-4432-9bca-4fdd636f0b8d",
             "Name": "F_Surcote01_m02_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "137",
@@ -27466,7 +27466,7 @@
             "Id": "58d205c0-3efd-421d-8f97-e377045ef34e",
             "Name": "Wreath01_m01",
             "DisplayName": "Round Cap",
-            "ArmorType": -1
+            "ArmorType": 2
         },
         {
             "DefenseStab": "156",
@@ -27520,7 +27520,7 @@
             "Id": "59179a10-d699-4bf7-87f3-924aabf31063",
             "Name": "Waffenrock09_m05_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -27657,7 +27657,7 @@
             "Id": "598ffca3-a36e-49b3-8982-e79864410620",
             "Name": "F_Cotehardie01_m02_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -27792,7 +27792,7 @@
             "Id": "5a0f4eb7-b011-43ea-8a68-8dac557ca5e0",
             "Name": "F_Shoes02_m06_B",
             "DisplayName": "Common Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -27819,7 +27819,7 @@
             "Id": "5a0fb76a-1999-450d-ab39-48cf75d9952e",
             "Name": "Shoes01_m04_D",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "30",
@@ -28035,7 +28035,7 @@
             "Id": "5afaf2f0-983a-42dd-9071-8e53e4af174c",
             "Name": "Waffenrock08_mSemin_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -28089,7 +28089,7 @@
             "Id": "5b2194a2-cf0f-417e-8d38-5f9a9ca1d17c",
             "Name": "F_HairDecor04_m04_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "14",
@@ -28224,7 +28224,7 @@
             "Id": "5c0210fe-af18-49cd-b7b7-cfff7e1472f4",
             "Name": "Waffenrock02_m04_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "147",
@@ -28955,7 +28955,7 @@
             "Id": "5ee43a42-3ce8-490f-83d4-cb8294cbc51f",
             "Name": "F_Wreath01_m01",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "140",
@@ -29117,7 +29117,7 @@
             "Id": "5fa40d05-bd02-480d-81ec-9b34263a88d1",
             "Name": "Shoes01_m03_D",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -29387,7 +29387,7 @@
             "Id": "607e172c-6af5-49bd-8adc-4d4297d0b371",
             "Name": "Waffenrock09_m04_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -29739,7 +29739,7 @@
             "Id": "627e8530-e405-487b-9bef-7f85d2459360",
             "Name": "Shoes03_m04_C",
             "DisplayName": "Soft Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -29847,7 +29847,7 @@
             "Id": "62c7912d-ae32-4217-83ba-440e01061aa0",
             "Name": "Shoes05_m04_B",
             "DisplayName": "Pointed Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -29874,7 +29874,7 @@
             "Id": "62d366b2-9a4d-40ad-a8c8-f7e0bf663dd9",
             "Name": "Shoes05_m02_B",
             "DisplayName": "Pointed Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -30063,7 +30063,7 @@
             "Id": "63eff267-424a-43fd-a5ec-132c89c286f0",
             "Name": "Gauntlets01_m01_C3",
             "DisplayName": "Hourglass Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -30118,7 +30118,7 @@
             "Id": "646a7c60-e4eb-4fd7-bba9-fde9d682b2cd",
             "Name": "Waffenrock08_mkhTournament_01_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -30226,7 +30226,7 @@
             "Id": "65361263-0cfa-4bb2-a793-2a0f5294bbf8",
             "Name": "Waffenrock03_m04_A",
             "DisplayName": "Fastened Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "37",
@@ -30497,7 +30497,7 @@
             "Id": "66f817cb-14f7-4495-b56e-32d5551ec5af",
             "Name": "F_Cotehardie04_m02_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "1",
@@ -30524,7 +30524,7 @@
             "Id": "67174626-172d-4071-8e51-a6ee557a0ffb",
             "Name": "F_Cotehardie01_m04_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -30605,7 +30605,7 @@
             "Id": "675ce22d-2906-4d60-ab0d-e4e5a0b4be53",
             "Name": "Waffenrock08_mKrizovnik01_B",
             "DisplayName": "Crusaders Of The Red Star Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -30659,7 +30659,7 @@
             "Id": "677f4c8d-8ec3-444e-b650-6ab58804fb13",
             "Name": "HandWrap01_m02_E",
             "DisplayName": "Hand Wrap",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "0",
@@ -30848,7 +30848,7 @@
             "Id": "68dda40c-cd13-4f23-bd55-02b4ec98d241",
             "Name": "Waffenrock02_mRuthart01_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -31283,7 +31283,7 @@
             "Id": "6b04b8a5-24ea-491f-928b-669d84277dd0",
             "Name": "F_Shoes02_m10_B",
             "DisplayName": "Common Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "14",
@@ -31499,7 +31499,7 @@
             "Id": "6c7ea4d3-011f-4052-a23e-3349cc54d56c",
             "Name": "Gauntlets03_m01_D1",
             "DisplayName": "Chainmail Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -31526,7 +31526,7 @@
             "Id": "6c990432-ff7a-407e-b782-a671b8ab9db8",
             "Name": "Waffenrock08_mPapal_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "12",
@@ -31715,7 +31715,7 @@
             "Id": "6de6b589-32f1-4626-a69b-293a4a35ff7d",
             "Name": "Habit03_m05_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -31769,7 +31769,7 @@
             "Id": "6e4534a5-9768-45b7-95ac-7f7052d6ca35",
             "Name": "F_HairDecor02_m02_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "121",
@@ -31850,7 +31850,7 @@
             "Id": "6e94d811-77f4-414f-ad82-24d44e53269f",
             "Name": "F_Shoes01_m07_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -31877,7 +31877,7 @@
             "Id": "6e9b44a4-3e7d-4c26-881f-325b3214972b",
             "Name": "Shoes03_m08_C",
             "DisplayName": "Soft Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -31904,7 +31904,7 @@
             "Id": "6ec70dbb-bba6-4d9a-88ec-d0b82d794ad9",
             "Name": "Shoes05_m06_B",
             "DisplayName": "Pointed Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -31985,7 +31985,7 @@
             "Id": "6f31e9ab-7eb3-4fe0-9785-653568eec882",
             "Name": "Gauntlets08_m03_B4",
             "DisplayName": "Brigandine Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "0",
@@ -32120,7 +32120,7 @@
             "Id": "6fe85d68-4169-4b37-9b1c-6b5ce2f759a8",
             "Name": "Waffenrock08_m09_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "131",
@@ -32473,7 +32473,7 @@
             "Id": "722c1f3a-2ae7-45be-8d15-8f0e683b14e6",
             "Name": "F_HairDecor07_m01_C",
             "DisplayName": "Simple Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -32662,7 +32662,7 @@
             "Id": "738ca996-5bb8-4719-ad97-c941c3759ccc",
             "Name": "Waffenrock03_mPrague_A",
             "DisplayName": "Praguers' Waffenrock With Buttons",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -32716,7 +32716,7 @@
             "Id": "73a1c315-e542-4629-a64d-867af9d32098",
             "Name": "F_Shoes02_m09_B",
             "DisplayName": "Common Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "12",
@@ -32770,7 +32770,7 @@
             "Id": "74047697-1962-4284-8b5f-c9f93c2716b7",
             "Name": "Gauntlets04_m05_C2",
             "DisplayName": "Noble's Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "1",
@@ -32797,7 +32797,7 @@
             "Id": "741f2a1b-abbb-423b-9808-a2515e2ae7fd",
             "Name": "F_Shoes01_m03_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "20",
@@ -33040,7 +33040,7 @@
             "Id": "765d83b6-e6c8-4caf-8fb4-cdae43c41985",
             "Name": "Shoes04_m01_E",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -33339,7 +33339,7 @@
             "Id": "780cca43-280a-4b59-ba08-03b636931b98",
             "Name": "Waffenrock09_mBergov_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "9",
@@ -33502,7 +33502,7 @@
             "Id": "793ae9c7-739f-4754-a6c8-530d29c50b0a",
             "Name": "Shoes02_m06_B",
             "DisplayName": "Burgher's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -33692,7 +33692,7 @@
             "Id": "7a4b6b2f-b66e-45e9-8267-40c0a1a8acea",
             "Name": "F_HairDecor02_m05_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "24",
@@ -33936,7 +33936,7 @@
             "Id": "7b672958-3452-4d3e-afd0-07baccde7f57",
             "Name": "poi_luffy_strawhat",
             "DisplayName": "Strange Strawhat",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -33963,7 +33963,7 @@
             "Id": "7b6aad88-4205-48fa-b4cf-353e4b744985",
             "Name": "Shoes04_m04_E",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "0",
@@ -34585,7 +34585,7 @@
             "Id": "7e2a262b-6a46-48e5-ab87-a2ececdfa89f",
             "Name": "F_Shoes01_m05_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -35207,7 +35207,7 @@
             "Id": "82567c71-c11f-49e1-a527-c5187301a3b6",
             "Name": "F_Shoes01_m09_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -35477,7 +35477,7 @@
             "Id": "8490f7fb-7301-4769-801d-6cdd3b1e761f",
             "Name": "Habit01_m05_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -35558,7 +35558,7 @@
             "Id": "84d9ed44-7ee9-4dd0-a7de-51305fe85e80",
             "Name": "F_HairDecor01_m02_D",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -35666,7 +35666,7 @@
             "Id": "85aa1df6-7bec-4795-af54-b8126d8b55bf",
             "Name": "Habit02_m04_C",
             "DisplayName": "Lord's Overcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "132",
@@ -35828,7 +35828,7 @@
             "Id": "863f6da3-f947-4079-98b3-8a3eb584e4f2",
             "Name": "Waffenrock01_mZavis",
             "DisplayName": "Waffenrock Of The Lords Of Garbow",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "20",
@@ -36071,7 +36071,7 @@
             "Id": "8831967e-dfc6-4442-b01b-b45222fbf830",
             "Name": "Waffenrock08_m12_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -36125,7 +36125,7 @@
             "Id": "88c42663-ca9b-4fea-8f62-84488ba8cb1d",
             "Name": "Waffenrock09_mKuttenberg04_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -36287,7 +36287,7 @@
             "Id": "899ea0bb-89ea-495c-ad69-29e76fb7bb9e",
             "Name": "Shoes04_m03_E",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "1",
@@ -36341,7 +36341,7 @@
             "Id": "89a60e7b-f80e-4999-8560-fa018737deae",
             "Name": "Gauntlets05_m03_A5",
             "DisplayName": "Nuremberg Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "14",
@@ -36422,7 +36422,7 @@
             "Id": "8a007e87-9d44-4fcc-8ce3-6dc5171a0eb4",
             "Name": "F_Shoes02_m01_B",
             "DisplayName": "Common Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "151",
@@ -36773,7 +36773,7 @@
             "Id": "8c541449-a00e-447c-b817-f11abd075f15",
             "Name": "Habit03_m03_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "77",
@@ -36827,7 +36827,7 @@
             "Id": "8c84de46-0026-4a6f-bc3a-804fc6284968",
             "Name": "F_Shoes02_m08_B",
             "DisplayName": "Common Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -36881,7 +36881,7 @@
             "Id": "8c9b425c-c8a9-49b1-b828-220b2cb47518",
             "Name": "Waffenrock08_mkhTournament_02_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -37584,7 +37584,7 @@
             "Id": "8f1ba3e0-aece-4a2b-be7e-bbc80374f9c7",
             "Name": "Waffenrock04_m03_A",
             "DisplayName": "Ornate Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -37720,7 +37720,7 @@
             "Id": "8fd5ee32-1d34-420e-a485-36bdaf57d0c4",
             "Name": "F_Cotehardie01_m08_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "127",
@@ -37828,7 +37828,7 @@
             "Id": "90018ae3-4fe3-4121-bc63-9cb8e1883ebc",
             "Name": "F_Shoes01_m04_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "0",
@@ -37855,7 +37855,7 @@
             "Id": "900f0f15-39e0-4df7-a7f5-05d1b7ea27f2",
             "Name": "F_HairDecor06_m01_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -37936,7 +37936,7 @@
             "Id": "9040190f-884b-4a42-bc34-cd68564a0af9",
             "Name": "Waffenrock03_mLeipa_A",
             "DisplayName": "Fastened Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -37963,7 +37963,7 @@
             "Id": "904cb53e-3a8d-42fc-9624-a4084399d586",
             "Name": "Waffenrock01_m01_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "147",
@@ -38125,7 +38125,7 @@
             "Id": "910d7740-736b-414a-9876-c066bfff35c5",
             "Name": "Shoes02_m08_B",
             "DisplayName": "Burgher's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "0",
@@ -38236,7 +38236,7 @@
             "Id": "915216ab-26d1-44c2-9d97-a06db6c20b5a",
             "Name": "Waffenrock02_mNebak_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -38291,7 +38291,7 @@
             "Id": "916a6a5e-a1c1-4db7-b573-909c139a1b52",
             "Name": "Gauntlets01_m02_C3",
             "DisplayName": "Hourglass Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "14",
@@ -38939,7 +38939,7 @@
             "Id": "93ff6de8-435d-495a-bc43-91a783669cc7",
             "Name": "Shoes02_m07_B",
             "DisplayName": "Burgher's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "14",
@@ -39264,7 +39264,7 @@
             "Id": "958487ca-d5ef-42f9-ae8b-3b2c76941757",
             "Name": "F_HairDecor01_m04_D",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "24",
@@ -39480,7 +39480,7 @@
             "Id": "97502171-d138-403b-8745-75776a9809fc",
             "Name": "F_HairDecor05_m01_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "30",
@@ -39697,7 +39697,7 @@
             "Id": "9843792a-1792-4e9e-80c4-2dcbb5f62863",
             "Name": "F_HairDecor07_m04_C",
             "DisplayName": "Simple Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "75",
@@ -39832,7 +39832,7 @@
             "Id": "986c4a80-eff0-4198-9958-aff51b2303f3",
             "Name": "Waffenrock09_m01_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -39940,7 +39940,7 @@
             "Id": "990115a0-70c4-4665-a86d-bd3bc6cc6a88",
             "Name": "Habit03_m07_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -39967,7 +39967,7 @@
             "Id": "9932076d-2a57-4da6-933b-2cd01a886418",
             "Name": "Waffenrock04_m04_A",
             "DisplayName": "Ornate Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -40075,7 +40075,7 @@
             "Id": "99c4dd5a-8bea-4b7f-82d4-81d236ccd3b4",
             "Name": "Waffenrock02_m02_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -40102,7 +40102,7 @@
             "Id": "9a1bb464-4ec1-4c34-a071-ffcd9000404c",
             "Name": "Waffenrock09_mVavak_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "13",
@@ -40183,7 +40183,7 @@
             "Id": "9aeacf98-e160-4270-b1c8-09e60eb6e611",
             "Name": "Waffenrock08_m07_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -40939,7 +40939,7 @@
             "Id": "9f0de888-bcab-482e-bef2-0967e4567ac8",
             "Name": "F_HairDecor01_m01_D",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "0",
@@ -40966,7 +40966,7 @@
             "Id": "9f23695c-47f4-4652-b738-02014e18a16c",
             "Name": "F_HairDecor03_m02_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -41155,7 +41155,7 @@
             "Id": "a0c2cd23-a88f-40c0-86bc-47dbab2d45c2",
             "Name": "Waffenrock03_mKuttenberg01_A",
             "DisplayName": "Fastened Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -41533,7 +41533,7 @@
             "Id": "a31f66aa-6726-449c-83d0-0bc34a0a108e",
             "Name": "Gauntlets04_m04_C2",
             "DisplayName": "Noble's Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -41587,7 +41587,7 @@
             "Id": "a35846f0-9929-4767-9da8-f884c34d4d75",
             "Name": "F_HairDecor07_m05_C",
             "DisplayName": "Simple Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "37",
@@ -41857,7 +41857,7 @@
             "Id": "a4de31f5-9af6-4a85-86ec-451d56817272",
             "Name": "F_HairDecor05_m05_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "1",
@@ -41992,7 +41992,7 @@
             "Id": "a52152b9-16a9-437c-a057-fb719ae424b0",
             "Name": "Gauntlets08_m04_B4",
             "DisplayName": "Brigandine Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "156",
@@ -42398,7 +42398,7 @@
             "Id": "a7482fe4-9db0-4fdc-9903-4f80655860e0",
             "Name": "F_HairDecor04_m05_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "28",
@@ -42588,7 +42588,7 @@
             "Id": "a84d558b-9542-4223-90d3-22c096c3bda6",
             "Name": "F_Cotehardie04_m04_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -42750,7 +42750,7 @@
             "Id": "a8a8db9c-955c-410f-9d47-1af70d917900",
             "Name": "Shoes03_m02_C",
             "DisplayName": "Soft Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "151",
@@ -42831,7 +42831,7 @@
             "Id": "a8e9ede6-4da0-4259-9a08-be749fdeed98",
             "Name": "F_Cotehardie03_m01_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -42885,7 +42885,7 @@
             "Id": "a94f1ef3-5328-462b-b18a-18375c515795",
             "Name": "Shoes02_m04_B",
             "DisplayName": "Burgher's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "1",
@@ -42993,7 +42993,7 @@
             "Id": "a9ef7321-dc22-47f6-a32d-9ac7baf7dd01",
             "Name": "Habit03_m04_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -43020,7 +43020,7 @@
             "Id": "aa042467-0d9a-4764-adf6-250c64566654",
             "Name": "Waffenrock02_m05_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "24",
@@ -43155,7 +43155,7 @@
             "Id": "aac53a0e-4926-4852-8441-a84c170fecdc",
             "Name": "F_Cotehardie01_m03_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -43317,7 +43317,7 @@
             "Id": "ab7be326-54c2-4a09-beec-4eec44e57cc6",
             "Name": "F_HairDecor06_m05_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -43425,7 +43425,7 @@
             "Id": "ac713c38-958e-4233-a928-653400b3f1a3",
             "Name": "F_Surcote01_m04_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "86",
@@ -43479,7 +43479,7 @@
             "Id": "acd2c546-8ae3-4497-b4de-4ada14eaf452",
             "Name": "Waffenrock09_m03_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -43560,7 +43560,7 @@
             "Id": "ad0604da-da64-4d19-8364-e4cf1d297797",
             "Name": "Waffenrock03_mKuttenberg_A",
             "DisplayName": "Fastened Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -43587,7 +43587,7 @@
             "Id": "ad246ca4-aad6-40c0-9b5e-1458e843dee1",
             "Name": "F_Cotehardie01_m13_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -43993,7 +43993,7 @@
             "Id": "b02480ea-8bd5-479c-a7ec-5363857bf849",
             "Name": "Waffenrock08_m11_D",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -44047,7 +44047,7 @@
             "Id": "b052625a-7525-4295-9ba6-bbe82233c82f",
             "Name": "Waffenrock08_m13_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "16",
@@ -44237,7 +44237,7 @@
             "Id": "b1ccc94a-9584-4bca-80df-8e93e1cbd36c",
             "Name": "Shoes02_m03_B",
             "DisplayName": "Burgher's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -44291,7 +44291,7 @@
             "Id": "b22dd85e-0e65-40ba-a89a-301f6bf540bb",
             "Name": "F_Surcote01_m11_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "16",
@@ -44507,7 +44507,7 @@
             "Id": "b3a22213-cc7a-4d5f-afe3-728fa0f12231",
             "Name": "Gauntlets04_m03_C2",
             "DisplayName": "Noble's Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "1",
@@ -44534,7 +44534,7 @@
             "Id": "b3ca8b90-f337-4be8-b41c-15ee6f25cad2",
             "Name": "F_Cotehardie04_m03_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "16",
@@ -44588,7 +44588,7 @@
             "Id": "b4026f8d-b440-4bb9-9149-0226220ee684",
             "Name": "Waffenrock01_mNebak_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "151",
@@ -44939,7 +44939,7 @@
             "Id": "b59569d1-102b-414a-91ea-3dfa34d0c922",
             "Name": "F_Cotehardie04_m06_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -45182,7 +45182,7 @@
             "Id": "b6704b45-e58d-49e5-a045-b5dbfacd40fb",
             "Name": "Habit02_m02_C",
             "DisplayName": "Lord's Overcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "13",
@@ -45371,7 +45371,7 @@
             "Id": "b7a53d8a-8c77-4db0-b6af-62a98542c914",
             "Name": "Waffenrock04_m02_A",
             "DisplayName": "Ornate Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "9",
@@ -45398,7 +45398,7 @@
             "Id": "b7e9b9f3-a128-45f9-885a-076b63df158a",
             "Name": "Habit02_m03_C",
             "DisplayName": "Lord's Overcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "20",
@@ -45616,7 +45616,7 @@
             "Id": "b9fa2db6-ee6e-4976-9449-24ae92916789",
             "Name": "Gauntlets02_m01_B4_khTournament_Henry",
             "DisplayName": "Tournament Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "1",
@@ -46102,7 +46102,7 @@
             "Id": "bc55caf7-f5f5-4f51-8478-3fe00f2366cc",
             "Name": "Habit01_m04_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -46129,7 +46129,7 @@
             "Id": "bc670e45-b092-40d5-b13f-38e40085dc92",
             "Name": "F_Shoes02_m05_B",
             "DisplayName": "Common Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -46590,7 +46590,7 @@
             "Id": "be3eeab6-af41-4a17-8b9a-576325cde54f",
             "Name": "Waffenrock01_mPrague01_C",
             "DisplayName": "Praguers' Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -46671,7 +46671,7 @@
             "Id": "be925b8a-c481-490b-a22e-f9abf91e457c",
             "Name": "F_HairDecor07_m02_C",
             "DisplayName": "Simple Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -46779,7 +46779,7 @@
             "Id": "bed90d8b-11a1-49e4-9069-662c4c1764e3",
             "Name": "F_Cotehardie01_m10_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -46806,7 +46806,7 @@
             "Id": "bf1579cc-d92e-4cf8-8f66-b62c61df01c7",
             "Name": "Waffenrock08_mKuttenberg01_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -47241,7 +47241,7 @@
             "Id": "c10bd371-4627-4d79-a388-d6123a94e20c",
             "Name": "Spectacles01_m01_parler",
             "DisplayName": "Parler's Spectacles",
-            "ArmorType": -1
+            "ArmorType": 7
         },
         {
             "DefenseStab": "1",
@@ -47403,7 +47403,7 @@
             "Id": "c1fcfeea-e215-4a20-bcf0-ffa14b167769",
             "Name": "F_HairDecor06_m04_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -47538,7 +47538,7 @@
             "Id": "c34e440c-7dac-43c0-a7d0-d1364ac6d27b",
             "Name": "F_Shoes01_m08_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -47565,7 +47565,7 @@
             "Id": "c3dbbdd5-f7cb-402f-91c8-de7fa0c7f2f5",
             "Name": "Shoes05_m07_B",
             "DisplayName": "Pointed Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -47592,7 +47592,7 @@
             "Id": "c3e9985d-2af6-4281-96d6-60ffee58a0b5",
             "Name": "Shoes04_m02_E",
             "DisplayName": "Vagrant's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "1",
@@ -47619,7 +47619,7 @@
             "Id": "c3eed13a-743e-46fd-8c2e-87d9467ba375",
             "Name": "F_Surcote01_m15_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -47754,7 +47754,7 @@
             "Id": "c608987b-7403-4f80-bea9-6d764c865b0d",
             "Name": "F_Cotehardie01_m07_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "1",
@@ -47781,7 +47781,7 @@
             "Id": "c632b4ad-7737-4e35-9444-8ca46f9a6dc1",
             "Name": "F_Cotehardie01_m09_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "13",
@@ -48025,7 +48025,7 @@
             "Id": "c731bade-8acf-4b85-9085-e188b33f3870",
             "Name": "F_Cotehardie03_m14_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "77",
@@ -48457,7 +48457,7 @@
             "Id": "c8a799c5-3fda-45d0-9bde-2cbf92d83914",
             "Name": "Waffenrock02_mKuttenberg_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "6",
@@ -48512,7 +48512,7 @@
             "Id": "c8dcb769-53a2-445b-bc8b-352e7c7c2236",
             "Name": "F_HairDecor01_m05_D",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -48593,7 +48593,7 @@
             "Id": "c958f207-5346-4a29-9f81-bb996ae80461",
             "Name": "F_HairDecor05_m04_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "16",
@@ -48971,7 +48971,7 @@
             "Id": "cb3e9e80-7a1e-4021-8dc9-46defbdcd069",
             "Name": "Waffenrock09_mKuttenberg03_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -49188,7 +49188,7 @@
             "Id": "cbf60764-576b-4102-b0d1-d196e1b87fd6",
             "Name": "Waffenrock09_mKuttenberg01_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -49215,7 +49215,7 @@
             "Id": "cc0c46b1-830f-46cb-aeb9-38d18ff06ab4",
             "Name": "Waffenrock08_m05_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "37",
@@ -49675,7 +49675,7 @@
             "Id": "ce7ca2e0-efcf-41d9-bfb0-b76673067c05",
             "Name": "Shoes02_mOderin_B",
             "DisplayName": "Burgher's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "24",
@@ -50055,7 +50055,7 @@
             "Id": "cfdd03e9-0929-40f7-8753-704002eb567e",
             "Name": "Waffenrock08_m10_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "9",
@@ -50082,7 +50082,7 @@
             "Id": "cfe63209-0745-485d-ad9b-d78d97682a30",
             "Name": "Habit01_m03_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -50136,7 +50136,7 @@
             "Id": "d035cf21-9704-4ace-b277-b64d7d1e4fc3",
             "Name": "F_HairDecor02_m04_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -50436,7 +50436,7 @@
             "Id": "d1926fdf-d10e-4ab5-9531-2deeff6f8d07",
             "Name": "Gauntlets01_m03_C3",
             "DisplayName": "Hourglass Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "1",
@@ -50814,7 +50814,7 @@
             "Id": "d3fe00d4-ebd2-4ad8-ba5d-f6f34adebc12",
             "Name": "Waffenrock08_m14_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "13",
@@ -50976,7 +50976,7 @@
             "Id": "d47478d2-ab3d-4224-812f-696e71765206",
             "Name": "Gauntlets02_m02_B4",
             "DisplayName": "Milanese Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "0",
@@ -51086,7 +51086,7 @@
             "Id": "d49ae7bb-c6d5-4f7c-8513-3eb18176c97a",
             "Name": "Gauntlets04_m07_C2",
             "DisplayName": "Noble's Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "147",
@@ -51249,7 +51249,7 @@
             "Id": "d4eab06e-a67e-435d-bf39-825268594030",
             "Name": "F_HairDecor03_m04_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -51519,7 +51519,7 @@
             "Id": "d63dd5a8-dcbf-43de-a5dd-aceb4fa9eee8",
             "Name": "F_Cotehardie03_m03_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "1",
@@ -51682,7 +51682,7 @@
             "Id": "d7571357-f01b-4735-869d-220466bcde2c",
             "Name": "F_Cotehardie04_m12_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -51791,7 +51791,7 @@
             "Id": "d7b58b33-f452-4408-ba18-e8618eb3f1dd",
             "Name": "Spectacles01_m01",
             "DisplayName": "Spectacles",
-            "ArmorType": -1
+            "ArmorType": 7
         },
         {
             "DefenseStab": "6",
@@ -51873,7 +51873,7 @@
             "Id": "d8013078-fe3c-4ffa-acab-93249eaced7f",
             "Name": "Waffenrock02_mRuthart_D",
             "DisplayName": "Simple Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "25",
@@ -52197,7 +52197,7 @@
             "Id": "d8d53fe2-06f9-49a7-b108-3c56cde90dbd",
             "Name": "F_Surcote01_m01_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "138",
@@ -52305,7 +52305,7 @@
             "Id": "d913a614-fa08-452e-85f8-b6bcfd510529",
             "Name": "Waffenrock04_m01_A",
             "DisplayName": "Ornate Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "0",
@@ -52332,7 +52332,7 @@
             "Id": "d92464bb-6d39-4b7c-aa0a-48cd95a354ec",
             "Name": "F_HairDecor06_m02_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "12",
@@ -52791,7 +52791,7 @@
             "Id": "dc69cb5f-1900-46db-a287-8012e6750fff",
             "Name": "Waffenrock08_mkhTournament_05_B_Henry",
             "DisplayName": "Tournament Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -52818,7 +52818,7 @@
             "Id": "dca0b90b-0850-4ae7-bba4-f05660abbc8e",
             "Name": "F_Cotehardie01_m01_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "143",
@@ -52953,7 +52953,7 @@
             "Id": "dcccaff3-d2f3-48f3-a9bd-1889477e36dd",
             "Name": "Waffenrock01_m03_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "134",
@@ -53007,7 +53007,7 @@
             "Id": "dd0d1adc-8bb0-4352-b9c9-6b46eac72533",
             "Name": "Waffenrock09_mKuttenberg05_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "14",
@@ -53142,7 +53142,7 @@
             "Id": "de366309-05e3-4606-876e-4cc6eeedd5d9",
             "Name": "F_HairDecor03_m05_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -53575,7 +53575,7 @@
             "Id": "dfe3552d-2d83-40c3-b5fe-66ff1b3f5ebd",
             "Name": "Waffenrock08_mKuttenberg02_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -53629,7 +53629,7 @@
             "Id": "e00e0db5-457f-453b-8bf9-65ea6e9a387e",
             "Name": "F_HairDecor05_m03_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -53683,7 +53683,7 @@
             "Id": "e06ba2d9-9ce7-49e2-9e3a-36280994cf5c",
             "Name": "F_Cotehardie03_m06_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -53710,7 +53710,7 @@
             "Id": "e08aa4b5-8375-447b-8558-a8b93f816b5d",
             "Name": "Waffenrock01_mCimburk_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -53737,7 +53737,7 @@
             "Id": "e0962166-8b41-4966-a580-ab9b1cd1b779",
             "Name": "F_Cotehardie04_m01_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "1",
@@ -53926,7 +53926,7 @@
             "Id": "e16995a3-c26c-44a8-baa4-710488ba241d",
             "Name": "F_Cotehardie03_m08_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "13",
@@ -54034,7 +54034,7 @@
             "Id": "e23e0d4a-0a80-46b2-a2e6-1dd0a98c6357",
             "Name": "F_Cotehardie04_m15_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -54196,7 +54196,7 @@
             "Id": "e2fc390a-b158-4796-839d-f200e65305c3",
             "Name": "Shoes02_m01_B",
             "DisplayName": "Burgher's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "14",
@@ -54250,7 +54250,7 @@
             "Id": "e354d9b0-1532-427e-bfbb-806e8b0e8260",
             "Name": "Waffenrock08_m01_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -54277,7 +54277,7 @@
             "Id": "e3726279-f4f5-41ae-9208-0aa869f7f03b",
             "Name": "Waffenrock01_mRuthart_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -54331,7 +54331,7 @@
             "Id": "e3d9eec8-3f33-4862-a89d-130418add11e",
             "Name": "F_Cotehardie03_m12_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -54792,7 +54792,7 @@
             "Id": "e6ffbe4f-a30b-48fe-a1a8-db04cf8f9cde",
             "Name": "F_Wreath01_m03",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -54900,7 +54900,7 @@
             "Id": "e775725e-9293-43f2-8369-35ce0244534f",
             "Name": "Waffenrock03_mKuttenberg02_A",
             "DisplayName": "Fastened Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -54954,7 +54954,7 @@
             "Id": "e78cd3a9-327f-4cd1-a051-1c9a6bf975f6",
             "Name": "Waffenrock01_mKrizovnik02_C",
             "DisplayName": "Crusaders Of The Red Star Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -55008,7 +55008,7 @@
             "Id": "e7a0bb76-58a4-4508-94d4-fc34f0bd4232",
             "Name": "Waffenrock08_mkhTournament_06_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -55035,7 +55035,7 @@
             "Id": "e7b044a7-858c-4fa1-b617-d61306e116f1",
             "Name": "Waffenrock01_m02_C",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -55143,7 +55143,7 @@
             "Id": "e7d484b2-9b50-46bf-ad2a-60e627e7dc92",
             "Name": "Shoes03_mLegate",
             "DisplayName": "Legate's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "1",
@@ -55170,7 +55170,7 @@
             "Id": "e7de25fb-5db0-4d67-a7bc-763075868cbc",
             "Name": "F_Shoes01_m06_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "2",
@@ -55306,7 +55306,7 @@
             "Id": "e83016ef-4633-412d-a7c5-b109f4ad19dc",
             "Name": "Waffenrock01_mPolner",
             "DisplayName": "House Of Polner Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -55576,7 +55576,7 @@
             "Id": "e9415ffd-f446-4b16-af3b-8e679784f6e3",
             "Name": "Habit01_m02_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "134",
@@ -55657,7 +55657,7 @@
             "Id": "e9ca7f34-a10d-4d55-8ba2-49185cc2496a",
             "Name": "F_Surcote01_m14_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -55766,7 +55766,7 @@
             "Id": "e9f59d27-ee5f-4a7e-8341-643854166285",
             "Name": "Gauntlets03_m02_D1",
             "DisplayName": "Chainmail Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "16",
@@ -55901,7 +55901,7 @@
             "Id": "ea748545-72c5-4b3d-99f7-8a4431e2f3ae",
             "Name": "Waffenrock04_mBergov_A",
             "DisplayName": "Ornate Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -55982,7 +55982,7 @@
             "Id": "ea8f18d9-83ed-4599-ac49-06ee98dbefc6",
             "Name": "Habit01_m01_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "3",
@@ -56118,7 +56118,7 @@
             "Id": "ebe75b4a-eb09-406a-b6c4-4f608288f312",
             "Name": "Shoes03_m03_C",
             "DisplayName": "Thief's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "9",
@@ -56145,7 +56145,7 @@
             "Id": "ebfc4660-4947-4de2-91cf-9a1dfa128f11",
             "Name": "Habit01_m06_C",
             "DisplayName": "Cleric Habit",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -56307,7 +56307,7 @@
             "Id": "ec7ea2cb-0552-41a7-88db-95b9b72eeabd",
             "Name": "F_Surcote01_m10_C",
             "DisplayName": "Surcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -56417,7 +56417,7 @@
             "Id": "ed420472-7e45-445e-9f89-80587d1b6b67",
             "Name": "F_Cotehardie04_m07_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "14",
@@ -56471,7 +56471,7 @@
             "Id": "edc46dd2-383a-4c94-b1d9-b3d450e73e51",
             "Name": "Waffenrock09_m06_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "0",
@@ -56525,7 +56525,7 @@
             "Id": "ee6c5367-5eb7-4031-9d67-fa03a836fc95",
             "Name": "Habit02_m05_C",
             "DisplayName": "Lord's Overcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -56552,7 +56552,7 @@
             "Id": "ee8a0292-d4be-4066-a4b1-edb18f1e7b44",
             "Name": "Shoes05_m03_B",
             "DisplayName": "Pointed Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "28",
@@ -56771,7 +56771,7 @@
             "Id": "efd50449-d7ba-4e99-a9a2-8b8b2e55a136",
             "Name": "Waffenrock04_m05_A",
             "DisplayName": "Ornate Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -56881,7 +56881,7 @@
             "Id": "f0b28694-d7c7-433b-8013-53d888dc48de",
             "Name": "F_Shoes01_m02_A",
             "DisplayName": "Ladies Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "12",
@@ -57205,7 +57205,7 @@
             "Id": "f24c1f54-6dad-49b2-957f-532b918dba33",
             "Name": "Waffenrock09_m02_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -57341,7 +57341,7 @@
             "Id": "f2aca8ba-852f-4ab6-a525-db15bf36f720",
             "Name": "F_Cotehardie03_m02_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -57395,7 +57395,7 @@
             "Id": "f3434a58-f46c-4680-916f-626b9870029e",
             "Name": "F_Cotehardie03_m04_A",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "77",
@@ -57638,7 +57638,7 @@
             "Id": "f42e9dab-1c40-4578-9701-2e2aa3c72904",
             "Name": "Waffenrock01_mKrizovnik01_C",
             "DisplayName": "Crusaders Of The Red Star Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "33",
@@ -57800,7 +57800,7 @@
             "Id": "f51b2f0e-0e1c-4390-a303-759104d2da08",
             "Name": "Waffenrock08_mkhTournament_04_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "16",
@@ -57881,7 +57881,7 @@
             "Id": "f5c11ece-238d-4463-88ec-1f51c80c1bcf",
             "Name": "Gauntlets02_m01_B4",
             "DisplayName": "Milanese Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "0",
@@ -57908,7 +57908,7 @@
             "Id": "f64a7afd-f800-40a5-ab38-c2a39ac37072",
             "Name": "F_HairDecor04_m01_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -58097,7 +58097,7 @@
             "Id": "f6cc59be-d9af-419f-b9f0-66440c1d79ae",
             "Name": "Waffenrock09_mPisek_B",
             "DisplayName": "Knight's Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "0",
@@ -58124,7 +58124,7 @@
             "Id": "f6e6b06e-487f-4bf2-bbd6-0b6eb2a49688",
             "Name": "F_Wreath01_m02",
             "DisplayName": "Wreath",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "15",
@@ -58205,7 +58205,7 @@
             "Id": "f75371a0-6d02-4d18-8a78-a5c63882968a",
             "Name": "pracharna_concubineDress",
             "DisplayName": "Tyrol Brocade Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "14",
@@ -58612,7 +58612,7 @@
             "Id": "f9439148-1e80-4d72-99d2-a314f05a2c50",
             "Name": "Habit02_m01_C",
             "DisplayName": "Lord's Overcoat",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "1",
@@ -58639,7 +58639,7 @@
             "Id": "f9500c7c-bd97-472a-b5b0-d3d41c47a8d6",
             "Name": "F_Cotehardie04_m13_B",
             "DisplayName": "Noblewoman's Cotehardie",
-            "ArmorType": -1
+            "ArmorType": 11
         },
         {
             "DefenseStab": "2",
@@ -59017,7 +59017,7 @@
             "Id": "faed9509-92fe-42f2-be78-3c07d2c494b5",
             "Name": "Shoes01_m02_D",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "15",
@@ -59341,7 +59341,7 @@
             "Id": "fc092685-1787-44bc-a83a-64099095443d",
             "Name": "WaffenrockScaring_m01",
             "DisplayName": "Hemmed Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "2",
@@ -59368,7 +59368,7 @@
             "Id": "fc1184c5-751f-40b1-973c-f8094e2353a9",
             "Name": "Waffenrock08_m15_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "12",
@@ -59422,7 +59422,7 @@
             "Id": "fc31699c-1c3a-404f-9a99-535e9ee7e927",
             "Name": "F_HairDecor06_m03_B",
             "DisplayName": "Decorated Headpiece",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -59584,7 +59584,7 @@
             "Id": "fe43bcae-b562-4c02-a484-390a784a1b90",
             "Name": "Shoes01_m06_D",
             "DisplayName": "Simple Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "0",
@@ -59611,7 +59611,7 @@
             "Id": "fe64808e-a09a-49ea-a00c-14f8704f8027",
             "Name": "F_HairDecor02_m01_A",
             "DisplayName": "Narrow Headband",
-            "ArmorType": -1
+            "ArmorType": 0
         },
         {
             "DefenseStab": "2",
@@ -59720,7 +59720,7 @@
             "Id": "fefb708a-289c-4153-a989-6559478f4350",
             "Name": "Waffenrock08_mkhTournament_03_B",
             "DisplayName": "Riding Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "14",
@@ -59882,7 +59882,7 @@
             "Id": "ffd9af7c-d24d-4e70-8c25-ad22a37a64e7",
             "Name": "Shoes03_m01_C",
             "DisplayName": "Soft Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "0",
@@ -59937,7 +59937,7 @@
             "Id": "22799e4c-1489-44b1-807f-6bfa3df47425",
             "Name": "kovaniZavodniPodkovy_caulkinHorseshoe",
             "DisplayName": "Spiked Horseshoes",
-            "ArmorType": -1
+            "ArmorType": 25
         },
         {
             "DefenseStab": "13",
@@ -60100,7 +60100,7 @@
             "Id": "660a39ee-f440-4dd4-a412-4b89d1bad7f5",
             "Name": "Waffenrock01_mTwitch",
             "DisplayName": "Warhorse Waffenrock",
-            "ArmorType": -1
+            "ArmorType": 10
         },
         {
             "DefenseStab": "14",
@@ -60208,7 +60208,7 @@
             "Id": "86eb09e2-7dcb-4c46-a357-a70c3749ba33",
             "Name": "Shoes01_mTwitch_D",
             "DisplayName": "Cutpurse's Shoes",
-            "ArmorType": -1
+            "ArmorType": 19
         },
         {
             "DefenseStab": "136",
@@ -60262,7 +60262,7 @@
             "Id": "9403ad41-7eea-451b-836f-32ba034ef3bb",
             "Name": "Gauntlets08_mTwitch",
             "DisplayName": "Warhorse Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "138",
@@ -60371,7 +60371,7 @@
             "Id": "c052fb20-9f20-4ebd-8b7f-8ff937ee11b0",
             "Name": "GauntletsBrunswig_m01",
             "DisplayName": "Brunswick's Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "0",
@@ -60535,7 +60535,7 @@
             "Id": "fc60850a-a266-421c-be69-6839787f56cd",
             "Name": "WreathTwitch_m01",
             "DisplayName": "Alluring Wreath",
-            "ArmorType": -1
+            "ArmorType": 2
         },
         {
             "DefenseStab": "2",
@@ -60843,7 +60843,7 @@
             "Name": "alias_prepadeni_gauntlets",
             "IsQuestItem": "true",
             "DisplayName": "Noble's Gauntlets",
-            "ArmorType": -1
+            "ArmorType": 14
         },
         {
             "DefenseStab": "2",
@@ -60901,7 +60901,7 @@
             "Name": "alias_loot_lemingerSpectacles",
             "IsQuestItem": "false",
             "DisplayName": "Leminger's Spectacles",
-            "ArmorType": -1
+            "ArmorType": 7
         },
         {
             "DefenseStab": "2",

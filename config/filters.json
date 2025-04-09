@@ -1,0 +1,126 @@
+{
+    "headCap": [
+        "Cap",
+        "F_Hood",
+        "F_Bonnet",
+        "F_CapAndWimple",
+        "F_Hat",
+        "F_HairDecor",
+        "F_HoodOpen",
+        "F_Veil",
+        "F_Wreath",
+        "F_VeilAndWimple",
+        "LeatherCap",
+        "poi_luffy_strawhat"
+    ],
+    "headHelmet": [
+        "KettleHat",
+        "SkullCap",
+        "BascinetOpen",
+        "BascinetVisor"
+    ],
+    "headCoif": [
+        "CoifCap",
+        "Wreath_m01",
+        "WreathTwitch_m01"
+    ],
+    "headCoifPadded": [
+        "CoifSmall",
+        "CoifLarge",
+        "CoifMail"
+    ],
+    "headHood": [
+        "Hood"
+    ],
+    "collar": [
+        "Collar"
+    ],
+    "ring": [
+        "Ring"
+    ],
+    "necklace": [
+        "Necklace",
+        "Spectacles",
+        "alias_loot_lemingerSpectacles"
+    ],
+    "belt": [
+        "Belt"
+    ],
+    "bodyPlate": [
+        "Brigandine",
+        "Cuirass"
+    ],
+    "bodyCoat": [
+        "Coat",
+        "Habit",
+        "Waffenrock",
+        "F_Surcote"
+    ],
+    "bodyCloth": [
+        "TunicShort",
+        "TunicLong",
+        "F_SimpleDress",
+        "F_Cotehardie",
+        "F_Smock",
+        "LeatherApron"
+    ],
+    "bodyClothPadded": [
+        "GambesonShort",
+        "GambesonLong",
+        "Caftan",
+        "Pourpoint"
+    ],
+    "bodyChainmail": [
+        "MailShort",
+        "MailLong"
+    ],
+    "gloves": [
+        "Gloves",
+        "Gauntlets",
+        "HandWrap"
+    ],
+    "sleeves": [
+        "ArmBrigandine",
+        "ArmPlate"
+    ],
+    "legTrousers": [
+        "HoseJoined",
+        "HoseLoose",
+        "HoseSeparate"
+    ],
+    "legTrousersPadded": [
+        "LegsPadded",
+        "LegsChain"
+    ],
+    "legArmor": [
+        "LegsBrigandine",
+        "LegsPlate"
+    ],
+    "boot": [
+        "Boot",
+        "Shoes",
+        "F_Shoes"
+    ],
+    "spur": [
+        "Spurs"
+    ],
+    "pouch": [
+        "Pouch"
+    ],
+    "horseHead": [
+        "Bridle",
+        "Chanfron"
+    ],
+    "horseTorso": [
+        "Caparison",
+        "Harness"
+    ],
+    "horseSaddle": [
+        "Saddle"
+    ],
+    "horseShoe": [
+        "HorseShoe",
+        "kovaniZavodniPodkovy_caulkinHorseshoe"
+    ]
+}
+

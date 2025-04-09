@@ -1,43 +1,43 @@
 {
     "data\\version\\1_2\\xml\\raw\\item.xml": {
         "xml_hash": "e7f4a28fc614cfa3cbb438f695d957ef71c0e542e65ad3a19f1f65d6504acf9c",
-        "extracted": "2025-04-05T21:00:51.410630"
+        "extracted": "2025-04-08T17:21:59.107932"
     },
     "data\\version\\1_2\\xml\\raw\\item__dlc.xml": {
         "xml_hash": "a5c9cefab5dd0f64895ae0c8cad8d8da5e496f1214fe0d1f214c3db83ee9a6a9",
-        "extracted": "2025-04-05T21:00:51.426804"
+        "extracted": "2025-04-08T17:21:59.126360"
     },
     "data\\version\\1_2\\xml\\raw\\item__rewards.xml": {
         "xml_hash": "be6782319954cdefabd0fd61124694576f2612e7cf509e1ae86cf79b78467f9d",
-        "extracted": "2025-04-05T21:00:51.443103"
+        "extracted": "2025-04-08T17:21:59.142934"
     },
     "data\\version\\1_2\\xml\\raw\\item__horse.xml": {
         "xml_hash": "6ff8a302b8d1a9527432a9433909c39e28cb31e174ff944ab6181b93475c3374",
-        "extracted": "2025-04-05T21:00:51.461903"
+        "extracted": "2025-04-08T17:21:59.164069"
     },
     "data\\version\\1_2\\xml\\raw\\text_ui_items.xml": {
         "xml_hash": "cda9a61609af7996dcd04390285066c4e4bb6ef9972ce5e8957f387fe0d6e33f",
-        "extracted": "2025-04-05T21:00:51.492463"
+        "extracted": "2025-04-08T17:21:59.253534"
     },
     "version\\1_2\\xml\\raw\\item.xml": {
         "xml_hash": "e7f4a28fc614cfa3cbb438f695d957ef71c0e542e65ad3a19f1f65d6504acf9c",
-        "extracted": "2025-04-05T21:06:23.037837"
+        "extracted": "2025-04-08T17:26:39.241968"
     },
     "version\\1_2\\xml\\raw\\item__dlc.xml": {
         "xml_hash": "a5c9cefab5dd0f64895ae0c8cad8d8da5e496f1214fe0d1f214c3db83ee9a6a9",
-        "extracted": "2025-04-05T21:06:23.054552"
+        "extracted": "2025-04-08T17:26:39.260153"
     },
     "version\\1_2\\xml\\raw\\item__rewards.xml": {
         "xml_hash": "be6782319954cdefabd0fd61124694576f2612e7cf509e1ae86cf79b78467f9d",
-        "extracted": "2025-04-05T21:06:23.070640"
+        "extracted": "2025-04-08T17:26:39.277735"
     },
     "version\\1_2\\xml\\raw\\item__horse.xml": {
         "xml_hash": "6ff8a302b8d1a9527432a9433909c39e28cb31e174ff944ab6181b93475c3374",
-        "extracted": "2025-04-05T21:06:23.089451"
+        "extracted": "2025-04-08T17:26:39.299438"
     },
     "version\\1_2\\xml\\raw\\text_ui_items.xml": {
         "xml_hash": "cda9a61609af7996dcd04390285066c4e4bb6ef9972ce5e8957f387fe0d6e33f",
-        "extracted": "2025-04-05T21:06:23.109827"
+        "extracted": "2025-04-08T17:26:39.386446"
     },
     "version\\1_2\\xml\\item.xml": {
         "xml_hash": "e7f4a28fc614cfa3cbb438f695d957ef71c0e542e65ad3a19f1f65d6504acf9c",
@@ -58,5 +58,17 @@
     "version\\1_2\\xml\\text_ui_items.xml": {
         "xml_hash": "cda9a61609af7996dcd04390285066c4e4bb6ef9972ce5e8957f387fe0d6e33f",
         "extracted": "2025-04-05T21:15:03.033348"
+    },
+    "version\\1_2\\xml\\CharacterComponent.xml": {
+        "xml_hash": "9f075355fb8458afd35a7b987917af7d4c45a2244920080e23db1a26e18012bf",
+        "extracted": "2025-04-08T17:12:41.264154"
+    },
+    "data\\version\\1_2\\xml\\raw\\CharacterComponent.xml": {
+        "xml_hash": "9f075355fb8458afd35a7b987917af7d4c45a2244920080e23db1a26e18012bf",
+        "extracted": "2025-04-08T17:21:59.230191"
+    },
+    "version\\1_2\\xml\\raw\\CharacterComponent.xml": {
+        "xml_hash": "9f075355fb8458afd35a7b987917af7d4c45a2244920080e23db1a26e18012bf",
+        "extracted": "2025-04-08T17:26:39.364882"
     }
 }

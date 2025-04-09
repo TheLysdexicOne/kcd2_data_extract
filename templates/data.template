@@ -399,238 +399,157 @@
             "id": 0,
             "name": "headCap",
             "uiSlot": 0,
-            "filters": [
-                "Cap",
-                "F_Hood",
-                "F_Bonnet",
-                "F_CapAndWimple",
-                "F_Hat",
-                "F_HoodOpen",
-                "F_Veil",
-                "F_VeilAndWimple",
-                "LeatherCap"
-            ]
+            "filters": []
         },
         {
             "id": 1,
             "name": "headHelmet",
             "uiSlot": 0,
-            "filters": [
-                "KettleHat",
-                "SkullCap",
-                "BascinetOpen",
-                "BascinetVisor"
-            ]
+            "filters": []
         },
         {
             "id": 2,
             "name": "headCoif",
             "uiSlot": 1,
-            "filters": [
-                "CoifCap"
-            ]
+            "filters": []
         },
         {
             "id": 3,
             "name": "headCoifPadded",
             "uiSlot": 1,
-            "filters": [
-                "CoifSmall",
-                "CoifLarge",
-                "CoifMail"
-            ]
+            "filters": []
         },
         {
             "id": 4,
             "name": "headHood",
             "uiSlot": 2,
-            "filters": [
-                "Hood"
-            ]
+            "filters": []
         },
         {
             "id": 5,
             "name": "collar",
             "uiSlot": 3,
-            "filters": [
-                "Collar"
-            ]
+            "filters": []
         },
         {
             "id": 6,
             "name": "ring",
             "uiSlot": 4,
-            "filters": [
-                "Ring"
-            ]
+            "filters": []
         },
         {
             "id": 7,
             "name": "necklace",
             "uiSlot": 5,
-            "filters": [
-                "Necklace"
-            ]
+            "filters": []
         },
         {
             "id": 8,
             "name": "belt",
             "uiSlot": 7,
-            "filters": [
-                "Belt"
-            ]
+            "filters": []
         },
         {
             "id": 9,
             "name": "bodyPlate",
             "uiSlot": 8,
-            "filters": [
-                "Brigandine",
-                "Cuirass"
-            ]
+            "filters": []
         },
         {
             "id": 10,
             "name": "bodyCoat",
             "uiSlot": 9,
-            "filters": [
-                "Coat"
-            ]
+            "filters": []
         },
         {
             "id": 11,
             "name": "bodyCloth",
             "uiSlot": 10,
-            "filters": [
-                "TunicShort",
-                "TunicLong",
-                "F_SimpleDress",
-                "F_Smock",
-                "LeatherApron"
-            ]
+            "filters": []
         },
         {
             "id": 12,
             "name": "bodyClothPadded",
             "uiSlot": 10,
-            "filters": [
-                "GambesonShort",
-                "GambesonLong",
-                "Caftan",
-                "Pourpoint"
-            ]
+            "filters": []
         },
         {
             "id": 13,
             "name": "bodyChainmail",
             "uiSlot": 11,
-            "filters": [
-                "MailShort",
-                "MailLong"
-            ]
+            "filters": []
         },
         {
             "id": 14,
             "name": "gloves",
             "uiSlot": 12,
-            "filters": [
-                "Gloves"
-            ]
+            "filters": []
         },
         {
             "id": 15,
             "name": "sleeves",
             "uiSlot": 13,
-            "filters": [
-                "ArmBrigandine",
-                "ArmPlate"
-            ]
+            "filters": []
         },
         {
             "id": 16,
             "name": "legTrousers",
             "uiSlot": 14,
-            "filters": [
-                "HoseJoined",
-                "HoseLoose",
-                "HoseSeparate"
-            ]
+            "filters": []
         },
         {
             "id": 17,
             "name": "legTrousersPadded",
             "uiSlot": 14,
-            "filters": [
-                "LegsPadded",
-                "LegsChain"
-            ]
+            "filters": []
         },
         {
             "id": 18,
             "name": "legArmor",
             "uiSlot": 15,
-            "filters": [
-                "LegsBrigandine",
-                "LegsPlate"
-            ]
+            "filters": []
         },
         {
             "id": 19,
             "name": "boot",
             "uiSlot": 16,
-            "filters": [
-                "Boot"
-            ]
+            "filters": []
         },
         {
             "id": 20,
             "name": "spur",
             "uiSlot": 17,
-            "filters": [
-                "Spurs"
-            ]
+            "filters": []
         },
         {
             "id": 21,
             "name": "pouch",
             "uiSlot": 18,
-            "filters": [
-                "Pouch"
-            ]
+            "filters": []
         },
         {
             "id": 22,
             "name": "horseHead",
             "uiSlot": 19,
-            "filters": [
-                "Bridle",
-                "Chanfron"
-            ]
+            "filters": []
         },
         {
             "id": 23,
             "name": "horseTorso",
             "uiSlot": 20,
-            "filters": [
-                "Caparison",
-                "Harness"
-            ]
+            "filters": []
         },
         {
             "id": 24,
             "name": "horseSaddle",
             "uiSlot": 21,
-            "filters": [
-                "Saddle"
-            ]
+            "filters": []
         },
         {
             "id": 25,
             "name": "horseShoe",
             "uiSlot": 22,
-            "filters": [
-                "HorseShoe"
-            ]
+            "filters": []
         }
     ],
     "diceBadges": {

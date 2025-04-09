@@ -2,22 +2,33 @@
     "Tables.pak": {
         "description": "All the working data in the game",
         "kcd2_pak_file": "Data/Tables.pak",
-        "in_pak_dir1": "Libs/Tables/item/",
-        "output_dir": "/data/version/{version}/xml/raw/",
-        "xmls_to_extract": [
-            "item",
-            "item__dlc",
-            "item__rewards",
-            "item__horse"
+        "files": [
+            {
+                "name": "item",
+                "in_pak_dir": "Libs/Tables/item/"
+            },
+            {
+                "name": "item__dlc",
+                "in_pak_dir": "Libs/Tables/item/"
+            },
+            {
+                "name": "item__rewards",
+                "in_pak_dir": "Libs/Tables/item/"
+            },
+            {
+                "name": "item__horse",
+                "in_pak_dir": "Libs/Tables/item/"
+            }
         ]
     },
     "English_xml.pak": {
         "description": "All the transalted text in the game",
         "kcd2_pak_file": "Localization/English_xml.pak",
-        "in_pak_dir1": "",
-        "output_dir": "/data/version/{version}/xml/raw/",
-        "xmls_to_extract": [
-            "text_ui_items"
+        "files": [
+            {
+                "name": "text_ui_items",
+                "in_pak_dir": ""
+            }
         ]
     }
 }

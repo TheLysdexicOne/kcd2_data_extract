@@ -106,7 +106,7 @@ ARMOR_TYPES = [
     {"id": 16, "name": "legTrousers",        "uiSlot": 14, "filters": ["HoseJoined", "HoseLoose", "HoseSeparate"]                                                                      },
     {"id": 17, "name": "legTrousersPadded",  "uiSlot": 14, "filters": ["LegsPadded", "LegsChain"]                                                                                      },
     {"id": 18, "name": "legArmor",           "uiSlot": 15, "filters": ["LegsBrigandine", "LegsPlate"]                                                                                  },
-    {"id": 19, "name": "boot",               "uiSlot": 16, "filters": ["Boot"]                                                                                                         },
+    {"id": 19, "name": "boot",               "uiSlot": 16, "filters": ["Boot, Shoe"]                                                                                                         },
     {"id": 20, "name": "spur",               "uiSlot": 17, "filters": ["Spurs"]                                                                                                        },
     {"id": 21, "name": "pouch",              "uiSlot": 18, "filters": ["Pouch"]                                                                                                        },
     {"id": 22, "name": "horseHead",          "uiSlot": 19, "filters": ["Bridle", "Chanfron"]                                                                                           },

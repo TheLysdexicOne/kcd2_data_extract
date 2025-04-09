@@ -609,5 +609,7 @@ def add_armor_types(parsed_items: Dict[str, Any], data: Dict[str, Any]) -> Dict[
             logger.info(f"Wrote {len(unmatched_items)} unmatched armor items to {debug_file_path}")
         except Exception as e:
             logger.error(f"Error writing unmatched armor items to debug file: {str(e)}")
+    else:
+        logger.info("All armor items successfully matched to armor types")
     
     return parsed_items

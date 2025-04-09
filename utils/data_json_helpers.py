@@ -19,15 +19,29 @@ def init_data_json(root_dir: Path, version_id: str) -> Optional[Dict[str, Any]]:
     # Construct version directory path and ensure it exists
     version_dir = root_dir / "data" / "version" / version_id
     ensure_dir(version_dir)
-    logger.info(f"Initializing fresh data.json in {version_dir}")
     
     # Load the template
     template_path = root_dir / "templates" / "data.template"
     data = read_json(template_path)
     if not data:
+        logger.error("Failed to load data template")
         return None
     
     try:
+        # Load filters from config/filters.json
+        filters_path = root_dir / "config" / "filters.json"
+        filters = read_json(filters_path)
+        if not filters:
+            logger.warning("Failed to load filters, armor types will have empty filters")
+        else:
+            logger.info(f"Loaded {len(filters)} armor type filters")
+            
+            # Populate the armor types with the appropriate filters
+            for armor_type in data.get("armorTypes", []):
+                if "name" in armor_type and armor_type["name"] in filters:
+                    armor_type["filters"] = filters[armor_type["name"]]
+                    logger.debug(f"Added {len(armor_type['filters'])} filters to {armor_type['name']}")
+        
         # Load version info from version.json
         version_json_path = root_dir / "data" / "version.json"
         version_data = read_json(version_json_path)
@@ -54,6 +68,8 @@ def init_data_json(root_dir: Path, version_id: str) -> Optional[Dict[str, Any]]:
         
     except Exception as e:
         logger.error(f"Error initializing data: {e}")
+        import traceback
+        logger.debug(traceback.format_exc())
         return None
 
 def save_data_json(data: Dict[str, Any], version_dir: Path) -> bool:

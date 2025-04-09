@@ -6,8 +6,7 @@
 cspell.json
 
 # Ignore raw game data
-data/version/*/xml/*item*xml
-!data/version/*/xml/combined_items.xml
+data/version/*/xml/raw
 
 #  Auto generated below
 

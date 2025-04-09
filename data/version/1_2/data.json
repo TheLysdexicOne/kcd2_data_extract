@@ -406,10 +406,13 @@
                 "F_Bonnet",
                 "F_CapAndWimple",
                 "F_Hat",
+                "F_HairDecor",
                 "F_HoodOpen",
                 "F_Veil",
+                "F_Wreath",
                 "F_VeilAndWimple",
-                "LeatherCap"
+                "LeatherCap",
+                "poi_luffy_strawhat"
             ]
         },
         {
@@ -428,7 +431,9 @@
             "name": "headCoif",
             "uiSlot": 1,
             "filters": [
-                "CoifCap"
+                "CoifCap",
+                "Wreath_m01",
+                "WreathTwitch_m01"
             ]
         },
         {
@@ -470,7 +475,9 @@
             "name": "necklace",
             "uiSlot": 5,
             "filters": [
-                "Necklace"
+                "Necklace",
+                "Spectacles",
+                "alias_loot_lemingerSpectacles"
             ]
         },
         {
@@ -495,7 +502,10 @@
             "name": "bodyCoat",
             "uiSlot": 9,
             "filters": [
-                "Coat"
+                "Coat",
+                "Habit",
+                "Waffenrock",
+                "F_Surcote"
             ]
         },
         {
@@ -506,6 +516,7 @@
                 "TunicShort",
                 "TunicLong",
                 "F_SimpleDress",
+                "F_Cotehardie",
                 "F_Smock",
                 "LeatherApron"
             ]
@@ -535,7 +546,9 @@
             "name": "gloves",
             "uiSlot": 12,
             "filters": [
-                "Gloves"
+                "Gloves",
+                "Gauntlets",
+                "HandWrap"
             ]
         },
         {
@@ -580,7 +593,9 @@
             "name": "boot",
             "uiSlot": 16,
             "filters": [
-                "Boot"
+                "Boot",
+                "Shoes",
+                "F_Shoes"
             ]
         },
         {
@@ -630,7 +645,8 @@
             "name": "horseShoe",
             "uiSlot": 22,
             "filters": [
-                "HorseShoe"
+                "HorseShoe",
+                "kovaniZavodniPodkovy_caulkinHorseshoe"
             ]
         }
     ],

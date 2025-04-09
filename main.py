@@ -18,18 +18,21 @@ def main(debug: bool = False) -> int:
     ensure_dir(debug_dir)
 
     # Check version
+    logger.info("Checking game version...")
     version_id: Optional[str] = get_version(root_dir, kcd2_dir)
     if not version_id:
         logger.error("Failed to check game version")
         return 1
 
     # Initialize data.json in the version directory
+    logger.info(f"Initializing data.json for version {version_id}...")
     data: Optional[Dict[str, Any]] = init_data_json(root_dir, version_id)
     if not data:
         logger.error("Failed to initialize data")
         return 1
 
     # Extract XML files
+    logger.info("Extracting XML files...")
     xml_trees: Dict[str, ElementTree] = get_xml(root_dir, kcd2_dir, version_id)
     if not xml_trees or "combined_items" not in xml_trees or "text_ui_items" not in xml_trees:
         logger.error("XML extraction failed: Missing required XML trees")

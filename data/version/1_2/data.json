@@ -5,7 +5,45 @@
         "branch": "release_1_2",
         "platform": "PC"
     },
-    "categories": [
+    "iconCategories": [
+        {
+            "id": -1,
+            "name": "undefined"
+        },
+        {
+            "id": 0,
+            "name": "head"
+        },
+        {
+            "id": 1,
+            "name": "torso"
+        },
+        {
+            "id": 2,
+            "name": "hands"
+        },
+        {
+            "id": 3,
+            "name": "legs"
+        },
+        {
+            "id": 4,
+            "name": "horse"
+        },
+        {
+            "id": 5,
+            "name": "weapon"
+        },
+        {
+            "id": 6,
+            "name": "dice"
+        },
+        {
+            "id": 7,
+            "name": "misc"
+        }
+    ],
+    "itemCategories": [
         {
             "id": -1,
             "name": "undefined",
@@ -73,7 +111,7 @@
         },
         {
             "id": 12,
-            "name": "die",
+            "name": "dice",
             "iconCategory": -1
         },
         {
@@ -651,39 +689,70 @@
         }
     ],
     "diceBadges": {
-        "types": {
-            "0": "plumb",
-            "1": "silver",
-            "2": "gold"
-        },
-        "subtypes": {
-            "0": "Headstart",
-            "1": "Formations",
-            "2": "Null",
-            "3": "ExtraValue",
-            "4": "Antibust",
-            "5": "DoubleTake",
-            "6": "Multiplier",
-            "7": "ExtraDice",
-            "8": "RerollDice",
-            "9": "SetDice",
-            "10": "RerollPips"
-        }
+        "types": [
+            {
+                "id": -1,
+                "name": "undefined"
+            },
+            {
+                "id": 0,
+                "name": "plumb"
+            },
+            {
+                "id": 1,
+                "name": "silver"
+            },
+            {
+                "id": 2,
+                "name": "gold"
+            }
+        ],
+        "subtypes": [
+            {
+                "id": 0,
+                "name": "Headstart"
+            },
+            {
+                "id": 1,
+                "name": "Formations"
+            },
+            {
+                "id": 2,
+                "name": "Null"
+            },
+            {
+                "id": 3,
+                "name": "ExtraValue"
+            },
+            {
+                "id": 4,
+                "name": "Antibust"
+            },
+            {
+                "id": 5,
+                "name": "DoubleTake"
+            },
+            {
+                "id": 6,
+                "name": "Multiplier"
+            },
+            {
+                "id": 7,
+                "name": "ExtraDice"
+            },
+            {
+                "id": 8,
+                "name": "RerollDice"
+            },
+            {
+                "id": 9,
+                "name": "SetDice"
+            },
+            {
+                "id": 10,
+                "name": "RerollPips"
+            }
+        ]
     },
-    "items": {
-        "head": [],
-        "jewelry": [],
-        "dagger": [],
-        "belt": [],
-        "torso": [],
-        "hands": [],
-        "legs": [],
-        "pouch": [],
-        "horse": [],
-        "melee": [],
-        "ranged": [],
-        "shield": [],
-        "die": [],
-        "diceBadge": []
-    }
+    "items": []
 }

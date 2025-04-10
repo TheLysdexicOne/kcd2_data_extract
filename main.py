@@ -2,9 +2,9 @@ import sys
 from pathlib import Path
 from typing import Dict, Any, Optional
 from xml.etree.ElementTree import ElementTree
-from utils import logger, ensure_dir, init_data_json, write_json, unwrap_key, xform_ui_dict, convert_xml
+from utils import logger, ensure_dir, write_json, unwrap_key, xform_ui_dict, convert_xml
 from config import ROOT_DIR, KCD2_DIR
-from scripts import get_version, get_xml, parse_items, process_items
+from scripts import get_version, init_data_json, get_xml, parse_items, process_items
 
 def main(debug: bool = False) -> int:
     """Main function for KCD2 data extraction."""

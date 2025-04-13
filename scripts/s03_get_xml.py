@@ -5,8 +5,8 @@ import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, Tuple, Optional, Any, List, Set, Mapping
-from utils import logger, read_json, write_json, ensure_dir, format_xml
+from typing import Dict, Tuple, Optional, Any, List, Mapping
+from utils import logger, read_json, write_json, ensure_dir
 
 def get_xml(root_dir: Path, version_id: str, kcd2_dir: Path) -> Dict[str, ET.ElementTree]:
     """
@@ -127,15 +127,15 @@ def convert_element(item: ET.Element, target_type: str) -> ET.Element:
     
     return new_element
 
-def clean_directory(directory: Path) -> None:
+def clean_directory(directory: Optional[Path]) -> None:
     """
     Clean all files and subdirectories from a directory.
     
     Args:
         directory: Path to the directory to clean
     """
-    if not directory.exists():
-        logger.debug(f"Directory doesn't exist, nothing to clean: {directory}")
+    if directory is None or not directory.exists():
+        logger.debug(f"Directory doesn't exist or is None, nothing to clean: {directory}")
         return
         
     try:
@@ -148,7 +148,7 @@ def clean_directory(directory: Path) -> None:
     except Exception as e:
         logger.warning(f"Failed to clean directory {directory}: {e}")
 
-def extract_xml_files(kcd2_dir: Path, version_dir: Path, xml_config: Mapping[str, Any]) -> Tuple[Dict[str, Path], Path, Path]:
+def extract_xml_files(kcd2_dir: Path, version_dir: Path, xml_config: Mapping[str, Any]) -> Tuple[Dict[str, Path], Optional[Path], Optional[Path]]:
     """
     Extract XML files from PAK files based on configuration.
     
@@ -261,9 +261,9 @@ def extract_xml_file(
     pak_file: zipfile.ZipFile, 
     xml_name: str, 
     in_pak_dir: str,
-    raw_dir: Path,
-    xml_dir: Path, 
-    temp_dir: Path, 
+    raw_dir: Optional[Path],
+    xml_dir: Optional[Path], 
+    temp_dir: Optional[Path], 
     version_dir: Path, 
     existing_hashes: Dict[str, Any], 
     new_hashes: Dict[str, Dict[str, str]]
@@ -287,6 +287,10 @@ def extract_xml_file(
         - Path to the extracted XML file if successful, None otherwise
         - Boolean indicating whether the file was freshly extracted (True) or skipped (False)
     """
+    if not all([raw_dir, xml_dir, temp_dir]):
+        logger.error("One or more required directories are None")
+        return None, False
+
     # Input validation
     if not isinstance(pak_file, zipfile.ZipFile) or not isinstance(xml_name, str):
         logger.error(f"Invalid input parameters for extract_xml_file: {xml_name}")
@@ -361,7 +365,7 @@ def extract_xml_file(
         logger.debug(traceback.format_exc())
         return None, False
 
-def create_combined_items_file(extracted_files: Dict[str, Path], xml_dir: Path) -> Tuple[Optional[ET.Element], Optional[Path]]:
+def create_combined_items_file(extracted_files: Dict[str, Path], xml_dir: Optional[Path]) -> Tuple[Optional[ET.Element], Optional[Path]]:
     """
     Create a combined items XML file from individual XML files.
     
@@ -374,13 +378,18 @@ def create_combined_items_file(extracted_files: Dict[str, Path], xml_dir: Path) 
         - Root Element of the combined XML if successful, None otherwise
         - Path to the combined XML file if successful, None otherwise
     """
+    # Ensure xml_dir is valid
+    if not xml_dir or not isinstance(xml_dir, Path):
+        logger.error("Invalid XML directory provided")
+        return None, None
+        
     # Always create the combined file in the standard xml directory
     combined_path = xml_dir / "combined_items.xml"
     
     try:
         # Input validation
-        if not isinstance(extracted_files, dict) or not isinstance(xml_dir, Path):
-            logger.error("Invalid input parameters to create_combined_items_file")
+        if not isinstance(extracted_files, dict):
+            logger.error("Invalid extracted_files parameter to create_combined_items_file")
             return None, None
             
         # Check if required files exist
@@ -497,8 +506,8 @@ if __name__ == "__main__":
         logger.error("Failed to get version info")
         sys.exit(1)
     
-    # Run the extraction
-    xml_files = get_xml(ROOT_DIR, KCD2_DIR, version_id)
+    # Run the extraction - fix parameter order to match function signature
+    xml_files = get_xml(ROOT_DIR, version_id, KCD2_DIR)
     logger.info(f"Extraction complete. Found {len(xml_files)} XML files")
     
     # Print the XML file mapping

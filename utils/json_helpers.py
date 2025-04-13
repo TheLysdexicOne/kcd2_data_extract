@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 from .logger import logger
 
 def read_json(file_path: Path) -> Optional[Dict[str, Any]]:
@@ -19,7 +19,9 @@ def read_json(file_path: Path) -> Optional[Dict[str, Any]]:
             return None
             
         with open(file_path, 'r') as f:
-            return json.load(f)
+            data = json.load(f)
+            # Explicitly return the typed value to help Mypy
+            return data if isinstance(data, dict) else None
             
     except Exception as e:
         logger.error(f"Error reading JSON file {file_path}: {e}")
@@ -65,18 +67,18 @@ def unwrap_key(data: Any, key: str) -> Any:
         return data[key]
     return data
 
-def xform_ui_dict(data):
+def xform_ui_dict(data: List[Dict[str, Any]]) -> Dict[str, List[Any]]:
     """
     Transform a list of dictionaries with "Cell" arrays into a single dictionary 
     where the first element of each "Cell" array becomes the key.
     
     Args:
-        data (list): List of dictionaries in format [{"Cell": ["key", "value1", "value2"]}, ...]
+        data: List of dictionaries in format [{"Cell": ["key", "value1", "value2"]}, ...]
         
     Returns:
-        dict: Dictionary in format {"key": ["value1", "value2"], ...}
+        Dictionary in format {"key": ["value1", "value2"], ...}
     """
-    result = {}
+    result: Dict[str, List[Any]] = {}
     
     for item in data:
         # Skip empty items
@@ -90,7 +92,7 @@ def xform_ui_dict(data):
             continue
             
         # Use first element as key, remaining elements as values
-        key = cell_array[0]
+        key = str(cell_array[0])  # Ensure the key is a string
         values = cell_array[1:]
         
         # Skip items with null keys

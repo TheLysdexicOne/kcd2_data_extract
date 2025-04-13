@@ -28,7 +28,7 @@ def process_items(root_dir: Path, version_id: str, filled_items: Dict[str, Any],
         logger.info("Processing items into final structure...")
 
         # Initialize the items array
-        item_array = []
+        items_array = []
         
         # Process each category of items
         total_count = 0
@@ -42,10 +42,10 @@ def process_items(root_dir: Path, version_id: str, filled_items: Dict[str, Any],
             
             for item in items_list:
                 processed_item = process_single_item(item, category)
-                item_array.append(processed_item)
+                items_array.append(processed_item)
         
         # Check if we have items after processing
-        processed_count = len(item_array)
+        processed_count = len(items_array)
         if processed_count == 0:
             logger.error("No items found after processing")
             return []
@@ -53,9 +53,9 @@ def process_items(root_dir: Path, version_id: str, filled_items: Dict[str, Any],
         logger.info(f"Successfully processed {processed_count} items out of {total_count} total items")
         logger.info(f"Items by category: {category_counts}")
         
-        item_array.sort(key=lambda x: x["iconId"])
+        items_array.sort(key=lambda x: x["displayName"])
 
-        return item_array
+        return items_array
             
     except Exception as e:
         logger.error(f"Critical error in process_items: {str(e)}")

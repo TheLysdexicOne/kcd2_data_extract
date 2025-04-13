@@ -1,6 +1,6 @@
 from pathlib import Path
 import traceback
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, cast
 from utils import logger, read_json, ensure_dir, write_json
 
 def get_version(root_dir: Path, kcd2_dir: Path) -> Optional[str]:
@@ -49,21 +49,37 @@ def get_version(root_dir: Path, kcd2_dir: Path) -> Optional[str]:
         return None
 
 def get_preset_data(whdl_path: Path) -> Optional[Dict[str, Any]]:
-    """Extract preset data from whdlversions.json file."""
+    """
+    Extract preset data from whdlversions.json file.
+    
+    Args:
+        whdl_path: Path to the whdlversions.json file
+        
+    Returns:
+        Dictionary containing preset data or None if error
+    """
     version_data = read_json(whdl_path)
     if not version_data:
         logger.error("Failed to read version data from whdlversions.json")
         return None
     
     preset_data = version_data.get("Preset")
-    if not preset_data:
-        logger.error("Preset data not found in whdlversions.json")
+    if not isinstance(preset_data, dict):
+        logger.error("Preset data not found in whdlversions.json or has invalid format")
         return None
         
-    return preset_data
+    return cast(Dict[str, Any], preset_data)
 
-def clean_version_id(game_version):
-    """Convert release_X_Y to X_Y for directory naming."""
+def clean_version_id(game_version: str) -> str:
+    """
+    Convert release_X_Y to X_Y for directory naming.
+    
+    Args:
+        game_version: The game version string to clean
+        
+    Returns:
+        Cleaned version ID
+    """
     return game_version.replace("release_", "") if game_version.startswith("release_") else game_version
 
 def ensure_version_directories(root_dir: Path, version_id: str) -> Path:
@@ -103,8 +119,24 @@ def update_version_json(version_json_path: Path, preset_data: Dict[str, Any]) ->
     return is_new_version
 
 def process_existing_versions(existing_versions: Dict[str, Any], preset_data: Dict[str, Any], versions: Dict[str, Any]) -> bool:
-    """Process existing versions and detect changes."""
+    """
+    Process existing versions and detect changes.
+    
+    Args:
+        existing_versions: Dictionary of existing versions
+        preset_data: New preset data to check
+        versions: Dictionary to update with versions
+    
+    Returns:
+        Boolean indicating whether a new version was detected
+    """
     is_new_version = False
+    
+    # Ensure existing_versions is a dictionary
+    if not isinstance(existing_versions, dict):
+        logger.warning("existing_versions is not a dictionary")
+        return is_new_version
+        
     latest = existing_versions.get("latest", {})
     
     # Check if version has changed

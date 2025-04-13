@@ -1,6 +1,6 @@
 import copy
 from pathlib import Path
-from typing import Dict, List, Any, Optional, Tuple, Union, TypeVar, Callable
+from typing import Dict, List, Any, Optional, Tuple, TypeVar
 from utils import logger, write_json
 
 T = TypeVar('T')  # Define type variable for generic functions
@@ -49,16 +49,18 @@ def parse_items(root_dir: Path, version_id: str, combined_items: Dict[str, Any],
 
             # Process items data in steps
             logger.info("Removing @ symbol from keys...")
-            parsed_items = remove_at_signs(parsed_items)
-            if not parsed_items:
+            result = remove_at_signs(parsed_items)
+            if result is None:
                 logger.error("Failed to remove @ signs from keys")
                 return {}
+            parsed_items = result
             
             logger.info("Fixing aliases...")
-            parsed_items = fix_alias(parsed_items)
-            if not parsed_items:
+            result = fix_alias(parsed_items)
+            if result is None:
                 logger.error("Failed to fix aliases")
                 return {}
+            parsed_items = result
 
             # Remove Item Alias category if it still exists
             if "ItemAlias" in parsed_items:
@@ -66,22 +68,25 @@ def parse_items(root_dir: Path, version_id: str, combined_items: Dict[str, Any],
                 del parsed_items["ItemAlias"]
             
             logger.info("Condensing categories...")
-            parsed_items = condense_categories(parsed_items)
-            if not parsed_items:
+            result = condense_categories(parsed_items)
+            if result is None:
                 logger.error("Failed to condense categories")
                 return {}
+            parsed_items = result
             
             logger.info("Removing unnecessary items...")
-            parsed_items = remove_items(parsed_items)
-            if not parsed_items:
+            result = remove_items(parsed_items)
+            if result is None:
                 logger.error("Failed to remove unnecessary items")
                 return {}
+            parsed_items = result
 
             logger.info("Adding display names to items...")
-            parsed_items = add_display_names(parsed_items, ui_text)
-            if not parsed_items:
+            result = add_display_names(parsed_items, ui_text)
+            if result is None:
                 logger.error("Failed to add display names")
                 return {}
+            parsed_items = result
             
             # Validate final data structure
             category_counts = {category: len(items) for category, items in parsed_items.items()}
@@ -407,10 +412,11 @@ def add_display_names(parsed_items: Dict[str, Any], ui_text: Dict[str, Any]) -> 
                 return text
                 
             words = text.split()
-            capitalized_words = []
+            capitalized_words: List[str] = []  # Add proper type annotation
             
             for word in words:
                 if not word:
+                    # Empty string - add it as is
                     capitalized_words.append(word)
                     continue
                     

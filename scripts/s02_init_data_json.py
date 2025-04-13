@@ -2,7 +2,6 @@ from pathlib import Path
 from typing import Dict, Optional, Any
 from utils import logger, ensure_dir, read_json, write_json
 from constants.categories import (
-    ICON_CATEGORIES,
     ITEM_CATEGORIES,
     UI_SLOTS,
     ARMOR_TYPES,

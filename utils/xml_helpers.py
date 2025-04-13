@@ -88,11 +88,3 @@ def convert_xml(xml_trees):
         import traceback
         logger.error(traceback.format_exc())
         return None
-
-def xml_tree_to_dict(elem):
-    """
-    Given an xml.etree.ElementTree.Element, return a native Python dict.
-    """
-    # xmltodict wants bytes or string; serialize just the subtree
-    xml_str = ET.tostring(elem, encoding="utf-8")
-    return xmltodict.parse(xml_str)

@@ -1,4 +1,8 @@
 # User specific files / folders
+data_analysis/reports/
+data_analysis/*.txt
+data_analysis/*.json
+bin/
 
 # Github Settings
 .github/
@@ -53,7 +57,7 @@ htmlcov/
 .tox/
 .nox/
 .coverage
-.coverage.*
+.coverage.* 
 .cache
 nosetests.xml
 coverage.xml

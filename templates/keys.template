@@ -1,48 +1,47 @@
-"items" = {
-    {item_category} : {
-        "id": "Id", # String
-        "name": "Name", # String
-        "displayName": "" #String - placeholder for when we pull names from text_ui_items
-        "uiName": "UIName", # String
-        "iconID": "IconID", # String
-        "uiInfo": "UIInfo", # String
-        "categoryID": "categoryID", # Integer
-        "categoryName": "categoryName", # String
-        "uiSlotID": "uiSlotID", # Integer
-        "uiSlotName": "uiSlotName", # String
-        "armorTypeId": "armorTypeId", # Integer
-        "armorTypeName": "armorTypeName", # String
-        "weaponTypeId": "weaponTypeId", # Integer
-        "weaponTypeName": "weaponTypeName", # String
-        "badgeTypeId": "badgeTypeId", # Integer
-        "badgeTypeName": "badgeTypeName", # String
-        "badgeSubTypeId": "badgeSubTypeId", # Integer
-        "badgeSubTypeName": "badgeSubTypeName", # String
-        "clothing": "Clothing", # String
-        "slots": "NumberOfQuickSlots", # Integer (only QuickSlotContainers)
-        "sideWeights": "SideWeights", # Read as string, but store as List (only Die)
-        "sideValues": "SideValues", # read as string, but store as List (only Die)
-        "ammo": # String (only ranged weapons)
-        "stats": {
-            "weight": "Weight", # Float - 1 decimal
-            "price": "Price * 0.1", # Integer - round if needed
-            "maxQuality": "MaxQuality", # Integer
-            "durability": "MaxStatus", # Integer
-            "strReq": "StrReq", # Integer
-            "agiReq": "AgiReq", # Integer
-            "charisma": "Charisma", # Integer
-            "conspicuousness": "50 + (Conspicuousness * 50)", # Float during calculation, rounded Integer after caluclations
-            "noise": "Noise * 100", # Float during calculation, rounded Integer after caluclations
-            "visibility": "50 + (Visibility * 50)", # Float during calculation, rounded Integer after caluclations
-            "defense": "Defense" # Integer (only Shield)
-            "defenseSlash": "DefenseSlash", # Integer (only Armor)
-            "defenseSmash": "DefenseSmash",# Integer (only Armor)
-            "defenseStab": "DefenseStab", # Integer (only Armor)
-            "attack": "Attack" # Integer (only Weapon)
-            "attackModSlash": "AttackModSlash" # Float (only weapon)
-            "attackSlash": "Attack * AttackModSlash", # Integer (only Weapon)
-            "attackSmash": "Attack * AttackModSmash", # Integer (only Weapon)
-            "attackStab": "Attack * AttackModStab", # Integer (only Weapon)
-        }
-    }
-}
+{
+    "id": "Id", # String
+    "name": "Name", # String
+    "displayName": "" #String
+    "uiName": "UIName", # String
+    "iconId": "IconID", # String
+    "uiInfo": "UIInfo", # String
+    "categoryId": "categoryID", # Integer
+    "categoryName": "categoryName", # String
+    "uiSlotId": "uiSlotID", # Integer
+    "uiSlotName": "uiSlotName", # String
+    "armorTypeId": "armorTypeId", # Integer
+    "armorTypeName": "armorTypeName", # String
+    "weaponTypeId": "weaponTypeId", # Integer
+    "weaponTypeName": "weaponTypeName", # String
+    "badgeTypeId": "badgeTypeId", # Integer
+    "badgeTypeName": "badgeTypeName", # String
+    "badgeSubTypeId": "badgeSubTypeId", # Integer
+    "badgeSubTypeName": "badgeSubTypeName", # String
+    "clothing": "Clothing", # String
+    "slots": "NumberOfQuickSlots", # Integer
+    "sideWeights": "SideWeights", # Array/List - order matters
+    "sideValues": "SideValues", # Array/List - order matters
+    "ammo": # String (only ranged weapons)
+    "stats": {
+        "weight": "Weight", # Float - 1 decimal
+        "price": "Price * 0.1", # Integer - round if needed
+        "maxQuality": "MaxQuality", # Integer
+        "durability": "MaxStatus", # Integer
+        "strReq": "StrReq", # Integer
+        "agiReq": "AgiReq", # Integer
+        "charisma": "Charisma", # Integer
+        "conspicuousness": "50 + (Conspicuousness * 50)", # Float during calculation, rounded Integer after calculations
+        "noise": "Noise * 100", # Float during calculation, rounded Integer after calculations
+        "visibility": "50 + (Visibility * 50)", # Float during calculation, rounded Integer after calculations
+        "defense": "Defense" # Integer
+        "defenseSlash": "DefenseSlash", # Integer
+        "defenseSmash": "DefenseSmash",# Integer
+        "defenseStab": "DefenseStab", # Integer
+        "attack": "Attack" # Integer
+        "attackModSlash": "AttackModSlash" # Float
+        "attackModSmash": "AttackModSmash" # Float
+        "attackModStab": "AttackModStab" # Float
+        "attackSlash": "Attack * AttackModSlash", # Integer
+        "attackSmash": "Attack * AttackModSmash", # Integer
+        "attackStab": "Attack * AttackModStab", # Integer
+}   }

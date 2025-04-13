@@ -82,17 +82,27 @@ def main(debug: bool = False) -> int:
 
     # Create the items dictionary for writing to data.json
     logger.info("Creating items dictionary for writing to data.json...")
-    items_dict: Optional[Dict[str, Any]] = process_items(root_dir, version_id, filled_items, data)
-    if not items_dict:
+    items_array: Optional[Dict[str, Any]] = process_items(root_dir, version_id, filled_items, data)
+    if not items_array:
         logger.error("Failed to process items")
         return 1
     
     # Write items dictionary to a file
     try:
-        write_json(version_dir / "items_dict.json", items_dict, indent=4)
+        write_json(version_dir / "items_array.json", items_array, indent=4)
     except Exception as e:
         logger.error(f"Failed to write items dictionary to file: {e}")
         return 1
+    
+    # Immplant the items into data.json
+    logger.info("Implanting items into data.json...")
+    data["items"] = items_array
+    try:
+        write_json(version_dir / "data.json", data, indent=4)
+    except Exception as e:
+        logger.error(f"Failed to write data.json: {e}")
+        return 1
+    
     
     # Return 0 for success
     return 0

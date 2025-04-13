@@ -1,4 +1,5 @@
 import sys
+import json
 from pathlib import Path
 from typing import Dict, Any, Optional, List
 from xml.etree.ElementTree import ElementTree
@@ -112,20 +113,37 @@ def main(debug: bool = False) -> int:
     # s07_extract_icons.py
     # Extract icons from the game directory
     logger.info("Extracting icons from the game directory...")
-    icons: Optional[Dict[str, Any]] = extract_icons(root_dir, version_id, kcd2_dir, items_array)
-    if not icons:
-        logger.error("Failed to extract icons")
-        return 1
+    extracted_icons: Optional[Dict[str, Path]] = extract_icons(root_dir, version_id, kcd2_dir, items_array)
+    if not extracted_icons:
+        logger.warning("Failed to extract icons, continuing without icons")
+    else:
+        # Write extracted icons mapping to a file (for debugging only)
+        icons_mapping_file = version_dir / "icon" / "icons_mapping.json"
+        try:
+            # Convert Path objects to strings for JSON serialization
+            icons_mapping = {k: str(v) for k, v in extracted_icons.items()}
+            write_json(icons_mapping_file, icons_mapping, indent=4)
+            logger.info(f"Saved icons mapping to {icons_mapping_file}")
+        except Exception as e:
+            logger.error(f"Failed to write icons mapping to file: {e}")
     
-    # Implant the icons into data.json
-    logger.info("Implanting icons into data.json...")
-    data["icons"] = icons
-    try:
-        write_json(version_dir / "data.json", data, indent=4)
-    except Exception as e:
-        logger.error(f"Failed to write data.json: {e}")
-        return 1
+    # s08_process_icons.py
+    # Process icons and create spritesheet
+    if extracted_icons:
+        logger.info("Processing icons and creating spritesheet...")
+        # Process icons and get the icons data directly (in memory)
+        icons_data = process_icons(root_dir, version_id, items_array, extracted_icons)
+        
+        # Add icons data directly to the data structure in memory
+        if icons_data:
+            data["icons"] = icons_data
+            logger.info(f"Added {len(icons_data)} icon positions to data structure")
+            
+            # Write updated data.json
+            write_json(version_dir / "data.json", data, indent=4)
+            logger.info("Updated data.json with icons data")
     
+    logger.info("Data extraction complete!")
     # Return 0 for success
     return 0
 

@@ -37,22 +37,22 @@ def init_data_json(root_dir: Path, version_id: str) -> Optional[Dict[str, Any]]:
     
     try:
         # 1. Populate with constant data
-        data["iconCategories"] = ICON_CATEGORIES
-        data["itemCategories"] = ITEM_CATEGORIES
+        # data["iconGroups"] = ICON_CATEGORIES
+        data["categories"] = ITEM_CATEGORIES
         data["uiSlots"] = UI_SLOTS
         data["weaponTypes"] = WEAPON_TYPES
         data["armorTypes"] = ARMOR_TYPES
         data["diceBadges"]["types"] = DICE_BADGE_TYPES
         data["diceBadges"]["subtypes"] = DICE_BADGE_SUBTYPES
         
-        logger.info("Populated data with constants:")
-        logger.info(f"- {len(ICON_CATEGORIES)} icon categories")
-        logger.info(f"- {len(ITEM_CATEGORIES)} item categories")
-        logger.info(f"- {len(UI_SLOTS)} UI slots")
-        logger.info(f"- {len(WEAPON_TYPES)} weapon types")
-        logger.info(f"- {len(ARMOR_TYPES)} armor types")
-        logger.info(f"- {len(DICE_BADGE_TYPES)} dice badge types")
-        logger.info(f"- {len(DICE_BADGE_SUBTYPES)} dice badge subtypes")
+        logger.debug("Populated data with constants:")
+        # logger.debug(f"- {len(ICON_CATEGORIES)} icon categories")
+        logger.debug(f"- {len(ITEM_CATEGORIES)} item categories")
+        logger.debug(f"- {len(UI_SLOTS)} UI slots")
+        logger.debug(f"- {len(WEAPON_TYPES)} weapon types")
+        logger.debug(f"- {len(ARMOR_TYPES)} armor types")
+        logger.debug(f"- {len(DICE_BADGE_TYPES)} dice badge types")
+        logger.debug(f"- {len(DICE_BADGE_SUBTYPES)} dice badge subtypes")
         
         # 2. Load filters from config/filters.json
         filters_path = root_dir / "config" / "filters.json"
@@ -60,7 +60,7 @@ def init_data_json(root_dir: Path, version_id: str) -> Optional[Dict[str, Any]]:
         if not filters:
             logger.warning("Failed to load filters, armor types will have empty filters")
         else:
-            logger.info(f"Loaded {len(filters)} armor type filters")
+            logger.debug(f"Loaded {len(filters)} armor type filters")
             
             # Populate the armor types with the appropriate filters
             for armor_type in data.get("armorTypes", []):
@@ -83,7 +83,7 @@ def init_data_json(root_dir: Path, version_id: str) -> Optional[Dict[str, Any]]:
                 "platform": latest_data.get("Platform", {}).get("Name", "")
             }
             
-            logger.info(f"Updated version info: {data['version']}")
+            logger.debug(f"Updated version info: {data['version']}")
         
         # Save the initialized data
         data_path = version_dir / "data.json"

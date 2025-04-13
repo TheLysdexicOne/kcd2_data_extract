@@ -1,11 +1,10 @@
 {
     "version": {
         "id": 0,
-        "name": "release_1_2",
-        "version": "1.2"
+        "name": "",
+        "version": ""
     },
-    "iconCategories": [],
-    "itemCategories": [],
+    "categories": [],
     "uiSlots": [],
     "weaponTypes": [],
     "armorTypes": [],

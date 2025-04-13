@@ -4,6 +4,7 @@
         "F_Hood",
         "F_Bonnet",
         "F_CapAndWimple",
+        "F_Cap",
         "F_Hat",
         "F_HairDecor",
         "F_HoodOpen",
@@ -120,7 +121,7 @@
     ],
     "horseShoe": [
         "HorseShoe",
-        "kovaniZavodniPodkovy_caulkinHorseshoe"
+        "Horseshoe"
     ]
 }
 

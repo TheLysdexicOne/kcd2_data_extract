@@ -5,45 +5,7 @@
         "branch": "release_1_2",
         "platform": "PC"
     },
-    "iconCategories": [
-        {
-            "id": -1,
-            "name": "undefined"
-        },
-        {
-            "id": 0,
-            "name": "head"
-        },
-        {
-            "id": 1,
-            "name": "torso"
-        },
-        {
-            "id": 2,
-            "name": "hands"
-        },
-        {
-            "id": 3,
-            "name": "legs"
-        },
-        {
-            "id": 4,
-            "name": "horse"
-        },
-        {
-            "id": 5,
-            "name": "weapon"
-        },
-        {
-            "id": 6,
-            "name": "dice"
-        },
-        {
-            "id": 7,
-            "name": "misc"
-        }
-    ],
-    "itemCategories": [
+    "categories": [
         {
             "id": -1,
             "name": "undefined",
@@ -443,6 +405,7 @@
                 "F_Hood",
                 "F_Bonnet",
                 "F_CapAndWimple",
+                "F_Cap",
                 "F_Hat",
                 "F_HairDecor",
                 "F_HoodOpen",
@@ -684,7 +647,7 @@
             "uiSlot": 22,
             "filters": [
                 "HorseShoe",
-                "kovaniZavodniPodkovy_caulkinHorseshoe"
+                "Horseshoe"
             ]
         }
     ],

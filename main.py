@@ -2,20 +2,16 @@ import sys
 from pathlib import Path
 from typing import Dict, Any, Optional
 from xml.etree.ElementTree import ElementTree
-from utils import logger, ensure_dir, write_json, unwrap_key, xform_ui_dict, convert_xml
+from utils import logger, ensure_dir, write_json, convert_xml
 from config import ROOT_DIR, KCD2_DIR
-from scripts import get_version, init_data_json, get_xml, parse_items, process_items
+from scripts import get_version, init_data_json, get_xml, parse_items, fill_item_properties, process_items
 
 def main(debug: bool = False) -> int:
     """Main function for KCD2 data extraction."""
     # Directories
     root_dir = Path(ROOT_DIR)
     kcd2_dir = Path(KCD2_DIR)
-    log_dir = root_dir / "logs"
-    debug_dir = log_dir / "debug"
-
-    # Ensure directories exist
-    ensure_dir(debug_dir)
+    log_dir = root_dir / "logs"    
 
     # Check version
     logger.info("Checking game version...")
@@ -23,6 +19,9 @@ def main(debug: bool = False) -> int:
     if not version_id:
         logger.error("Failed to check game version")
         return 1
+
+    # Specify version and debug directories
+    version_dir = root_dir / "data" / "version" / version_id
 
     # Initialize data.json in the version directory
     logger.info(f"Initializing data.json for version {version_id}...")
@@ -33,52 +32,68 @@ def main(debug: bool = False) -> int:
 
     # Extract XML files
     logger.info("Extracting XML files...")
-    xml_trees: Dict[str, ElementTree] = get_xml(root_dir, kcd2_dir, version_id)
+    xml_trees: Dict[str, ElementTree] = get_xml(root_dir, version_id, kcd2_dir)
     if not xml_trees or "combined_items" not in xml_trees or "text_ui_items" not in xml_trees:
         logger.error("XML extraction failed: Missing required XML trees")
         return 1
-
-    logger.info(f"Working with {len(xml_trees)} XML trees")
 
     # Convert XML trees to dictionaries
     logger.info("Converting XML trees to dictionaries...")
     combined_dict: Optional[Dict[str, Any]]
     text_ui_dict: Optional[Dict[str, Any]]
-    combined_dict, text_ui_dict = convert_xml(xml_trees)
-    if debug:
-        write_json(debug_dir / "combined_dict.json", combined_dict, indent=4)
-        write_json(debug_dir / "text_ui_dict.json", text_ui_dict, indent=4)
-    if not combined_dict and not text_ui_dict:
-        logger.error("Failed to convert XML trees to dictionaries")
+    combined_dict, text_ui_dict = convert_xml(xml_trees)   
+
+    # Write XML trees and dictionaries to files
+    try:
+        xml_trees["combined_items"].write(version_dir / "combined_items.xml", encoding="utf-8", xml_declaration=True)
+        write_json(version_dir / "text_ui_dict.json", text_ui_dict, indent=4)
+        write_json(version_dir / "combined_dict.json", combined_dict, indent=4)
+    except Exception as e:
+        logger.error(f"Failed to write XML trees or dictionaries to files: {e}")
         return 1
-
-    logger.info("Successfully converted XML to dictionaries")
-    
-    # Fix text_ui_dict and combined_dict format
-    text_ui_dict = unwrap_key(unwrap_key(text_ui_dict, "Table"), "Row")
-    text_ui_dict = xform_ui_dict(text_ui_dict)
-    combined_dict = unwrap_key(unwrap_key(combined_dict,"database"), "ItemClasses")
-    combined_dict.pop("@version")
-
-    if debug:
-        write_json(log_dir / "debug" / "text_ui_dict.json", text_ui_dict, indent=4)
-        write_json(log_dir / "debug" / "combined_dict.json", combined_dict, indent=4)
     
     # Parse the combined_items dictionary
-    parsed_items = parse_items(root_dir, version_id, combined_dict, text_ui_dict, data)
+    logger.info("Parsing combined_items dictionary...")
+    parsed_items: Optional[Dict[str, Any]] = parse_items(root_dir, version_id, combined_dict, text_ui_dict, data)
     if not parsed_items:
         logger.error("Failed to parse items")
         return 1
     
-    # Prep parsed items for writing to data.json
-    logger.info("Preparing parsed items for writing to data.json...")
-    items_dict = Optional[Dict[str, Any]]
-    items_dict = process_items(parsed_items)
+    # Write parsed items to a file
+    try:
+        write_json(version_dir / "parsed_items.json", parsed_items, indent=4)
+    except Exception as e:
+        logger.error(f"Failed to write parsed items to file: {e}")
+        return 1
+
+    # Filling out categorization keys
+    logger.info("Filling out categorization keys...")
+    filled_items: Optional[Dict[str, Any]] = fill_item_properties(root_dir, version_id, parsed_items, data)
+    if not filled_items:
+        logger.error("Failed to fill item properties")
+        return 1
+
+    # Write filled items to a file
+    try:
+        write_json(version_dir / "filled_items.json", filled_items, indent=4)
+    except Exception as e:
+        logger.error(f"Failed to write parsed items to file: {e}")
+        return 1
+
+    # Create the items dictionary for writing to data.json
+    logger.info("Creating items dictionary for writing to data.json...")
+    items_dict: Optional[Dict[str, Any]] = process_items(root_dir, version_id, filled_items, data)
     if not items_dict:
         logger.error("Failed to process items")
         return 1
-    write_json(debug_dir / "items_dict.json", items_dict, indent=4)
-
+    
+    # Write items dictionary to a file
+    try:
+        write_json(version_dir / "items_dict.json", items_dict, indent=4)
+    except Exception as e:
+        logger.error(f"Failed to write items dictionary to file: {e}")
+        return 1
+    
     # Return 0 for success
     return 0
 

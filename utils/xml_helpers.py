@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import xmltodict
 from .logger import logger
+from .json_helpers import unwrap_key, xform_ui_dict
 
 def xml_tree_to_dict(elem):
     """
@@ -66,7 +67,6 @@ def convert_xml(xml_trees):
     Returns:
         tuple: (combined_items_dict, text_ui_items_dict) after processing
     """
-    logger.info("Processing XML files...")
     
     try:
         # Convert XML trees to dictionaries using a loop
@@ -76,7 +76,10 @@ def convert_xml(xml_trees):
         combined_dict = xml_tree_to_dict(combined_items_tree.getroot())
         text_ui_dict = xml_tree_to_dict(text_ui_items_tree.getroot())
         
-        logger.info("Converted XML trees to dictionaries")
+        text_ui_dict = unwrap_key(unwrap_key(text_ui_dict, "Table"), "Row")
+        text_ui_dict = xform_ui_dict(text_ui_dict)
+        combined_dict = unwrap_key(unwrap_key(combined_dict,"database"), "ItemClasses")
+        combined_dict.pop("@version")
 
         return (combined_dict, text_ui_dict)
         

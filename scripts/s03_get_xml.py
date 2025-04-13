@@ -8,7 +8,7 @@ from datetime import datetime
 from typing import Dict, Tuple, Optional, Any, List, Set, Mapping
 from utils import logger, read_json, write_json, ensure_dir, format_xml
 
-def get_xml(root_dir: Path, kcd2_dir: Path, version_id: str) -> Dict[str, ET.ElementTree]:
+def get_xml(root_dir: Path, version_id: str, kcd2_dir: Path) -> Dict[str, ET.ElementTree]:
     """
     Extract XML files from PAK files and create a combined items file.
     
@@ -20,45 +20,72 @@ def get_xml(root_dir: Path, kcd2_dir: Path, version_id: str) -> Dict[str, ET.Ele
     Returns:
         Dictionary mapping XML names to their parsed ElementTree objects
     """
-    
-    # Construct version directory path
-    version_dir = root_dir / "data" / "version" / version_id
-    
     # Initialize result dictionary
     xml_trees: Dict[str, ET.ElementTree] = {}
     
-    # Load XML configuration
-    xml_config = read_json(root_dir / "config" / "xml_files.json")
-    if not xml_config:
-        logger.error("Failed to load XML configuration")
+    try:
+        # Validate inputs
+        if not isinstance(root_dir, Path) or not isinstance(kcd2_dir, Path) or not isinstance(version_id, str):
+            logger.error("Invalid input parameters to get_xml")
+            return {}
+        
+        # Construct version directory path
+        version_dir = root_dir / "data" / "version" / version_id
+        
+        # Load XML configuration
+        xml_config = read_json(root_dir / "config" / "xml_files.json")
+        if not xml_config:
+            logger.error("Failed to load XML configuration")
+            return {}
+        
+        # Extract XML files
+        extracted_files, xml_dir, temp_dir = extract_xml_files(kcd2_dir, version_dir, xml_config)
+        if not extracted_files:
+            logger.error("No XML files were successfully extracted")
+            return {}
+        
+        # Create combined items file if we have the base item.xml
+        if "item" in extracted_files:
+            logger.info("Combining items from XML files...")
+            combined_root, combined_path = create_combined_items_file(extracted_files, xml_dir)
+            if combined_root is not None and combined_path is not None:
+                xml_trees["combined_items"] = ET.ElementTree(combined_root)
+                logger.debug(f"Added combined_items to XML trees from {combined_path}")
+            else:
+                logger.error("Failed to create combined items file")
+                return {}
+        else:
+            logger.error("Could not create combined items file: item.xml not found")
+            return {}
+        
+        # Add text_ui_items to result if extracted
+        if "text_ui_items" in extracted_files:
+            try:
+                text_ui_path = extracted_files["text_ui_items"]
+                xml_trees["text_ui_items"] = ET.parse(text_ui_path)
+                logger.debug(f"Added text_ui_items to XML trees from {text_ui_path}")
+            except Exception as e:
+                logger.error(f"Failed to parse text_ui_items.xml: {e}")
+                return {}
+        
+        # Clean up temp directory
+        clean_directory(temp_dir)
+        
+        # Final validation
+        required_keys = ["combined_items", "text_ui_items"]
+        missing_keys = [key for key in required_keys if key not in xml_trees]
+        if missing_keys:
+            logger.error(f"Missing required XML trees: {missing_keys}")
+            return {}
+        
+        logger.info(f"XML extraction complete. Loaded {len(xml_trees)} XML trees")
         return xml_trees
-    
-    # Extract XML files
-    extracted_files, xml_dir, temp_dir = extract_xml_files(kcd2_dir, version_dir, xml_config)
-    
-    # Create combined items file if we have the base item.xml
-    if "item" in extracted_files:
-        combined_root, combined_path = create_combined_items_file(extracted_files, xml_dir)
-        if combined_root is not None and combined_path is not None:
-            xml_trees["combined_items"] = ET.ElementTree(combined_root)
-            logger.debug(f"Added combined_items to XML trees from {combined_path}")
-    else:
-        logger.warning("Could not create combined items file: item.xml not found")
-    
-    # Add text_ui_items to result if extracted
-    if "text_ui_items" in extracted_files:
-        try:
-            text_ui_path = extracted_files["text_ui_items"]
-            xml_trees["text_ui_items"] = ET.parse(text_ui_path)
-            logger.debug(f"Added text_ui_items to XML trees from {text_ui_path}")
-        except Exception as e:
-            logger.error(f"Failed to parse text_ui_items.xml: {e}")
-    
-    # Clean up temp directory
-    clean_directory(temp_dir)
-    
-    logger.info(f"XML extraction complete. Loaded {len(xml_trees)} XML trees")
-    return xml_trees
+        
+    except Exception as e:
+        logger.error(f"Critical error in get_xml: {e}")
+        import traceback
+        logger.debug(traceback.format_exc())
+        return {}
 
 def compute_file_hash(file_path: Path) -> str:
     """
@@ -149,23 +176,39 @@ def extract_xml_files(kcd2_dir: Path, version_dir: Path, xml_config: Mapping[str
     # Extract XML files
     extracted_files: Dict[str, Path] = {}
     
+    # Add counters for tracking file processing
+    total_files = 0
+    extracted_count = 0
+    skipped_count = 0
+    
+    # Collect valid PAK files first
+    valid_pak_files = []
     for pak_name, pak_info in xml_config.items():
         pak_path = kcd2_dir / pak_info["kcd2_pak_file"]
-        if not pak_path.exists():
+        if pak_path.exists():
+            valid_pak_files.append((pak_path, pak_info))
+        else:
             logger.error(f"PAK file not found: {pak_path}")
-            continue
-        
-        logger.info(f"Processing {pak_path.name}")
-        
+    
+    # Log all PAK files to be processed
+    if valid_pak_files:
+        pak_names = ", ".join([pak_path.name for pak_path, _ in valid_pak_files])
+        logger.info(f"Extracting XML files: {pak_names}...")
+    else:
+        logger.warning("No valid PAK files found to extract")
+        return {}, xml_dir, temp_dir
+
+    for pak_path, pak_info in valid_pak_files:
         try:
             with zipfile.ZipFile(pak_path, 'r') as pak_file:
                 # Process each XML to extract
                 for file_info in pak_info["files"]:
                     xml_name = file_info["name"]
                     in_pak_dir = file_info["in_pak_dir"]
+                    total_files += 1
                     
                     # Extract the file
-                    output_path = extract_xml_file(
+                    output_path, was_extracted = extract_xml_file(
                         pak_file=pak_file,
                         xml_name=xml_name,
                         in_pak_dir=in_pak_dir,
@@ -181,6 +224,12 @@ def extract_xml_files(kcd2_dir: Path, version_dir: Path, xml_config: Mapping[str
                         # Store absolute path to avoid confusion with relative paths
                         extracted_files[xml_name] = output_path.resolve()
                         logger.debug(f"Stored extracted file path: {xml_name} -> {output_path.resolve()}")
+                        
+                        # Update counters
+                        if was_extracted:
+                            extracted_count += 1
+                        else:
+                            skipped_count += 1
         except zipfile.BadZipFile:
             logger.error(f"Invalid PAK file format: {pak_path}")
         except PermissionError:
@@ -203,6 +252,9 @@ def extract_xml_files(kcd2_dir: Path, version_dir: Path, xml_config: Mapping[str
         for name, path in extracted_files.items():
             logger.debug(f"Available file: {name} -> {path}")
     
+    # Log summary of extraction process
+    logger.info(f"XML extraction summary: {total_files} total files, {extracted_count} extracted, {skipped_count} skipped (unchanged)")
+    
     return extracted_files, xml_dir, temp_dir
 
 def extract_xml_file(
@@ -215,7 +267,7 @@ def extract_xml_file(
     version_dir: Path, 
     existing_hashes: Dict[str, Any], 
     new_hashes: Dict[str, Dict[str, str]]
-) -> Optional[Path]:
+) -> Tuple[Optional[Path], bool]:
     """
     Extract a single XML file from a PAK file.
     
@@ -231,67 +283,83 @@ def extract_xml_file(
         new_hashes: Dictionary to store new file hashes
     
     Returns:
-        Path to the extracted XML file if successful, None otherwise
+        Tuple containing:
+        - Path to the extracted XML file if successful, None otherwise
+        - Boolean indicating whether the file was freshly extracted (True) or skipped (False)
     """
+    # Input validation
+    if not isinstance(pak_file, zipfile.ZipFile) or not isinstance(xml_name, str):
+        logger.error(f"Invalid input parameters for extract_xml_file: {xml_name}")
+        return None, False
+        
+    if not isinstance(raw_dir, Path) or not isinstance(temp_dir, Path):
+        logger.error(f"Invalid directory paths for extract_xml_file: {xml_name}")
+        return None, False
+    
     # Setup paths
     xml_in_pak = f"{in_pak_dir}{xml_name}.xml"
     output_path = raw_dir / f"{xml_name}.xml"
     
-    # Compute relative path for hash tracking
-    rel_path = str(output_path.relative_to(version_dir.parent.parent))
-    
-    # Check if we need to extract based on hash
-    need_extract = True
-    if output_path.exists() and rel_path in existing_hashes:
-        try:
-            current_hash = compute_file_hash(output_path)
-            if current_hash == existing_hashes[rel_path]["xml_hash"]:
-                logger.info(f"Skipping {xml_name}.xml (unchanged)")
-                need_extract = False
-        except (IOError, OSError) as e:
-            logger.warning(f"Error computing hash for {output_path}: {e}")
-    
-    # Extract if needed
-    if need_extract:
-        try:
-            # Clean temp dir before extraction
-            clean_directory(temp_dir)
-            
-            # Extract to temp
-            pak_file.extract(xml_in_pak, temp_dir)
-            extracted_file = temp_dir / xml_in_pak
-            
-            if not extracted_file.exists():
-                logger.error(f"Extraction failed: {xml_in_pak} not found in temp directory")
-                return None
-            
-            # Ensure output directory exists
-            output_path.parent.mkdir(parents=True, exist_ok=True)
-            
-            # Copy to output path
-            shutil.copy2(extracted_file, output_path)
-            
-            # Update hash
-            new_hash = compute_file_hash(output_path)
-            new_hashes[rel_path] = {
-                "xml_hash": new_hash, 
-                "extracted": datetime.now().isoformat(),
-                "source": xml_in_pak
-            }
-            
-            logger.info(f"Extracted {xml_name}.xml to {output_path}")
-        except KeyError:
-            logger.error(f"File not found in PAK: {xml_in_pak}")
-            return None
-        except (IOError, OSError) as e:
-            logger.error(f"I/O error extracting {xml_name}.xml: {e}")
-            return None
-        except Exception as e:
-            logger.error(f"Failed to extract {xml_name}.xml: {e}")
-            logger.debug(f"Exception details:", exc_info=True)
-            return None
-    
-    return output_path
+    try:
+        # Compute relative path for hash tracking
+        rel_path = str(output_path.relative_to(version_dir.parent.parent))
+        
+        # Check if we need to extract based on hash
+        need_extract = True
+        if output_path.exists() and rel_path in existing_hashes:
+            try:
+                current_hash = compute_file_hash(output_path)
+                if current_hash == existing_hashes[rel_path]["xml_hash"]:
+                    logger.debug(f"Skipping {xml_name}.xml (unchanged)")
+                    return output_path, False
+            except (IOError, OSError) as e:
+                logger.warning(f"Error computing hash for {output_path}: {e}")
+                # Continue with extraction as fallback
+        
+        # Clean temp dir before extraction
+        clean_directory(temp_dir)
+        
+        # Extract to temp
+        pak_file.extract(xml_in_pak, temp_dir)
+        extracted_file = temp_dir / xml_in_pak
+        
+        if not extracted_file.exists():
+            logger.error(f"Extraction failed: {xml_in_pak} not found in temp directory")
+            return None, False
+        
+        # Ensure output directory exists
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Copy to output path
+        shutil.copy2(extracted_file, output_path)
+        
+        # Verify the file was copied successfully
+        if not output_path.exists() or output_path.stat().st_size == 0:
+            logger.error(f"Failed to copy {xml_name}.xml to output path or file is empty")
+            return None, False
+        
+        # Update hash
+        new_hash = compute_file_hash(output_path)
+        new_hashes[rel_path] = {
+            "xml_hash": new_hash, 
+            "extracted": datetime.now().isoformat(),
+            "source": xml_in_pak
+        }
+        
+        logger.info(f"Extracted {xml_name}.xml to {output_path}")
+        return output_path, True
+        
+    except KeyError:
+        logger.error(f"File not found in PAK: {xml_in_pak}")
+        return None, False
+    except (IOError, OSError) as e:
+        logger.error(f"I/O error extracting {xml_name}.xml: {e}")
+        return None, False
+    except Exception as e:
+        logger.error(f"Failed to extract {xml_name}.xml: {e}")
+        import traceback
+        logger.debug(traceback.format_exc())
+        return None, False
 
 def create_combined_items_file(extracted_files: Dict[str, Path], xml_dir: Path) -> Tuple[Optional[ET.Element], Optional[Path]]:
     """
@@ -309,13 +377,18 @@ def create_combined_items_file(extracted_files: Dict[str, Path], xml_dir: Path) 
     # Always create the combined file in the standard xml directory
     combined_path = xml_dir / "combined_items.xml"
     
-    # Check if required files exist
-    if "item" not in extracted_files:
-        logger.error("Required file 'item.xml' not found in extracted files")
-        logger.debug(f"Available files: {list(extracted_files.keys())}")
-        return None, None
-    
     try:
+        # Input validation
+        if not isinstance(extracted_files, dict) or not isinstance(xml_dir, Path):
+            logger.error("Invalid input parameters to create_combined_items_file")
+            return None, None
+            
+        # Check if required files exist
+        if "item" not in extracted_files:
+            logger.error("Required file 'item.xml' not found in extracted files")
+            logger.debug(f"Available files: {list(extracted_files.keys())}")
+            return None, None
+        
         # Parse main item.xml
         item_path = extracted_files["item"]
         logger.debug(f"Loading item.xml from {item_path}")
@@ -339,76 +412,78 @@ def create_combined_items_file(extracted_files: Dict[str, Path], xml_dir: Path) 
         # Create ItemClasses element in combined file
         combined_classes = ET.SubElement(combined_root, "ItemClasses", main_classes.attrib)
         
-        # Process main file items
+        # Process main file items - use extend for better performance
         for item in main_classes:
             combined_classes.append(item)
         
         # Track item count for logging
         item_count = len(list(main_classes))
         
-        # Process other files
-        for name, path in extracted_files.items():
-            if name.startswith("item__") and name != "text_ui_items":
-                try:
-                    logger.debug(f"Processing additional item file: {name}")
-                    
-                    if not path.exists():
-                        logger.warning(f"File not found: {path}")
-                        continue
-                        
-                    file_tree = ET.parse(path)
-                    file_root = file_tree.getroot()
-                    file_classes = file_root.find(".//ItemClasses")
-                    
-                    if file_classes is None:
-                        logger.warning(f"No ItemClasses found in {name}.xml")
-                        continue
-                    
-                    # Check if this is the horse items file
-                    is_horse_file = name == "item__horse"
-                    
-                    item_count_before = len(list(combined_classes))
-                    
-                    for item in file_classes:
-                        if is_horse_file and item.tag == "Armor":
-                            # Convert to Horse for horse file
-                            horse_item = convert_element(item, "Horse")
-                            combined_classes.append(horse_item)
-                        else:
-                            # For all other items, add them directly
-                            combined_classes.append(item)
-                    
-                    items_added = len(list(combined_classes)) - item_count_before
-                    item_count += items_added
-                    
-                    logger.info(f"Added {items_added} items from {name}.xml")
-                    if is_horse_file and items_added > 0:
-                        logger.info(f"Converted Armor elements to Horse elements in {name}.xml")
-                except ET.ParseError as pe:
-                    logger.error(f"XML parse error in {name}.xml: {pe}")
-                except Exception as e:
-                    logger.error(f"Error processing {name}.xml: {e}")
-                    logger.debug(f"Exception details:", exc_info=True)
+        # Dictionary to track items added from each file
+        items_added_by_file: Dict[str, int] = {}
         
-        # Write the combined XML to file with proper formatting
-        try:
-            formatted_xml = format_xml(combined_root)
-            
-            with open(combined_path, 'wb') as f:
-                f.write(formatted_xml)
-            
-            logger.info(f"Created combined items file with {item_count} items")
-            return combined_root, combined_path
-        except Exception as e:
-            logger.error(f"Error writing combined XML file: {e}")
-            return combined_root, None
+        # Process other files more efficiently
+        for name, path in extracted_files.items():
+            if not name.startswith("item__") or name == "text_ui_items":
+                continue
+                
+            try:
+                if not path.exists():
+                    logger.warning(f"File not found: {path}")
+                    continue
+                    
+                file_tree = ET.parse(path)
+                file_root = file_tree.getroot()
+                file_classes = file_root.find(".//ItemClasses")
+                
+                if file_classes is None:
+                    logger.warning(f"No ItemClasses found in {name}.xml")
+                    continue
+                
+                # For better performance, process in batches
+                items_to_add = []
+                for item in file_classes:
+                    # Add all items directly without type conversion
+                    items_to_add.append(item)
+                
+                # Add all items at once for better performance
+                for item in items_to_add:
+                    combined_classes.append(item)
+                
+                items_added = len(items_to_add)
+                item_count += items_added
+                
+                # Store the count for summary logging
+                file_type = name.replace('item__', '')
+                items_added_by_file[file_type] = items_added
+                
+                logger.debug(f"Added {items_added} items from {name}.xml")
+                
+            except ET.ParseError as pe:
+                logger.error(f"XML parse error in {name}.xml: {pe}")
+                return None, None
+            except Exception as e:
+                logger.error(f"Error processing {name}.xml: {e}")
+                import traceback
+                logger.debug(traceback.format_exc())
+                return None, None
+        
+        # Log summary of added items
+        if items_added_by_file:
+            sorted_items = sorted(items_added_by_file.items(), key=lambda x: x[1], reverse=True)
+            items_summary = ", ".join([f"{count} {file_type}" for file_type, count in sorted_items])
+            logger.info(f"Added items: {items_summary}")
+        
+        logger.info(f"Created combined items file with {item_count} items")
+        return combined_root, combined_path
     
     except ET.ParseError as pe:
         logger.error(f"XML parse error in main item.xml: {pe}")
         return None, None
     except Exception as e:
         logger.error(f"Error creating combined file: {e}")
-        logger.debug(f"Exception details:", exc_info=True)
+        import traceback
+        logger.debug(traceback.format_exc())
         return None, None
 
 # This allows the module to be run directly for testing

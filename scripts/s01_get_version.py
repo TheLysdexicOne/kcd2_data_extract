@@ -31,6 +31,7 @@ def get_version(root_dir: Path, kcd2_dir: Path) -> Optional[str]:
         if not game_version:
             logger.error("Version information not found in whdlversions.json")
             return None
+        logger.info(f"Game version: {game_version}")
         
         # Create or update version.json
         version_json_path = root_dir / "data" / "version.json"
@@ -39,9 +40,6 @@ def get_version(root_dir: Path, kcd2_dir: Path) -> Optional[str]:
         # Create version directory with cleaned name
         version_id = clean_version_id(game_version)
         ensure_version_directories(root_dir, version_id)
-        
-        logger.info(f"Game version: {game_version}")
-        logger.info(f"Version ID: {version_id}")
         
         return version_id
         
